@@ -250,6 +250,15 @@
       <RelationTypeOnDelete>None</RelationTypeOnDelete>
       <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
     </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>Mbrandid</ForeignColumn>
+      <ForeignTable>品牌表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>品牌表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
   </Relations>
   <Tables>
     <Item class="Forguncy.Model.Tables.TableFolder" assembly="ServerDesignerCommon">
@@ -818,6 +827,15 @@
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
                   <Name>brand</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>Mbrandid</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>类型</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>

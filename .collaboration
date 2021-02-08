@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-08T21:00:05.8482978+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -92,43 +81,15 @@
   },
   {
     "ModuleName": "AFS产品",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-08T21:26:45.699804+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\产品表\\AFS产品.json",
-      "UserTemplateFile\\AFS产品导入模板b22863b0ce154788a3eaddfb3614b79b.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "AFS产品录入",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-08T21:28:00.1520625+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\产品表\\AFS产品录入.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "AFS产品补录",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-08T21:27:24.7890398+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\产品表\\AFS产品补录.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "AFS图片弹窗",
@@ -168,16 +129,7 @@
   },
   {
     "ModuleName": "品牌维护",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-08T21:21:03.4532286+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\品牌管理\\品牌维护.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\库存表",
@@ -233,16 +185,7 @@
   },
   {
     "ModuleName": "员工与品牌登陆账号绑定",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-08T21:51:38.6851979+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\用户品牌绑定登陆账号\\员工与品牌登陆账号绑定.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "用户品牌绑定列表",
