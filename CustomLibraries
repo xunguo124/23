@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomLibraries>
+  <UserCSSFileList>
+    <Item class="Forguncy.Model.UserJSOrCssFile" assembly="ServerDesignerCommon">
+      <Name>StyleSheet.css</Name>
+    </Item>
+  </UserCSSFileList>
+  <UserJSFileList>
+    <Item class="Forguncy.Model.UserJSOrCssFile" assembly="ServerDesignerCommon">
+      <Name>sidebar.js</Name>
+    </Item>
+  </UserJSFileList>
+</CustomLibraries>

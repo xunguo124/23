@@ -1,0 +1,22 @@
+﻿.hint {
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 60%;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #ff3324;
+}
+element.style {
+    line-height: 30px;
+    position: absolute;
+    z-index: 10000000;
+    user-select: none;
+    display: none;
+    width: 117px;
+}

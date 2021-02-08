@@ -1,0 +1,3139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerCommand>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.ServerTransactionCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>NewRow</Value>
+            </ParamNameToSaveNewRowValue>
+            <RowsToUpdate>SpecificRow</RowsToUpdate>
+            <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+              <ColumnBindingInfo>
+                <ColumnName>批流水号</ColumnName>
+                <TableName>结算车队款项416_明细表</TableName>
+              </ColumnBindingInfo>
+              <CompareType>EqualsTo</CompareType>
+              <Id>13c5c7fc-a40e-4c56-9bca-32588a46c426</Id>
+              <Value type="System.String">
+                <Value>Item.ID</Value>
+              </Value>
+            </RowsToUpdateCondition>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>结算车队款项416_明细表</TableName>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>已开票标记</ColumnName>
+                <Value type="System.String">
+                  <Value>1</Value>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+        </CommandList>
+      </Item>
+    </Commands>
+    <Description>标记车队已开票</Description>
+    <Name>标记已开票_私有</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.InvokeTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>ID</Name>
+          </Item>
+        </Parameters>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+        <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+        <ParamNameToSaveNewRowValue type="System.String">
+          <Value>NewRow</Value>
+        </ParamNameToSaveNewRowValue>
+        <RowsToUpdate>SpecificRow</RowsToUpdate>
+        <RowsToUpdateCondition class="ForguncyDataAccess.TextCESqlCondition" assembly="ForguncyDataAccess">
+          <ColumnBindingInfo>
+            <ColumnName>批流水号</ColumnName>
+            <TableName>结算车队款项416_明细表</TableName>
+          </ColumnBindingInfo>
+          <CompareType>In</CompareType>
+          <Id>ed5c55c6-f694-419f-aa1a-39aead991fc0</Id>
+          <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+            <SerializeProperty>=批流水号</SerializeProperty>
+          </Value>
+        </RowsToUpdateCondition>
+        <ShowConfirm>False</ShowConfirm>
+        <TableName>结算车队款项416_明细表</TableName>
+        <UpdateValues>
+          <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+            <ColumnName>已开票标记</ColumnName>
+            <Value type="System.String">
+              <Value>1</Value>
+            </Value>
+          </Item>
+        </UpdateValues>
+      </Item>
+    </Commands>
+    <Name>标记已开票</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>批流水号</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.LoopCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>NewRow</Value>
+            </ParamNameToSaveNewRowValue>
+            <RowsToUpdate>SpecificRow</RowsToUpdate>
+            <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+              <ColumnBindingInfo>
+                <ColumnName>批流水号</ColumnName>
+                <TableName>结算车队款项416_明细表</TableName>
+              </ColumnBindingInfo>
+              <CompareType>EqualsTo</CompareType>
+              <Id>28f12032-9529-4502-8cf5-e4638cbf70f5</Id>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                <SerializeProperty>=Item.批流水号1</SerializeProperty>
+              </Value>
+            </RowsToUpdateCondition>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>结算车队款项416_明细表</TableName>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>已开票标记</ColumnName>
+                <Value type="System.String">
+                  <Value>1</Value>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+        </CommandList>
+        <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="Forguncy">
+          <LoopCount class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+            <SerializeProperty>=批流水号</SerializeProperty>
+          </LoopCount>
+          <LoopItemParamName type="System.String">
+            <Value>Item</Value>
+          </LoopItemParamName>
+        </LoopInfo>
+      </Item>
+    </Commands>
+    <Name>标记已开票循环</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <ArrayItems>
+              <Item type="System.String">
+                <Value>批流水号1</Value>
+              </Item>
+            </ArrayItems>
+            <Name>批流水号</Name>
+            <PrimaryKeys>
+              <Item type="System.String">
+                <Value>ID</Value>
+              </Item>
+            </PrimaryKeys>
+            <Type>Array</Type>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.ServerTransactionCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.RequestServerCommand" assembly="Forguncy">
+            <Parameters>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>主表ID</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=主表ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>开票明细</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开票明细</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>发票号</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>发票金额</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票金额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>开票时间</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开票时间</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>开票单位</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开票单位</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>发票类型</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票类型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>发票税率</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票税率</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>结算单位</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=结算单位</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>是否预付</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=是否预付</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>审批单号</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=审批单号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>数据批号</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=数据批号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>制单人</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=制单人</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>录入时间</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=录入时间</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>status</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=status</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>Fie005</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=Fie005</SerializeProperty>
+                </Value>
+              </Item>
+            </Parameters>
+            <ServerCommandName>车队开票_私有</ServerCommandName>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommand" assembly="Forguncy">
+            <Disabled>True</Disabled>
+            <Parameters>
+              <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+                <ParamName>批流水号</ParamName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开票明细</SerializeProperty>
+                </Value>
+              </Item>
+            </Parameters>
+            <ServerCommandName>标记已开票循环</ServerCommandName>
+          </Item>
+        </CommandList>
+      </Item>
+    </Commands>
+    <Name>车队开票</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票金额</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票税率</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>审批单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>是否预付</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开票时间</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开票单位</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>结算单位</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>数据批号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>制单人</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>录入时间</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>status</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>Fie005</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <ArrayItems>
+              <Item type="System.String">
+                <Value>子表ID</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>批流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>派车单流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>标识流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>箱号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>箱型</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>箱主</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>司机</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>车号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>货名</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>配送日期</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>款项名称</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>收支</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>账面金额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>结算公司</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>费项ID</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>税率</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>是否开票</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>开票金额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>开票余额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>费项批流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>数据标识ID</Value>
+              </Item>
+            </ArrayItems>
+            <Name>开票明细</Name>
+            <PrimaryKeys>
+              <Item type="System.String">
+                <Value>ID</Value>
+              </Item>
+            </PrimaryKeys>
+            <Type>Array</Type>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.ServerTransactionCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定添加这条记录?</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>新主表</Value>
+            </ParamNameToSaveNewRowValue>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>结算车队开票_主表</TableName>
+            <UpdateType>add</UpdateType>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>结算车队开票_主表_ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=主表ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>数据批号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=数据批号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>录入时间</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=录入时间</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发票号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发票金额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票金额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>开票时间</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开票时间</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>制单人</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=制单人</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>status</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=status</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>开票单位</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开票单位</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发票类型</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票类型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>结算单位</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=结算单位</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发票号1</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=审批单号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>开票单位1</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=是否预付</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>Fie005</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=Fie005</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发票税率</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票税率</SerializeProperty>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+          <Item class="Forguncy.Model.LoopCommand" assembly="Forguncy">
+            <CommandList>
+              <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+                <ConfirmText>您确定添加这条记录?</ConfirmText>
+                <ParamNameToSaveNewRowValue type="System.String">
+                  <Value>新开票明细记录</Value>
+                </ParamNameToSaveNewRowValue>
+                <ShowConfirm>False</ShowConfirm>
+                <TableName>结算车队开票_明细表</TableName>
+                <UpdateType>add</UpdateType>
+                <UpdateValues>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>配送日期文本</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.数据标识ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>结算车队开票_主表_ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新主表.结算车队开票_主表_ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>结算车队开票_明细表_ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.子表ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>派车单流水号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.派车单流水号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>标识流水号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.标识流水号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>箱号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.箱号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>箱型</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.箱型</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>箱主</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.箱主</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>司机</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.司机</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>车号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.车号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>货名</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.货名</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>发货人</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.发货人</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>配送日期</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.配送日期</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>款项名称</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.款项名称</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>收支</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.收支</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>款项账面金额</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.账面金额</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>结算公司</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.结算公司</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>批流水号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.批流水号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>费项id</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.费项ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>预留4</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.税率</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>已开票标记</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.是否开票</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>开票金额</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.开票金额</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>开票余额</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.开票余额</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>预留1</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新开票明细.费项批流水号</SerializeProperty>
+                    </Value>
+                  </Item>
+                </UpdateValues>
+              </Item>
+              <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+                <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                <ParamNameToSaveNewRowValue type="System.String">
+                  <Value>NewRow</Value>
+                </ParamNameToSaveNewRowValue>
+                <RowsToUpdate>SpecificRow</RowsToUpdate>
+                <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                  <ColumnBindingInfo>
+                    <ColumnName>批流水号</ColumnName>
+                    <TableName>结算车队款项416_明细表</TableName>
+                  </ColumnBindingInfo>
+                  <CompareType>EqualsTo</CompareType>
+                  <Id>cccdd4cb-e0d4-4cd5-b5be-f8338a1c2247</Id>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                    <SerializeProperty>=新开票明细.数据标识ID</SerializeProperty>
+                  </Value>
+                </RowsToUpdateCondition>
+                <ShowConfirm>False</ShowConfirm>
+                <TableName>结算车队款项416_明细表</TableName>
+                <UpdateValues>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>已开票标记</ColumnName>
+                    <Value type="System.String">
+                      <Value>1</Value>
+                    </Value>
+                  </Item>
+                </UpdateValues>
+              </Item>
+            </CommandList>
+            <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="Forguncy">
+              <LoopCount class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                <SerializeProperty>=开票明细</SerializeProperty>
+              </LoopCount>
+              <LoopItemParamName type="System.String">
+                <Value>新开票明细</Value>
+              </LoopItemParamName>
+            </LoopInfo>
+          </Item>
+        </CommandList>
+      </Item>
+    </Commands>
+    <Name>车队开票_私有</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.InvokeTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开票明细</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票金额</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开票时间</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开票单位</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票税率</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>结算单位</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>是否预付</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>审批单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>数据批号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>制单人</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>录入时间</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>status</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>Fie005</Name>
+          </Item>
+        </Parameters>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.ServerTransactionCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定添加这条记录?</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>收付新主表</Value>
+            </ParamNameToSaveNewRowValue>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>结算车队收款数据录入_主表</TableName>
+            <UpdateType>add</UpdateType>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>数据批号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=数据批号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>录入时间</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=录入时间</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>制单人</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=制单人</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>开票单位</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开票单位</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>费项</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=费项</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>银行及开户行</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=开户银行</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>收支</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=发票类型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>结算方式</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=结算方式</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>款项收付金额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=已收付</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>未收金额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=未收付</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>收款时间</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=收付日期</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>是否入账</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=是否入账</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>结算车队收款数据录入_主表_ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=主表ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>status</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=status</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>Fie005</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=Fie005</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>是否入账4</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=公司名称</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>收款时间1</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=审批单号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>申请人</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=申请人</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>财务流水号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=财务关联流水</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>总科目</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=入账总科目</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>一级科目</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=入账一级科目</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>二级科目</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=入账二级科目</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>预算部门</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=预算部门</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>预算总科目</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=预算总科目</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>预算一级科目</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=预算一级科目</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>预算二级科目</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=预算二级科目</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>用途</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=用途</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>是否入账3</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=是否入账3</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>Fie002</ColumnName>
+                <Value type="System.String">
+                  <Value>%CurrentUser.FullName%</Value>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+        </CommandList>
+      </Item>
+      <Item class="Forguncy.Model.LoopCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定添加这条记录?</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>新收付明细记录</Value>
+            </ParamNameToSaveNewRowValue>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>结算车队收款数据录入_明细表</TableName>
+            <UpdateType>add</UpdateType>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>结算车队收款数据录入_主表_ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.主表id</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>批流水号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.批流水号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>序号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.序号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>派车单流水号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.派车单流水号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>标识流水号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.标识流水号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>结算车队收款数据录入_明细表_ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.明细表id</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>箱号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.箱号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>箱型</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.箱型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>箱主</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.箱主</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>司机</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.司机</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>车号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.车号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>货名</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.货名</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发货人</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.发货人</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>配送日期</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.配送日期</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>配送日期文本</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.金额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>款项名称</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.款项名称</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>收支</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.收支</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>款项账面金额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.款项账面金额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>结算公司</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.结算公司</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>数据批流水号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.数据批流水号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>标识款项</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.开票日期</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>是否开票</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.开票金额中转</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>开票金额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.开票金额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>开票余额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.开票余额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发票号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.发票号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>是否付款</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.是否付款</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>已付金额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.已付金额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>未付金额</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.未付金额</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>收付日期</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.收付日期</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>Fie005</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=NOW()</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>发票id</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.开票id</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>费项id</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.费项id</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>数据识别id</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.数据标识id</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>备注</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=新收付明细.审批单号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>Fie002</ColumnName>
+                <Value type="System.String">
+                  <Value>%CurrentUser.FullName%</Value>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+            <Disabled>True</Disabled>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>NewRow</Value>
+            </ParamNameToSaveNewRowValue>
+            <RowsToUpdate>SpecificRow</RowsToUpdate>
+            <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+              <ColumnBindingInfo>
+                <ColumnName>批流水号</ColumnName>
+                <TableName>结算车队开票_明细表</TableName>
+              </ColumnBindingInfo>
+              <CompareType>EqualsTo</CompareType>
+              <Id>491eff9e-b162-4585-b074-1e13c651edf5</Id>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                <SerializeProperty>=新收付明细.数据标识ID</SerializeProperty>
+              </Value>
+            </RowsToUpdateCondition>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>结算车队开票_明细表</TableName>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>已收付标记</ColumnName>
+                <Value type="System.String">
+                  <Value>1</Value>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+        </CommandList>
+        <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="Forguncy">
+          <LoopCount class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+            <SerializeProperty>=收付明细</SerializeProperty>
+          </LoopCount>
+          <LoopItemParamName type="System.String">
+            <Value>新收付明细</Value>
+          </LoopItemParamName>
+        </LoopInfo>
+      </Item>
+    </Commands>
+    <Name>车队收付_私有</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.InvokeTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>制单人</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>status</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>Fie005</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>录入时间</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>数据批号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>是否入账</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>费项</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>公司名称</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开票单位</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>审批单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开户银行</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>结算方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>已收付</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>申请人</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>财务关联流水</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>入账总科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>入账一级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>入账二级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>未收付</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>收付日期</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算部门</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算总科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算一级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算二级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>收付明细</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用途</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>是否入账3</Name>
+          </Item>
+        </Parameters>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RequestServerCommand" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>主表ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=主表id</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>制单人</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=制单人</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>status</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=status</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>Fie005</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=Fie005</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>录入时间</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=录入时间</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>数据批号</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=数据批号</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>是否入账</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=是否入账</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>费项</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=费项</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>公司名称</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=公司名称</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>开票单位</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=开票单位</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>审批单号</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=审批单号</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>开户银行</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=开户银行</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>结算方式</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=结算方式</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>已收付</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=已收付</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>发票类型</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=发票类型</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>申请人</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=申请人</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>财务关联流水</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=财务关联流水号</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>入账总科目</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=入账总科目</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>入账一级科目</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=入账一级科目</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>入账二级科目</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=入账二级科目</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>未收付</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=未收付</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>收付日期</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=收付日期</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>预算部门</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=预算部门</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>预算总科目</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=预算总科目</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>预算一级科目</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=预算一级科目</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>预算二级科目</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=预算二级科目</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>收付明细</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=收付明细</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>用途</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=用途</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>是否入账3</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=是否入账3</SerializeProperty>
+            </Value>
+          </Item>
+        </Parameters>
+        <ServerCommandName>车队收付_私有</ServerCommandName>
+      </Item>
+    </Commands>
+    <Name>车队收付</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <ArrayItems>
+              <Item type="System.String">
+                <Value>序号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>批流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>派车单流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>标识流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>箱号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>箱型</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>箱主</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>司机</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>车号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>货名</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>发货人</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>配送日期</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>收支</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>款项名称</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>结算公司</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>款项账面金额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>发票号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>开票余额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>开票金额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>开票金额中转</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>开票日期</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>审批单号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>数据标识id</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>开票id</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>费项id</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>数据批流水号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>主表id</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>明细表id</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>是否付款</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>已付金额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>未付金额</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>收付日期</Value>
+              </Item>
+            </ArrayItems>
+            <Name>收付明细</Name>
+            <PrimaryKeys>
+              <Item type="System.String">
+                <Value>ID</Value>
+              </Item>
+            </PrimaryKeys>
+            <Type>Array</Type>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>数据批号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表id</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>制单人</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>status</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>Fie005</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>录入时间</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>是否入账</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>费项</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>公司名称</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开票单位</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>审批单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>开户银行</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>结算方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>已收付</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>发票类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>申请人</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>财务关联流水号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>入账总科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>入账一级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>入账二级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>未收付</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>收付日期</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算部门</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算总科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算一级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>预算二级科目</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用途</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>是否入账3</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.DeleteUserCommand" assembly="UserManagementCommands">
+        <Comments>删除用户</Comments>
+        <UserName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=用户名</SerializeProperty>
+        </UserName>
+      </Item>
+    </Commands>
+    <Description>删除用户</Description>
+    <Name>删除用户</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用户名</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.AddUserCommand" assembly="UserManagementCommands">
+        <Email class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=邮箱</SerializeProperty>
+        </Email>
+        <FullName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=全名</SerializeProperty>
+        </FullName>
+        <Password class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=密码</SerializeProperty>
+        </Password>
+        <UserName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=用户名</SerializeProperty>
+        </UserName>
+      </Item>
+    </Commands>
+    <Description>添加用户</Description>
+    <Name>添加用户</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用户名</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>全名</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>邮箱</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>密码</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.UpdateUserCommand" assembly="UserManagementCommands">
+        <Email class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=邮箱</SerializeProperty>
+        </Email>
+        <ExtendedProperties>
+          <Item class="UserManagementCommands.Commands.ExtendedProperty" assembly="UserManagementCommands">
+            <Name>联系方式</Name>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=联系方式</SerializeProperty>
+            </Value>
+          </Item>
+        </ExtendedProperties>
+        <FullName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=全名</SerializeProperty>
+        </FullName>
+        <UserName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=用户名</SerializeProperty>
+        </UserName>
+      </Item>
+    </Commands>
+    <Description>更新用户</Description>
+    <Name>更新用户</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用户名</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>全名</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>邮箱</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>联系方式</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.AddUserToRoleCommand" assembly="UserManagementCommands">
+        <RoleName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=角色名</SerializeProperty>
+        </RoleName>
+        <UserName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=用户名</SerializeProperty>
+        </UserName>
+      </Item>
+    </Commands>
+    <Description>添加用户到角色</Description>
+    <Name>添加用户到角色</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用户名</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>角色名</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.SaveRolesToTableCommand" assembly="UserManagementCommands">
+        <RoleNameColumn>角色</RoleNameColumn>
+        <TableName>角色表</TableName>
+      </Item>
+    </Commands>
+    <Description>保存角色到本地表</Description>
+    <Name>保存角色到本地表</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>角色</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.SaveOrganizationsToTableCommand" assembly="UserManagementCommands">
+        <MemberIsLeaderColumn>领导</MemberIsLeaderColumn>
+        <MemberOrganizationPathColumn>路径</MemberOrganizationPathColumn>
+        <MemberOrganizationRoleColumn>角色</MemberOrganizationRoleColumn>
+        <MemberUserNameColumn>用户名</MemberUserNameColumn>
+        <OrganizationLevelNameColumn>级别</OrganizationLevelNameColumn>
+        <OrganizationMemberTableName>组织成员表</OrganizationMemberTableName>
+        <OrganizationNameColumn>名称</OrganizationNameColumn>
+        <OrganizationPathColumn>路径</OrganizationPathColumn>
+        <OrganizationTableName>组织结构表</OrganizationTableName>
+        <ParentOrganizationPathColumn>上级路径</ParentOrganizationPathColumn>
+      </Item>
+    </Commands>
+    <Name>保存组织结构到表</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.AddUserToOrganizationCommand" assembly="UserManagementCommands">
+        <IsLeader class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=是否为领导</SerializeProperty>
+        </IsLeader>
+        <OrganizationPath class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=组织路径</SerializeProperty>
+        </OrganizationPath>
+        <OrganizationRole class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=组织角色</SerializeProperty>
+        </OrganizationRole>
+        <UserName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=用户名</SerializeProperty>
+        </UserName>
+      </Item>
+    </Commands>
+    <Name>添加用户到组织</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>组织路径</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用户名</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>是否为领导</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>组织角色</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.RemoveUserFromOrganizationCommand" assembly="UserManagementCommands">
+        <OrganizationPath class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=组织路径</SerializeProperty>
+        </OrganizationPath>
+        <UserName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=用户名</SerializeProperty>
+        </UserName>
+      </Item>
+    </Commands>
+    <Name>从组织中删除用户</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>组织路径</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用户名</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="UserManagementCommands.Commands.RemoveUserFromRoleCommand" assembly="UserManagementCommands">
+        <RoleName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=角色名</SerializeProperty>
+        </RoleName>
+        <UserName class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+          <SerializeProperty>=用户名</SerializeProperty>
+        </UserName>
+      </Item>
+    </Commands>
+    <Name>从角色中删除用户</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>用户名</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>角色名</Name>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.ServerTransactionCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定添加这条记录?</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>新入库计划</Value>
+            </ParamNameToSaveNewRowValue>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>wms_出入库计划表</TableName>
+            <UpdateType>add</UpdateType>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>客户ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=客户ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>合同ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=合同ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>出入库方式</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=出入方式</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>物资性质</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=物资性质</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>运输方式</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=运输方式</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>物资类型</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=物资类型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>库位ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=库位ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>计划出入日期</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=计划日期</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>提单号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=提单号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>状态</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=状态</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>出入库类型</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=出入库类型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>主表备注</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=主表备注</SerializeProperty>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+          <Item class="Forguncy.Model.LoopCommand" assembly="Forguncy">
+            <CommandList>
+              <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+                <ConfirmText>您确定添加这条记录?</ConfirmText>
+                <ParamNameToSaveNewRowValue type="System.String">
+                  <Value>新明细表</Value>
+                </ParamNameToSaveNewRowValue>
+                <ShowConfirm>False</ShowConfirm>
+                <TableName>wms_出入库计划明细表</TableName>
+                <UpdateType>add</UpdateType>
+                <UpdateValues>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>主表ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新入库计划.ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>货名ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.货名ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>净重</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.净重</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>车号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.车号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>船号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.船号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>件数</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.件数</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>支数</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.支数</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>大数量</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.大数量</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>小数量</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.小数量</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>明细备注</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.明细备注</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>捆包号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.捆包号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>集装箱号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.集装箱号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>物资属性</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.物资属性</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>计量方式</ColumnName>
+                    <Value type="System.String">
+                      <Value>集装箱号ID</Value>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>状态</ColumnName>
+                    <Value type="System.String">
+                      <Value>计划</Value>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>数据流水号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新入库计划.数据批号&amp;"-"&amp;Index</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>入库ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.入库ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>拆分</ColumnName>
+                    <Value type="System.String">
+                      <Value>0</Value>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>集装箱号ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=货名明细表.集装箱号ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                </UpdateValues>
+              </Item>
+              <Item class="Forguncy.Model.ConditionCommand" assembly="Forguncy">
+                <ConditionAndCommandPairList>
+                  <Item class="Forguncy.Model.ConditionAndCommandPair" assembly="Forguncy">
+                    <CommandList>
+                      <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+                        <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                        <ParamNameToSaveNewRowValue type="System.String">
+                          <Value>NewRow</Value>
+                        </ParamNameToSaveNewRowValue>
+                        <RowsToUpdate>SpecificRow</RowsToUpdate>
+                        <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                          <ColumnBindingInfo>
+                            <ColumnName>ID</ColumnName>
+                            <TableName>wms_出入库实际明细表</TableName>
+                          </ColumnBindingInfo>
+                          <CompareType>EqualsTo</CompareType>
+                          <Id>2ca67df0-c291-47e2-93ae-0392b916802f</Id>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                            <SerializeProperty>=货名明细表.入库ID</SerializeProperty>
+                          </Value>
+                        </RowsToUpdateCondition>
+                        <ShowConfirm>False</ShowConfirm>
+                        <TableName>wms_出入库实际明细表</TableName>
+                        <UpdateValues>
+                          <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                            <ColumnName>状态</ColumnName>
+                            <Value type="System.String">
+                              <Value>已计划出库</Value>
+                            </Value>
+                          </Item>
+                          <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                            <ColumnName>入库ID</ColumnName>
+                            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                              <SerializeProperty>=货名明细表.ID</SerializeProperty>
+                            </Value>
+                          </Item>
+                        </UpdateValues>
+                      </Item>
+                    </CommandList>
+                    <Condition class="Forguncy.Model.IfCondition" assembly="Forguncy">
+                      <Id>240302dc-45e1-4f6c-9146-e3d6c9e08930</Id>
+                      <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="Forguncy">
+                        <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                          <SerializeProperty>=出入库类型</SerializeProperty>
+                        </ParamObject>
+                      </Param>
+                      <Value type="System.String">
+                        <Value>出库</Value>
+                      </Value>
+                    </Condition>
+                    <ID>fbc1e890-0b9e-40b1-87e5-0c725985e7bd</ID>
+                  </Item>
+                </ConditionAndCommandPairList>
+              </Item>
+            </CommandList>
+            <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="Forguncy">
+              <LoopCount class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                <SerializeProperty>=明细表</SerializeProperty>
+              </LoopCount>
+              <LoopIndexParamName type="System.String">
+                <Value>Index</Value>
+              </LoopIndexParamName>
+              <LoopItemParamName type="System.String">
+                <Value>货名明细表</Value>
+              </LoopItemParamName>
+            </LoopInfo>
+          </Item>
+        </CommandList>
+      </Item>
+    </Commands>
+    <Description>新建出入库计划_私有</Description>
+    <Name>新建出入库计划_私有</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.InvokeTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>状态</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入库类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>客户ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>合同ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资性质</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>提单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>计划日期</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>运输方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>库位ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表备注</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>明细表</Name>
+          </Item>
+        </Parameters>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RequestServerCommand" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>状态</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=状态</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>出入库类型</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=出入类型</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>客户ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=客户ID</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>合同ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=合同ID</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>出入方式</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=出入方式</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>物资性质</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=物资性质</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>物资类型</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=物资类型</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>提单号</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=提单号</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>计划日期</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=计划日期</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>运输方式</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=运输方式</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>库位ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=库位ID</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>主表备注</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=主表备注</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>明细表</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=明细表</SerializeProperty>
+            </Value>
+          </Item>
+        </Parameters>
+        <ServerCommandName>新建出入库计划_私有</ServerCommandName>
+      </Item>
+    </Commands>
+    <Description>调用新建出入库计划_私有</Description>
+    <Name>新建出入库计划</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>状态</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>客户ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>合同ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资性质</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>提单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>计划日期</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>运输方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>库位ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表备注</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <ArrayItems>
+              <Item type="System.String">
+                <Value>货名ID</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>净重</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>车号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>船号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>件数</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>支数</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>大数量</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>小数量</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>明细备注</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>捆包号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>集装箱号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>物资属性</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>计量方式</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>状态</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>入库ID</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>集装箱号ID</Value>
+              </Item>
+            </ArrayItems>
+            <Name>明细表</Name>
+            <PrimaryKeys>
+              <Item type="System.String">
+                <Value>ID</Value>
+              </Item>
+            </PrimaryKeys>
+            <Type>Array</Type>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.ServerTransactionCommand" assembly="Forguncy">
+        <CommandList>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定添加这条记录?</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>新实际出入库</Value>
+            </ParamNameToSaveNewRowValue>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>wms_出入库实际表</TableName>
+            <UpdateType>add</UpdateType>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>客户ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=客户ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>合同ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=合同ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>出入库方式</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=出入方式</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>物资性质</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=物资性质</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>运输方式</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=运输方式</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>物资类型</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=物资类型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>库位ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=库位ID</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>实际出入日期</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=实际日期</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>提单号</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=提单号</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>状态</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=状态</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>出入库类型</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=出入类型</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>主表备注</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=主表备注</SerializeProperty>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>入库ID</ColumnName>
+                <Value type="System.String">
+                  <Value>0</Value>
+                </Value>
+              </Item>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>计划主表ID</ColumnName>
+                <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                  <SerializeProperty>=计划主表ID</SerializeProperty>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+          <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+            <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+            <ParamNameToSaveNewRowValue type="System.String">
+              <Value>NewRow</Value>
+            </ParamNameToSaveNewRowValue>
+            <RowsToUpdate>SpecificRow</RowsToUpdate>
+            <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+              <ColumnBindingInfo>
+                <ColumnName>ID</ColumnName>
+                <TableName>wms_出入库计划表</TableName>
+              </ColumnBindingInfo>
+              <CompareType>EqualsTo</CompareType>
+              <Id>3d116b95-e0bd-41ca-b6bb-6e2fa75ff83b</Id>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                <SerializeProperty>=计划主表ID</SerializeProperty>
+              </Value>
+            </RowsToUpdateCondition>
+            <ShowConfirm>False</ShowConfirm>
+            <TableName>wms_出入库计划表</TableName>
+            <UpdateValues>
+              <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                <ColumnName>状态</ColumnName>
+                <Value type="System.String">
+                  <Value>锁定</Value>
+                </Value>
+              </Item>
+            </UpdateValues>
+          </Item>
+          <Item class="Forguncy.Model.LoopCommand" assembly="Forguncy">
+            <CommandList>
+              <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+                <ConfirmText>您确定添加这条记录?</ConfirmText>
+                <ParamNameToSaveNewRowValue type="System.String">
+                  <Value>新建明细</Value>
+                </ParamNameToSaveNewRowValue>
+                <ShowConfirm>False</ShowConfirm>
+                <TableName>wms_出入库实际明细表</TableName>
+                <UpdateType>add</UpdateType>
+                <UpdateValues>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>主表ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新实际出入库.ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>货名ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.货名ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>净重</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.净重</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>车号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.车号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>船号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.船号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>件数</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.件数</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>支数</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.支数</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>大数量</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.大数量</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>小数量</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.小数量</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>明细备注</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.明细备注</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>捆包号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.捆包号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>集装箱号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.集装箱号</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>物资属性</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.物资属性</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>计量方式</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.计量方式</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>状态</ColumnName>
+                    <Value type="System.String">
+                      <Value>已下账</Value>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>数据流水号</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=新实际出入库.数据批号&amp;"-"&amp;Index</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>入库ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.入库ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>拆分</ColumnName>
+                    <Value type="System.String">
+                      <Value>0</Value>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>计划明细ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.计划明细ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>计费</ColumnName>
+                    <Value type="System.String">
+                      <Value>1</Value>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>集装箱号ID</ColumnName>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                      <SerializeProperty>=实际出入库明细.集装箱号ID</SerializeProperty>
+                    </Value>
+                  </Item>
+                </UpdateValues>
+              </Item>
+              <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="Forguncy">
+                <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                <ParamNameToSaveNewRowValue type="System.String">
+                  <Value>NewRow</Value>
+                </ParamNameToSaveNewRowValue>
+                <RowsToUpdate>SpecificRow</RowsToUpdate>
+                <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                  <ColumnBindingInfo>
+                    <ColumnName>ID</ColumnName>
+                    <TableName>wms_出入库计划明细表</TableName>
+                  </ColumnBindingInfo>
+                  <CompareType>EqualsTo</CompareType>
+                  <Id>6922aff6-5e7f-436e-aa4c-1f64dffc0a1f</Id>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                    <SerializeProperty>=实际出入库明细.计划明细ID</SerializeProperty>
+                  </Value>
+                </RowsToUpdateCondition>
+                <ShowConfirm>False</ShowConfirm>
+                <TableName>wms_出入库计划明细表</TableName>
+                <UpdateValues>
+                  <Item class="Forguncy.Model.UpdateValueItem" assembly="Forguncy">
+                    <ColumnName>状态</ColumnName>
+                    <Value type="System.String">
+                      <Value>已下账</Value>
+                    </Value>
+                  </Item>
+                </UpdateValues>
+              </Item>
+            </CommandList>
+            <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="Forguncy">
+              <LoopCount class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+                <SerializeProperty>=明细表</SerializeProperty>
+              </LoopCount>
+              <LoopIndexParamName type="System.String">
+                <Value>Index</Value>
+              </LoopIndexParamName>
+              <LoopItemParamName type="System.String">
+                <Value>实际出入库明细</Value>
+              </LoopItemParamName>
+            </LoopInfo>
+          </Item>
+        </CommandList>
+      </Item>
+    </Commands>
+    <Name>新建实际出入库_私有</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.InvokeTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>状态</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>计划主表ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>客户ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>合同ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资性质</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>提单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>实际日期</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>运输方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>库位ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表备注</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>明细表</Name>
+          </Item>
+        </Parameters>
+      </Item>
+    </Triggers>
+  </Item>
+  <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RequestServerCommand" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>状态</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=状态</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>出入类型</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=出入类型</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>计划主表ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=计划主表ID</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>客户ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=客户ID</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>合同ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=合同ID</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>出入方式</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=出入方式</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>物资性质</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=物资性质</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>物资类型</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=物资类型</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>提单号</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=提单号</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>实际日期</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=实际日期</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>运输方式</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=运输方式</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>库位ID</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=库位ID</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>主表备注</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=主表备注</SerializeProperty>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="Forguncy">
+            <ParamName>明细表</ParamName>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <SerializeProperty>=明细表</SerializeProperty>
+            </Value>
+          </Item>
+        </Parameters>
+        <ServerCommandName>新建实际出入库_私有</ServerCommandName>
+      </Item>
+    </Commands>
+    <Name>新建实际出入库</Name>
+    <Triggers>
+      <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">
+        <Parameters>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>状态</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>计划主表ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>客户ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>合同ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>出入方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资性质</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>物资类型</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>提单号</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>实际日期</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>运输方式</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>库位ID</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <Name>主表备注</Name>
+          </Item>
+          <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="Forguncy">
+            <ArrayItems>
+              <Item type="System.String">
+                <Value>货名ID</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>净重</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>车号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>船号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>件数</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>支数</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>大数量</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>小数量</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>明细备注</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>捆包号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>集装箱号</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>物资属性</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>计量方式</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>状态</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>计划明细ID</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>入库ID</Value>
+              </Item>
+              <Item type="System.String">
+                <Value>集装箱号ID</Value>
+              </Item>
+            </ArrayItems>
+            <Name>明细表</Name>
+            <PrimaryKeys>
+              <Item type="System.String">
+                <Value>ID</Value>
+              </Item>
+            </PrimaryKeys>
+            <Type>Array</Type>
+          </Item>
+        </Parameters>
+        <Permission>
+          <AllowRoles>
+            <Item type="System.String">
+              <Value>FGC_LoginUser</Value>
+            </Item>
+          </AllowRoles>
+        </Permission>
+      </Item>
+    </Triggers>
+  </Item>
+</ServerCommand>

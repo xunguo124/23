@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.ShowPopupCommand" assembly="ServerDesignerCommon">
+        <PageName>对话框</PageName>
+        <PassValues>
+          <Item class="Forguncy.Model.PassValue" assembly="ServerDesignerCommon">
+            <Source class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <ParamReferObject>
+                <ParamID>c7b20fbd-faec-4c92-b834-9a6d9e876642</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>a86f22a8-f5fe-4889-aa48-98983d39f19b</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+            </Source>
+            <TargetCell>
+              <SerializeProperty>=对话框!prompt</SerializeProperty>
+            </TargetCell>
+          </Item>
+          <Item class="Forguncy.Model.PassValue" assembly="ServerDesignerCommon">
+            <Source class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <ParamReferObject>
+                <ParamID>3942aaf0-f5c6-48cd-b5f8-c9156f3609a8</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>a86f22a8-f5fe-4889-aa48-98983d39f19b</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+            </Source>
+            <TargetCell>
+              <SerializeProperty>=对话框!text</SerializeProperty>
+            </TargetCell>
+          </Item>
+          <Item class="Forguncy.Model.PassValue" assembly="ServerDesignerCommon">
+            <Source class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <ParamReferObject>
+                <ParamID>bb278d6d-ba7d-48df-847b-30af35ff2939</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>a86f22a8-f5fe-4889-aa48-98983d39f19b</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+            </Source>
+            <TargetCell>
+              <SerializeProperty>=对话框!value</SerializeProperty>
+            </TargetCell>
+          </Item>
+        </PassValues>
+      </Item>
+    </Commands>
+    <ID>a86f22a8-f5fe-4889-aa48-98983d39f19b</ID>
+    <Name>确认对话框</Name>
+    <Params>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>c7b20fbd-faec-4c92-b834-9a6d9e876642</ID>
+        <Name>对话框标题</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>3942aaf0-f5c6-48cd-b5f8-c9156f3609a8</ID>
+        <Name>对话框文本</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>bb278d6d-ba7d-48df-847b-30af35ff2939</ID>
+        <Name>返回操作值</Name>
+      </Item>
+    </Params>
+  </Item>
+</ShareCommand>
