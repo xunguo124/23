@@ -4350,7 +4350,7 @@
               <Items>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
-                    <CreateViewSql Base64="cwBlAGwAZQBjAHQAIAANAAoAQQAuAEkARAAsAA0ACgBBAC4AZgBuAHMAawB1ACwADQAKAEEALgBzAGsAdQAsAA0ACgBBAC4AYQBzAGkAbgAsAA0ACgBBAC4AYQCnTsFUKk5wZSwADQAKAEEALgBhAM2Rz5EsAA0ACgANAAoAQgAuAGUAcwB0AGkAbQBhAHQAZQBkAGYAZQBlAHQAbwB0AGEAbAAgAGEAcwAgADmNKHUsAA0ACgBCAC4AeQBvAHUAcgBwAHIAaQBjAGUAIABhAHMAIAAuVfdOLAANAAoAQgAuAHZR1k4QYixnLAANAAoAQgAuAMeRLY0QYixnLAANAAoADQAKAEIALgB5AG8AdQByAHAAcgBpAGMAZQAtAEIALgBlAHMAdABpAG0AYQB0AGUAZABmAGUAZQB0AG8AdABhAGwAIAAtAA0ACgAoAEIALgB5AG8AdQByAHAAcgBpAGMAZQAqACgAcwBlAGwAZQBjAHQAIAAoAGkAZgBuAHUAbABsACgAf15KVCwAMAApACsAaQBmAG4AdQBsAGwAKAAAkCeNLAAwACkAKQAgACoAIABpAGYAbgB1AGwAbAAoAEdsh3MsADAAKQAgAGYAcgBvAG0AIADbVmhUaIggAHcAaABlAHIAZQAgAI9e91MgAD0AIAAiADQAIgApACkADQAKAC0ADQAKAEEALgBhAKdOwVQqTnBlKgBpAGYAKABCAC4AdlHWThBiLGc+ADAALABCAC4AdlHWThBiLGcsAEIALgDHkS2NEGIsZykADQAKAC0ADQAKAEEALgBhAM2Rz5EqACgAcwBlAGwAZQBjAHQAIABpAGYAbgB1AGwAbAAoAHdtPm0sADAAKQAgAGYAcgBvAG0AIADbVmhUaIggAHcAaABlAHIAZQAgAI9e91MgAD0AIAAiADQAIgApAC8AMQAwADAAMAAtADMAMAANAAoAYQBzACAA22spUodzDQAKAA0ACgBmAHIAbwBtAA0ACgBBAEYAUwBoiCAAYQBzACAAQQANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKADmNKHVoiCAAQgANAAoAbwBuACAADQAKAEEALgBmAG4AcwBrAHUAPQBCAC4AZgBuAHMAawB1AA0ACgBnAHIAbwB1AHAAIABiAHkAIABBAC4AZgBuAHMAawB1AA0ACgANAAoADQAKAA==" />
+                    <CreateViewSql Base64="cwBlAGwAZQBjAHQAIAANAAoAQQAuAEkARAAsAA0ACgBBAC4AZgBuAHMAawB1ACwADQAKAEEALgBzAGsAdQAsAA0ACgBBAC4AYQBzAGkAbgAsAA0ACgBBAC4AYQCnTsFUKk5wZSwADQAKAEEALgBhAM2Rz5EsAA0ACgBBAC4AYQDBVExySQBEACAAYQBzACAAwVRMcmkAZAAsAA0ACgANAAoAQgAuAGUAcwB0AGkAbQBhAHQAZQBkAGYAZQBlAHQAbwB0AGEAbAAgAGEAcwAgADmNKHUsAA0ACgBCAC4AeQBvAHUAcgBwAHIAaQBjAGUAIABhAHMAIAAuVfdOLAANAAoAQgAuAHZR1k4QYixnLAANAAoAQgAuAMeRLY0QYixnLAANAAoADQAKAEIALgB5AG8AdQByAHAAcgBpAGMAZQAtAEIALgBlAHMAdABpAG0AYQB0AGUAZABmAGUAZQB0AG8AdABhAGwAIAAtAA0ACgAoAEIALgB5AG8AdQByAHAAcgBpAGMAZQAqACgAcwBlAGwAZQBjAHQAIAAoAGkAZgBuAHUAbABsACgAf15KVCwAMAApACsAaQBmAG4AdQBsAGwAKAAAkCeNLAAwACkAKQAgACoAIABpAGYAbgB1AGwAbAAoAEdsh3MsADAAKQAgAGYAcgBvAG0AIADbVmhUaIggAHcAaABlAHIAZQAgAI9e91MgAD0AIAAiADQAIgApACkADQAKAC0ADQAKAEEALgBhAKdOwVQqTnBlKgBpAGYAKABCAC4AdlHWThBiLGc+ADAALABCAC4AdlHWThBiLGcsAEIALgDHkS2NEGIsZykADQAKAC0ADQAKAEEALgBhAM2Rz5EqACgAcwBlAGwAZQBjAHQAIABpAGYAbgB1AGwAbAAoAHdtPm0sADAAKQAgAGYAcgBvAG0AIADbVmhUaIggAHcAaABlAHIAZQAgAI9e91MgAD0AIAAiADQAIgApAC8AMQAwADAAMAAtADMAMAANAAoAYQBzACAA22spUodzDQAKAA0ACgBmAHIAbwBtAA0ACgBBAEYAUwBoiCAAYQBzACAAQQANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKADmNKHVoiCAAQgANAAoAbwBuACAADQAKAEEALgBmAG4AcwBrAHUAPQBCAC4AZgBuAHMAawB1AA0ACgBnAHIAbwB1AHAAIABiAHkAIABBAC4AZgBuAHMAawB1AA0ACgANAAoADQAKAA==" />
                     <ViewName>毛利润视图</ViewName>
                   </BuiltInViewInfo>
                   <Columns>
@@ -4358,6 +4358,7 @@
                       <AutoIncrement>True</AutoIncrement>
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>ID</Name>
                       <Required>True</Required>
@@ -4365,60 +4366,76 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>fnsku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>sku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>a产品个数</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Double</ColumnType>
                       <DatabaseColumnType>System.Double</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>a重量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Int64</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>品牌id</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Double</ColumnType>
                       <DatabaseColumnType>System.Double</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>费用</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Double</ColumnType>
                       <DatabaseColumnType>System.Double</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>售价</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>其他成本</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>采购成本</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>毛利率</Name>
                     </Item>
