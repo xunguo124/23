@@ -2938,19 +2938,21 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
-                    <CreateViewSql Base64="cwBlAGwAZQBjAHQADQAKAA0ACgAoAHMAZQBsAGUAYwB0ACAAdF79TiAAZgByAG8AbQAgANtWaFRoiCAAdwBoAGUAcgBlACAAj173UyAAPQAiADMAIgApACAAYQBzACAAdF79TiwADQAKACgAcwBlAGwAZQBjAHQAIAApWTEAIABmAHIAbwBtACAA21ZoVGiIIAB3AGgAZQByAGUAIACPXvdTIAA9ACIAMwAiACkAIABhAHMAIAApWTEALAANAAoADQAKAFoALgBJAEQALABaAC4AYQDBVExySQBEACAAYQBzACAAYgByAGEAbgBkAEkARAAsAFoALgBhAHMAaQBuACwAWgAuAGEALU6HZQ1UIABhAHMAIAAtTodlDVQsAFoALgBmAG4AcwBrAHUALABaAC4AZgC2cgFgIABhAHMAIAC2cgFgLAANAAoAQgAuAHEAdQBhAG4AdABpAHQAeQAgAGEAcwAgAClZMQA0AACVz5EsAA0ACgBDAC4AcQB1AGEAbgB0AGkAdAB5ACAAYQBzACAAKVkyADgAAJXPkSwADQAKAA0ACgBpAGYAbgB1AGwAbAAoAEIALgBxAHUAYQBuAHQAaQB0AHkALAAwACkAIAAvACAAMQA0ACAAKgAxADUAIAAtACAAaQBmAG4AdQBsAGwAKABFAC4AKFcUkCwAMAApAC0AIABpAGYAbgB1AGwAbAAoAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIABhAHMAIAApWTEANQBliM+RLAANAAoAaQBmAG4AdQBsAGwAKABCAC4AcQB1AGEAbgB0AGkAdAB5ACwAMAApACAALwAgADEANAAgACoAMwAwACAALQAgAGkAZgBuAHUAbABsACgARQAuAChXFJAsADAAKQAtACAAaQBmAG4AdQBsAGwAKABGAC4AYQBmAG4AdwBhAHIAZQBoAG8AdQBzAGUAcQB1AGEAbgB0AGkAdAB5ACwAMAApACAAYQBzACAAKVkzADAAZYjPkSwADQAKAGkAZgBuAHUAbABsACgAQgAuAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAC8AIAAxADQAIAAqADYAMAAgAC0AIABpAGYAbgB1AGwAbAAoAEUALgAoVxSQLAAwACkALQAgAGkAZgBuAHUAbABsACgARgAuAGEAZgBuAHcAYQByAGUAaABvAHUAcwBlAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAGEAcwAgAClZNgAwAGWIz5EsAA0ACgBpAGYAbgB1AGwAbAAoAEIALgBxAHUAYQBuAHQAaQB0AHkALAAwACkAIAAvACAAMQA0ACAAKgA5ADAAIAAtACAAaQBmAG4AdQBsAGwAKABFAC4AKFcUkCwAMAApAC0AIABpAGYAbgB1AGwAbAAoAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIABhAHMAIAApWTkAMABliM+RLAANAAoAaQBmAG4AdQBsAGwAKABCAC4AcQB1AGEAbgB0AGkAdAB5ACwAMAApACAALwAgADEANAAgACoAMQA4ADAAIAAtACAAaQBmAG4AdQBsAGwAKABFAC4AKFcUkCwAMAApAC0AIABpAGYAbgB1AGwAbAAoAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIABhAHMAIAApWTEAOAAwAGWIz5EsAA0ACgANAAoADQAKAA0ACgBFAC4AKFcUkCAAYQBzACAAKFcUkCwADQAKAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkAIABhAHMAIACTXlhbLAANAAoADQAKAEQALgBaADEAIAAgAEEAUwAgACAAWgAxACwADQAKAEQALgBaADIAIAAgAEEAUwAgACAAWgAyACwADQAKAEQALgBaADMAIAAgAEEAUwAgACAAWgAzACwADQAKAEQALgBaADQAIAAgAEEAUwAgACAAWgA0ACwADQAKAEQALgBaADUAIAAgAEEAUwAgACAAWgA1ACwADQAKAEQALgBaADYAIAAgAEEAUwAgACAAWgA2ACwADQAKAEQALgBaADcAIAAgAEEAUwAgACAAWgA3ACwADQAKAEQALgBaADgAIAAgAEEAUwAgACAAWgA4ACwADQAKAEQALgBaADkAIAAgAEEAUwAgACAAWgA5ACwADQAKAEQALgBaADEAMAAgACAAQQBTACAAIABaADEAMAAsAA0ACgBEAC4AWgAxADEAIAAgAEEAUwAgACAAWgAxADEALAANAAoARAAuAFoAMQAyACAAIABBAFMAIAAgAFoAMQAyACwADQAKAEQALgBaADEAMwAgACAAQQBTACAAIABaADEAMwAsAA0ACgBEAC4AWgAxADQAIAAgAEEAUwAgACAAWgAxADQALAANAAoARAAuAFoAMQA1ACAAIABBAFMAIAAgAFoAMQA1ACwADQAKAEQALgBaADEANgAgACAAQQBTACAAIABaADEANgAsAA0ACgBEAC4AWgAxADcAIAAgAEEAUwAgACAAWgAxADcALAANAAoARAAuAFoAMQA4ACAAIABBAFMAIAAgAFoAMQA4ACwADQAKAEQALgBaADEAOQAgACAAQQBTACAAIABaADEAOQAsAA0ACgBEAC4AWgAyADAAIAAgAEEAUwAgACAAWgAyADAALAANAAoARAAuAFoAMgAxACAAIABBAFMAIAAgAFoAMgAxACwADQAKAEQALgBaADIAMgAgACAAQQBTACAAIABaADIAMgAsAA0ACgBEAC4AWgAyADMAIAAgAEEAUwAgACAAWgAyADMALAANAAoARAAuAFoAMgA0ACAAIABBAFMAIAAgAFoAMgA0ACwADQAKAEQALgBaADIANQAgACAAQQBTACAAIABaADIANQAsAA0ACgBEAC4AWgAyADYAIAAgAEEAUwAgACAAWgAyADYALAANAAoARAAuAFoAMgA3ACAAIABBAFMAIAAgAFoAMgA3ACwADQAKAEQALgBaADIAOAAgACAAQQBTACAAIABaADIAOAAsAA0ACgBEAC4AWgAyADkAIAAgAEEAUwAgACAAWgAyADkALAANAAoARAAuAFoAMwAwACAAIABBAFMAIAAgAFoAMwAwACwADQAKAEQALgBaADMAMQAgACAAQQBTACAAIABaADMAMQAsAA0ACgBEAC4AWgAzADIAIAAgAEEAUwAgACAAWgAzADIALAANAAoARAAuAFoAMwAzACAAIABBAFMAIAAgAFoAMwAzACwADQAKAEQALgBaADMANAAgACAAQQBTACAAIABaADMANAAsAA0ACgBEAC4AWgAzADUAIAAgAEEAUwAgACAAWgAzADUALAANAAoARAAuAFoAMwA2ACAAIABBAFMAIAAgAFoAMwA2ACwADQAKAEQALgBaADMANwAgACAAQQBTACAAIABaADMANwAsAA0ACgBEAC4AWgAzADgAIAAgAEEAUwAgACAAWgAzADgALAANAAoARAAuAFoAMwA5ACAAIABBAFMAIAAgAFoAMwA5ACwADQAKAEQALgBaADQAMAAgACAAQQBTACAAIABaADQAMAAsAA0ACgBEAC4AWgA0ADEAIAAgAEEAUwAgACAAWgA0ADEALAANAAoARAAuAFoANAAyACAAIABBAFMAIAAgAFoANAAyACwADQAKAEQALgBaADQAMwAgACAAQQBTACAAIABaADQAMwAsAA0ACgBEAC4AWgA0ADQAIAAgAEEAUwAgACAAWgA0ADQALAANAAoARAAuAFoANAA1ACAAIABBAFMAIAAgAFoANAA1ACwADQAKAEQALgBaADQANgAgACAAQQBTACAAIABaADQANgAsAA0ACgBEAC4AWgA0ADcAIAAgAEEAUwAgACAAWgA0ADcALAANAAoARAAuAFoANAA4ACAAIABBAFMAIAAgAFoANAA4ACwADQAKAEQALgBaADQAOQAgACAAQQBTACAAIABaADQAOQAsAA0ACgBEAC4AWgA1ADAAIAAgAEEAUwAgACAAWgA1ADAALAANAAoARAAuAFoANQAxACAAIABBAFMAIAAgAFoANQAxACwADQAKAEQALgBaADUAMgAgACAAQQBTACAAIABaADUAMgAsAA0ACgBEAC4AWgA1ADMAIAAgAEEAUwAgACAAWgA1ADMADQAKAA0ACgANAAoADQAKAGYAcgBvAG0AIAANAAoAQQBGAFMAaIggAGEAcwAgAFoAIAAvACoACWNncWEAcwBpAG4A336hiyoALwANAAoALwAqAGwAZQBmAHQAIABqAG8AaQBuACAADQAKAA0ACgBmAG4AcwBrAHUAaIggAGEAcwAgAFkACWNncWEAcwBpAG4AKFdmAG4AcwBrAHUAaIg5U02R+VuUXp2YZgBuAHMAawB1ACoALwANAAoALwAqAG8AbgAgAFoALgBhAHMAaQBuACAAPQAgAFkALgBhAHMAaQBuAA0ACgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAHMAawB1AGiIIABhAHMAIABYAAljZ3FmAG4AcwBrAHUAKFdzAGsAdQBoiDlTTZH5W5RehHbBVExyDQAKAG8AbgAgAFgALgBmAG4AcwBrAHUAIAA9ACAAWQAuAGYAbgBzAGsAdQAqAC8ADQAKAA0ACgBsAGUAZgB0ACAAagBvAGkAbgANAAoAaFQAlWiIMQA0AClZxon+ViAAYQBzACAAQgANAAoAbwBuACAAWgAuAGEAcwBpAG4AIAA9ACAAQgAuAGEAcwBpAG4ADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgBoVACVaIgyADgAKVnGif5WIABhAHMAIABDAA0ACgBvAG4AIABaAC4AYQBzAGkAbgAgAD0AIABDAC4AYQBzAGkAbgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAGhUAJVoiDUAMwBoVEyIbI8XUiAAYQBzACAARAANAAoAbwBuACAAWgAuAGYAbgBzAGsAdQA9ACAARAAuAGYAbgBzAGsAdQANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAGhUAJVoiChXFJDGif5WIABhAHMAIABFAA0ACgBvAG4AIABaAC4AYQBzAGkAbgAgAD0AIABFAC4AYQBzAGkAbgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAJNeWFtoiCAAYQBzACAARgANAAoAbwBuACAAWgAuAGYAbgBzAGsAdQA9AEYALgBmAG4AcwBrAHUADQAKAA==" />
+                    <CreateViewSql Base64="cwBlAGwAZQBjAHQADQAKAA0ACgAoAHMAZQBsAGUAYwB0ACAAdF79TiAAZgByAG8AbQAgANtWaFRoiCAAdwBoAGUAcgBlACAAj173UyAAPQAiADMAIgApACAAYQBzACAAdF79TiwADQAKACgAcwBlAGwAZQBjAHQAIAApWTEAIABmAHIAbwBtACAA21ZoVGiIIAB3AGgAZQByAGUAIACPXvdTIAA9ACIAMwAiACkAIABhAHMAIAApWTEALAANAAoADQAKAFoALgBJAEQALABaAC4AYQDBVExySQBEACAAYQBzACAAYgByAGEAbgBkAEkARAAsAFoALgBhAHMAaQBuACwAWgAuAGEALU6HZQ1UIABhAHMAIAAtTodlDVQsAFoALgBmAG4AcwBrAHUALABaAC4AZgC2cgFgIABhAHMAIAC2cgFgLAANAAoAQgAuAHEAdQBhAG4AdABpAHQAeQAgAGEAcwAgAClZMQA0AACVz5EsAA0ACgBDAC4AcQB1AGEAbgB0AGkAdAB5ACAAYQBzACAAKVkyADgAAJXPkSwADQAKAA0ACgBpAGYAbgB1AGwAbAAoAEIALgBxAHUAYQBuAHQAaQB0AHkALAAwACkAIAAvACAAMQA0ACAAKgAxADUAIAAtACAAaQBmAG4AdQBsAGwAKABFAC4AKFcUkCwAMAApAC0AIABpAGYAbgB1AGwAbAAoAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIABhAHMAIAApWTEANQBliM+RLAANAAoAaQBmAG4AdQBsAGwAKABCAC4AcQB1AGEAbgB0AGkAdAB5ACwAMAApACAALwAgADEANAAgACoAMwAwACAALQAgAGkAZgBuAHUAbABsACgARQAuAChXFJAsADAAKQAtACAAaQBmAG4AdQBsAGwAKABGAC4AYQBmAG4AdwBhAHIAZQBoAG8AdQBzAGUAcQB1AGEAbgB0AGkAdAB5ACwAMAApACAAYQBzACAAKVkzADAAZYjPkSwADQAKAGkAZgBuAHUAbABsACgAQgAuAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAC8AIAAxADQAIAAqADYAMAAgAC0AIABpAGYAbgB1AGwAbAAoAEUALgAoVxSQLAAwACkALQAgAGkAZgBuAHUAbABsACgARgAuAGEAZgBuAHcAYQByAGUAaABvAHUAcwBlAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAGEAcwAgAClZNgAwAGWIz5EsAA0ACgBpAGYAbgB1AGwAbAAoAEIALgBxAHUAYQBuAHQAaQB0AHkALAAwACkAIAAvACAAMQA0ACAAKgA5ADAAIAAtACAAaQBmAG4AdQBsAGwAKABFAC4AKFcUkCwAMAApAC0AIABpAGYAbgB1AGwAbAAoAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIABhAHMAIAApWTkAMABliM+RLAANAAoAaQBmAG4AdQBsAGwAKABCAC4AcQB1AGEAbgB0AGkAdAB5ACwAMAApACAALwAgADEANAAgACoAMQA4ADAAIAAtACAAaQBmAG4AdQBsAGwAKABFAC4AKFcUkCwAMAApAC0AIABpAGYAbgB1AGwAbAAoAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIABhAHMAIAApWTEAOAAwAGWIz5EsAA0ACgANAAoADQAKAA0ACgBFAC4AKFcUkCAAYQBzACAAKFcUkCwADQAKAEYALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkAIABhAHMAIACTXlhbLAANAAoADQAKAEQALgBaADEAIAAgAEEAUwAgACAAWgAxACwADQAKAEQALgBaADIAIAAgAEEAUwAgACAAWgAyACwADQAKAEQALgBaADMAIAAgAEEAUwAgACAAWgAzACwADQAKAEQALgBaADQAIAAgAEEAUwAgACAAWgA0ACwADQAKAEQALgBaADUAIAAgAEEAUwAgACAAWgA1ACwADQAKAEQALgBaADYAIAAgAEEAUwAgACAAWgA2ACwADQAKAEQALgBaADcAIAAgAEEAUwAgACAAWgA3ACwADQAKAEQALgBaADgAIAAgAEEAUwAgACAAWgA4ACwADQAKAEQALgBaADkAIAAgAEEAUwAgACAAWgA5ACwADQAKAEQALgBaADEAMAAgACAAQQBTACAAIABaADEAMAAsAA0ACgBEAC4AWgAxADEAIAAgAEEAUwAgACAAWgAxADEALAANAAoARAAuAFoAMQAyACAAIABBAFMAIAAgAFoAMQAyACwADQAKAEQALgBaADEAMwAgACAAQQBTACAAIABaADEAMwAsAA0ACgBEAC4AWgAxADQAIAAgAEEAUwAgACAAWgAxADQALAANAAoARAAuAFoAMQA1ACAAIABBAFMAIAAgAFoAMQA1ACwADQAKAEQALgBaADEANgAgACAAQQBTACAAIABaADEANgAsAA0ACgBEAC4AWgAxADcAIAAgAEEAUwAgACAAWgAxADcALAANAAoARAAuAFoAMQA4ACAAIABBAFMAIAAgAFoAMQA4ACwADQAKAEQALgBaADEAOQAgACAAQQBTACAAIABaADEAOQAsAA0ACgBEAC4AWgAyADAAIAAgAEEAUwAgACAAWgAyADAALAANAAoARAAuAFoAMgAxACAAIABBAFMAIAAgAFoAMgAxACwADQAKAEQALgBaADIAMgAgACAAQQBTACAAIABaADIAMgAsAA0ACgBEAC4AWgAyADMAIAAgAEEAUwAgACAAWgAyADMALAANAAoARAAuAFoAMgA0ACAAIABBAFMAIAAgAFoAMgA0ACwADQAKAEQALgBaADIANQAgACAAQQBTACAAIABaADIANQAsAA0ACgBEAC4AWgAyADYAIAAgAEEAUwAgACAAWgAyADYALAANAAoARAAuAFoAMgA3ACAAIABBAFMAIAAgAFoAMgA3ACwADQAKAEQALgBaADIAOAAgACAAQQBTACAAIABaADIAOAAsAA0ACgBEAC4AWgAyADkAIAAgAEEAUwAgACAAWgAyADkALAANAAoARAAuAFoAMwAwACAAIABBAFMAIAAgAFoAMwAwACwADQAKAEQALgBaADMAMQAgACAAQQBTACAAIABaADMAMQAsAA0ACgBEAC4AWgAzADIAIAAgAEEAUwAgACAAWgAzADIALAANAAoARAAuAFoAMwAzACAAIABBAFMAIAAgAFoAMwAzACwADQAKAEQALgBaADMANAAgACAAQQBTACAAIABaADMANAAsAA0ACgBEAC4AWgAzADUAIAAgAEEAUwAgACAAWgAzADUALAANAAoARAAuAFoAMwA2ACAAIABBAFMAIAAgAFoAMwA2ACwADQAKAEQALgBaADMANwAgACAAQQBTACAAIABaADMANwAsAA0ACgBEAC4AWgAzADgAIAAgAEEAUwAgACAAWgAzADgALAANAAoARAAuAFoAMwA5ACAAIABBAFMAIAAgAFoAMwA5ACwADQAKAEQALgBaADQAMAAgACAAQQBTACAAIABaADQAMAAsAA0ACgBEAC4AWgA0ADEAIAAgAEEAUwAgACAAWgA0ADEALAANAAoARAAuAFoANAAyACAAIABBAFMAIAAgAFoANAAyACwADQAKAEQALgBaADQAMwAgACAAQQBTACAAIABaADQAMwAsAA0ACgBEAC4AWgA0ADQAIAAgAEEAUwAgACAAWgA0ADQALAANAAoARAAuAFoANAA1ACAAIABBAFMAIAAgAFoANAA1ACwADQAKAEQALgBaADQANgAgACAAQQBTACAAIABaADQANgAsAA0ACgBEAC4AWgA0ADcAIAAgAEEAUwAgACAAWgA0ADcALAANAAoARAAuAFoANAA4ACAAIABBAFMAIAAgAFoANAA4ACwADQAKAEQALgBaADQAOQAgACAAQQBTACAAIABaADQAOQAsAA0ACgBEAC4AWgA1ADAAIAAgAEEAUwAgACAAWgA1ADAALAANAAoARAAuAFoANQAxACAAIABBAFMAIAAgAFoANQAxACwADQAKAEQALgBaADUAMgAgACAAQQBTACAAIABaADUAMgAsAA0ACgBEAC4AWgA1ADMAIAAgAEEAUwAgACAAWgA1ADMADQAKAA0ACgANAAoADQAKAGYAcgBvAG0AIAANAAoAQQBGAFMAaIggAGEAcwAgAFoAIAAvACoACWNncWEAcwBpAG4A336hiyoALwANAAoALwAqAGwAZQBmAHQAIABqAG8AaQBuACAADQAKAA0ACgBmAG4AcwBrAHUAaIggAGEAcwAgAFkACWNncWEAcwBpAG4AKFdmAG4AcwBrAHUAaIg5U02R+VuUXp2YZgBuAHMAawB1ACoALwANAAoALwAqAG8AbgAgAFoALgBhAHMAaQBuACAAPQAgAFkALgBhAHMAaQBuAA0ACgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAHMAawB1AGiIIABhAHMAIABYAAljZ3FmAG4AcwBrAHUAKFdzAGsAdQBoiDlTTZH5W5RehHbBVExyDQAKAG8AbgAgAFgALgBmAG4AcwBrAHUAIAA9ACAAWQAuAGYAbgBzAGsAdQAqAC8ADQAKAA0ACgBsAGUAZgB0ACAAagBvAGkAbgANAAoAaFQAlWiIMQA0AClZxon+ViAAYQBzACAAQgANAAoAbwBuACAAWgAuAGEAcwBpAG4AIAA9ACAAQgAuAGEAcwBpAG4ADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgBoVACVaIgyADgAKVnGif5WIABhAHMAIABDAA0ACgBvAG4AIABaAC4AYQBzAGkAbgAgAD0AIABDAC4AYQBzAGkAbgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAGhUAJVoiDUAMwBoVEyIbI8XUkdsO2AgAGEAcwAgAEQADQAKAG8AbgAgAFoALgBmAG4AcwBrAHUAPQAgAEQALgBmAG4AcwBrAHUADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgBoVACVaIgoVxSQxon+ViAAYQBzACAARQANAAoAbwBuACAAWgAuAGEAcwBpAG4AIAA9ACAARQAuAGEAcwBpAG4ADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgCTXlhbaIggAGEAcwAgAEYADQAKAG8AbgAgAFoALgBmAG4AcwBrAHUAPQBGAC4AZgBuAHMAawB1AA0ACgA=" />
                     <ViewName>周销表四周视图</ViewName>
                   </BuiltInViewInfo>
                   <Columns>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>年份</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Double</ColumnType>
                       <DatabaseColumnType>System.Double</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天1</Name>
                     </Item>
@@ -2958,6 +2960,7 @@
                       <AutoIncrement>True</AutoIncrement>
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>ID</Name>
                       <Required>True</Required>
@@ -2965,24 +2968,28 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>brandID</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>中文名</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>fnsku</Name>
                     </Item>
@@ -2998,372 +3005,434 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天14销量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天28销量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天15补量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天30补量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天60补量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天90补量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>天180补量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>在途</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>库存</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z6</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z7</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z8</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z9</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z10</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z11</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z12</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z13</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z14</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z15</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z16</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z17</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z18</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z19</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z20</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z21</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z22</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z23</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z24</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z25</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z26</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z27</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z28</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z29</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z30</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z31</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z32</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z33</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z34</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z35</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z36</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z37</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z38</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z39</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z40</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z41</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z42</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z43</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z44</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z45</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z46</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z47</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z48</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z49</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z50</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z51</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z52</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z53</Name>
                     </Item>
@@ -3385,42 +3454,49 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>fnsku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>saleschannel</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>年份</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>周</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>itemprice</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>quantity</Name>
                     </Item>
@@ -3442,36 +3518,42 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>purchasedate</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Double</ColumnType>
                       <DatabaseColumnType>System.Double</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>订单时间</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>saleschannel</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>itemprice</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>quantity</Name>
                     </Item>
@@ -3532,336 +3614,392 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>fnsku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>saleschannel</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z6</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z7</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z8</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z9</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z10</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z11</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z12</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z13</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z14</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z15</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z16</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z17</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z18</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z19</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z20</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z21</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z22</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z23</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z24</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z25</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z26</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z27</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z28</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z29</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z30</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z31</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z32</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z33</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z34</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z35</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z36</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z37</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z38</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z39</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z40</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z41</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z42</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z43</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z44</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z45</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z46</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z47</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z48</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z49</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z50</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z51</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z52</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z53</Name>
                     </Item>
@@ -3873,6 +4011,355 @@
                     </Item>
                   </PrimaryKey>
                   <Weight>8</Weight>
+                </Item>
+                <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+                  <BuiltInViewInfo>
+                    <CreateViewSql Base64="UwBFAEwARQBDAFQAIABmAG4AcwBrAHUALABhAHMAaQBuACwAcwBhAGwAZQBzAGMAaABhAG4AbgBlAGwALAANAAoAcwB1AG0AKABBAC4AWgAxACkAIABhAHMAIABaADEALAANAAoAcwB1AG0AKABBAC4AWgAyACkAIABhAHMAIABaADIALAANAAoAcwB1AG0AKABBAC4AWgAzACkAIABhAHMAIABaADMALAANAAoAcwB1AG0AKABBAC4AWgA0ACkAIABhAHMAIABaADQALAANAAoAcwB1AG0AKABBAC4AWgA1ACkAIABhAHMAIABaADUALAANAAoAcwB1AG0AKABBAC4AWgA2ACkAIABhAHMAIABaADYALAANAAoAcwB1AG0AKABBAC4AWgA3ACkAIABhAHMAIABaADcALAANAAoAcwB1AG0AKABBAC4AWgA4ACkAIABhAHMAIABaADgALAANAAoAcwB1AG0AKABBAC4AWgA5ACkAIABhAHMAIABaADkALAANAAoAcwB1AG0AKABBAC4AWgAxADAAKQAgAGEAcwAgAFoAMQAwACwADQAKAHMAdQBtACgAQQAuAFoAMQAxACkAIABhAHMAIABaADEAMQAsAA0ACgBzAHUAbQAoAEEALgBaADEAMgApACAAYQBzACAAWgAxADIALAANAAoAcwB1AG0AKABBAC4AWgAxADMAKQAgAGEAcwAgAFoAMQAzACwADQAKAHMAdQBtACgAQQAuAFoAMQA0ACkAIABhAHMAIABaADEANAAsAA0ACgBzAHUAbQAoAEEALgBaADEANQApACAAYQBzACAAWgAxADUALAANAAoAcwB1AG0AKABBAC4AWgAxADYAKQAgAGEAcwAgAFoAMQA2ACwADQAKAHMAdQBtACgAQQAuAFoAMQA3ACkAIABhAHMAIABaADEANwAsAA0ACgBzAHUAbQAoAEEALgBaADEAOAApACAAYQBzACAAWgAxADgALAANAAoAcwB1AG0AKABBAC4AWgAxADkAKQAgAGEAcwAgAFoAMQA5ACwADQAKAHMAdQBtACgAQQAuAFoAMgAwACkAIABhAHMAIABaADIAMAAsAA0ACgBzAHUAbQAoAEEALgBaADIAMQApACAAYQBzACAAWgAyADEALAANAAoAcwB1AG0AKABBAC4AWgAyADIAKQAgAGEAcwAgAFoAMgAyACwADQAKAHMAdQBtACgAQQAuAFoAMgAzACkAIABhAHMAIABaADIAMwAsAA0ACgBzAHUAbQAoAEEALgBaADIANAApACAAYQBzACAAWgAyADQALAANAAoAcwB1AG0AKABBAC4AWgAyADUAKQAgAGEAcwAgAFoAMgA1ACwADQAKAHMAdQBtACgAQQAuAFoAMgA2ACkAIABhAHMAIABaADIANgAsAA0ACgBzAHUAbQAoAEEALgBaADIANwApACAAYQBzACAAWgAyADcALAANAAoAcwB1AG0AKABBAC4AWgAyADgAKQAgAGEAcwAgAFoAMgA4ACwADQAKAHMAdQBtACgAQQAuAFoAMgA5ACkAIABhAHMAIABaADIAOQAsAA0ACgBzAHUAbQAoAEEALgBaADMAMAApACAAYQBzACAAWgAzADAALAANAAoAcwB1AG0AKABBAC4AWgAzADEAKQAgAGEAcwAgAFoAMwAxACwADQAKAHMAdQBtACgAQQAuAFoAMwAyACkAIABhAHMAIABaADMAMgAsAA0ACgBzAHUAbQAoAEEALgBaADMAMwApACAAYQBzACAAWgAzADMALAANAAoAcwB1AG0AKABBAC4AWgAzADQAKQAgAGEAcwAgAFoAMwA0ACwADQAKAHMAdQBtACgAQQAuAFoAMwA1ACkAIABhAHMAIABaADMANQAsAA0ACgBzAHUAbQAoAEEALgBaADMANgApACAAYQBzACAAWgAzADYALAANAAoAcwB1AG0AKABBAC4AWgAzADcAKQAgAGEAcwAgAFoAMwA3ACwADQAKAHMAdQBtACgAQQAuAFoAMwA4ACkAIABhAHMAIABaADMAOAAsAA0ACgBzAHUAbQAoAEEALgBaADMAOQApACAAYQBzACAAWgAzADkALAANAAoAcwB1AG0AKABBAC4AWgA0ADAAKQAgAGEAcwAgAFoANAAwACwADQAKAHMAdQBtACgAQQAuAFoANAAxACkAIABhAHMAIABaADQAMQAsAA0ACgBzAHUAbQAoAEEALgBaADQAMgApACAAYQBzACAAWgA0ADIALAANAAoAcwB1AG0AKABBAC4AWgA0ADMAKQAgAGEAcwAgAFoANAAzACwADQAKAHMAdQBtACgAQQAuAFoANAA0ACkAIABhAHMAIABaADQANAAsAA0ACgBzAHUAbQAoAEEALgBaADQANQApACAAYQBzACAAWgA0ADUALAANAAoAcwB1AG0AKABBAC4AWgA0ADYAKQAgAGEAcwAgAFoANAA2ACwADQAKAHMAdQBtACgAQQAuAFoANAA3ACkAIABhAHMAIABaADQANwAsAA0ACgBzAHUAbQAoAEEALgBaADQAOAApACAAYQBzACAAWgA0ADgALAANAAoAcwB1AG0AKABBAC4AWgA0ADkAKQAgAGEAcwAgAFoANAA5ACwADQAKAHMAdQBtACgAQQAuAFoANQAwACkAIABhAHMAIABaADUAMAAsAA0ACgBzAHUAbQAoAEEALgBaADUAMQApACAAYQBzACAAWgA1ADEALAANAAoAcwB1AG0AKABBAC4AWgA1ADIAKQAgAGEAcwAgAFoANQAyACwADQAKAHMAdQBtACgAQQAuAFoANQAzACkAIABhAHMAIABaADUAMwANAAoAZgByAG8AbQAgAA0ACgBoVACVaIg1ADMAaFRMiGyPF1IgAGEAcwAgAEEADQAKAGcAcgBvAHUAcAAgAGIAeQAgAGYAbgBzAGsAdQAsAGEAcwBpAG4ALABzAGEAbABlAHMAYwBoAGEAbgBuAGUAbAA=" />
+                    <ViewName>周销表53周行转列汇总</ViewName>
+                  </BuiltInViewInfo>
+                  <Columns>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>fnsku</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>asin</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>saleschannel</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z1</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z2</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z3</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z4</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z5</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z6</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z7</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z8</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z9</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z10</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z11</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z12</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z13</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z14</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z15</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z16</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z17</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z18</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z19</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z20</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z21</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z22</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z23</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z24</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z25</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z26</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z27</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z28</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z29</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z30</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z31</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z32</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z33</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z34</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z35</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z36</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z37</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z38</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z39</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z40</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z41</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z42</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z43</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z44</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z45</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z46</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z47</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z48</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z49</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z50</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z51</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z52</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>Z53</Name>
+                    </Item>
+                  </Columns>
+                  <Name>周销表53周行转列汇总</Name>
+                  <Weight>9</Weight>
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
@@ -3899,7 +4386,7 @@
                       <Value>asin</Value>
                     </Item>
                   </PrimaryKey>
-                  <Weight>9</Weight>
+                  <Weight>10</Weight>
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
@@ -3927,7 +4414,7 @@
                     </Item>
                   </Columns>
                   <Name>周销表已发货视图</Name>
-                  <Weight>10</Weight>
+                  <Weight>11</Weight>
                 </Item>
               </Items>
               <Name>周销表视图</Name>
