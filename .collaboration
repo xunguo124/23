@@ -281,7 +281,16 @@
   },
   {
     "ModuleName": "已发货明细列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZQ-PC\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-09T22:10:21.6916712+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\销售表\\已发货明细列表.json"
+    ]
   },
   {
     "ModuleName": "日销报表",
