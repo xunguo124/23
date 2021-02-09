@@ -2355,19 +2355,27 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>天270</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>天365</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
                   <Name>asin</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
                   <Name>sku</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Int64</ColumnType>
+                  <Name>品牌id</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
@@ -2489,7 +2497,6 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>用户名</Name>
                   <Required>True</Required>
@@ -2498,28 +2505,24 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>全名</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>邮件</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>角色</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>组织上级</Name>
                 </Item>

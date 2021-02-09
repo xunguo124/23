@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-09T17:11:19.2517918+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -92,17 +81,7 @@
   },
   {
     "ModuleName": "AFS产品",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-09T16:36:35.7881419+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\产品表\\AFS产品.json",
-      "UserTemplateFile\\AFS产品导入模板b22863b0ce154788a3eaddfb3614b79b.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "AFS产品录入",
@@ -150,16 +129,7 @@
   },
   {
     "ModuleName": "品牌维护",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-09T16:46:05.9404665+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\品牌管理\\品牌维护.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\库存表",
@@ -175,17 +145,7 @@
   },
   {
     "ModuleName": "库存状况列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-09T17:22:20.3758042+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\库存表\\库存状况列表.json",
-      "UserTemplateFile\\库存状况表模板d604a0fbe2594f1495841b1cdecfbcbb.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\报表查询",
