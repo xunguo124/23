@@ -4242,7 +4242,7 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
-                    <CreateViewSql Base64="LwAqAAljZ3HRUyeNBW5VUywA5U5mAG4AcwBrAHUA336hiztg0VMnjXBlKgAvAA0ACgAvACoAH2cdUpNeWFsakMePnligUlqG32KEdtFTJ40FblVTZWdliApOKgAvAA0ACgBzAGUAbABlAGMAdAANAAoAWgAuAEkARAAsAA0ACgBaAC4AZgBuAHMAawB1ACwAWgAuAHMAawB1ACwAWgAuAGEAcwBpAG4ALAANAAoAaQBmAG4AdQBsAGwAKABCAC4A8l3RUyeNcGXPkSwAMAApACAAIABhAHMAIADyXdFTJ41wZc+RLAANAAoAaQBmAG4AdQBsAGwAKABBAC4AYQBmAG4AdwBhAHIAZQBoAG8AdQBzAGUAcQB1AGEAbgB0AGkAdAB5ACwAMAApACAAYQBzACAAAGewZZNeWFssAA0ACgBpAGYAbgB1AGwAbAAoAEMALgAoVxSQcGXPkSwAMAApACAAYQBzACAAKFcUkHBlz5EsAA0ACgBpAGYAbgB1AGwAbAAoAEQALgDyXS5V+lFwZc+RLAAwACkAIAAgAGEAcwAgAPJdLlX6UXBlz5EsAA0ACgBpAGYAbgB1AGwAbAAoAEIALgDyXdFTJ41wZc+RLAAwACkAIAAtAGkAZgBuAHUAbABsACgAQQAuAGEAZgBuAHcAYQByAGUAaABvAHUAcwBlAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAC0AaQBmAG4AdQBsAGwAKABDAC4AKFcUkHBlz5EsADAAKQAtAGkAZgBuAHUAbABsACgARAAuAPJdLlX6UXBlz5EsADAAKQAgAGEAcwAgAO5dPFANAAoADQAKAA0ACgANAAoADQAKAA0ACgBmAHIAbwBtAA0ACgANAAoAQQBGAFMAaIggAEEAUwAgAFoAIAAvACoA3U/Bi2YAbgBzAGsAdQAvVQBOKgAvAA0ACgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAA0ACgCTXlhbaIggACAAQQBTACAAQQAgACAALwAqAN1PwYtmAG4AcwBrAHUAL1UATioALwANAAoADQAKAG8AbgAgAFoALgBmAG4AcwBrAHUAIAA9ACAAQQAuAGYAbgBzAGsAdQAgAA0ACgBsAGUAZgB0ACAAagBvAGkAbgANAAoA0VMnjVVTDmbGfkdsO2DGif5WIABBAFMAIABCACAAIAAvACoACWNncdFTJ40FblVTLADlTmYAbgBzAGsAdQDffqGLO2DRUyeNcGUqAC8ADQAKAG8AbgAgAFoALgBmAG4AcwBrAHUAIAA9ACAAQgAuAGYAbgBzAGsAdQANAAoADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgANAAoA0VMnjVVTDmbGfihXFJBHbDtgxon+ViAAQQBTACAAQwAgAC8AKgAJY2dx0VMnjQVuVVMsAOVOZgBuAHMAawB1AN9+oYssALZyAWAwAIR2KFcUkNFTJ41wZSoALwANAAoADQAKAG8AbgAgAA0ACgBaAC4AZgBuAHMAawB1AD0AIABDAC4AZgBuAHMAawB1AA0ACgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAA0ACgAAlS5VaFTTflhbR2w7YMaJ/lYgAEQADQAKAG8AbgAgAA0ACgBaAC4AZgBuAHMAawB1ACAAPQAgAEQALgBmAG4AcwBrAHUA" />
+                    <CreateViewSql Base64="LwAqAAljZ3HRUyeNBW5VUywA5U5mAG4AcwBrAHUA336hiztg0VMnjXBlKgAvAA0ACgAvACoAH2cdUpNeWFsakMePnligUlqG32KEdtFTJ40FblVTZWdliApOKgAvAA0ACgBzAGUAbABlAGMAdAANAAoAWgAuAEkARAAsAA0ACgBaAC4AZgBuAHMAawB1ACwAWgAuAHMAawB1ACwAWgAuAGEAcwBpAG4ALABhAMFUTHJJAEQAIABhAHMAIADBVExyaQBkACwADQAKAGkAZgBuAHUAbABsACgAQgAuAPJd0VMnjXBlz5EsADAAKQAgACAAYQBzACAA8l3RUyeNcGXPkSwADQAKAGkAZgBuAHUAbABsACgAQQAuAGEAZgBuAHcAYQByAGUAaABvAHUAcwBlAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAGEAcwAgAABnsGWTXlhbLAANAAoAaQBmAG4AdQBsAGwAKABDAC4AKFcUkHBlz5EsADAAKQAgAGEAcwAgAChXFJBwZc+RLAANAAoAaQBmAG4AdQBsAGwAKABEAC4A8l0uVfpRcGXPkSwAMAApACAAIABhAHMAIADyXS5V+lFwZc+RLAANAAoAaQBmAG4AdQBsAGwAKABCAC4A8l3RUyeNcGXPkSwAMAApACAALQBpAGYAbgB1AGwAbAAoAEEALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIAAtAGkAZgBuAHUAbABsACgAQwAuAChXFJBwZc+RLAAwACkALQBpAGYAbgB1AGwAbAAoAEQALgDyXS5V+lFwZc+RLAAwACkAIABhAHMAIADuXTxQDQAKAA0ACgANAAoADQAKAA0ACgANAAoAZgByAG8AbQANAAoADQAKAEEARgBTAGiIIABBAFMAIABaACAALwAqAN1PwYtmAG4AcwBrAHUAL1UATioALwANAAoADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgANAAoAk15YW2iIIAAgAEEAUwAgAEEAIAAgAC8AKgDdT8GLZgBuAHMAawB1AC9VAE4qAC8ADQAKAA0ACgBvAG4AIABaAC4AZgBuAHMAawB1ACAAPQAgAEEALgBmAG4AcwBrAHUAIAANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKANFTJ41VUw5mxn5HbDtgxon+ViAAQQBTACAAQgAgACAALwAqAAljZ3HRUyeNBW5VUywA5U5mAG4AcwBrAHUA336hiztg0VMnjXBlKgAvAA0ACgBvAG4AIABaAC4AZgBuAHMAawB1ACAAPQAgAEIALgBmAG4AcwBrAHUADQAKAA0ACgBsAGUAZgB0ACAAagBvAGkAbgANAAoADQAKANFTJ41VUw5mxn4oVxSQR2w7YMaJ/lYgAEEAUwAgAEMAIAAvACoACWNncdFTJ40FblVTLADlTmYAbgBzAGsAdQDffqGLLAC2cgFgMACEdihXFJDRUyeNcGUqAC8ADQAKAA0ACgBvAG4AIAANAAoAWgAuAGYAbgBzAGsAdQA9ACAAQwAuAGYAbgBzAGsAdQANAAoADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgANAAoAAJUuVWhU035YW0dsO2DGif5WIABEAA0ACgBvAG4AIAANAAoAWgAuAGYAbgBzAGsAdQAgAD0AIABEAC4AZgBuAHMAawB1AA==" />
                     <ViewName>发货与出售在途库存差值对比视图</ViewName>
                   </BuiltInViewInfo>
                   <Columns>
@@ -4250,6 +4250,7 @@
                       <AutoIncrement>True</AutoIncrement>
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>ID</Name>
                       <Required>True</Required>
@@ -4258,48 +4259,62 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>fnsku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>sku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Int64</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>品牌id</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>已发货数量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>最新库存</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>在途数量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>已售出数量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>差值</Name>
                     </Item>
