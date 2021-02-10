@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-10T13:47:16.4992136+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -76,16 +65,7 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)报表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-10T13:48:15.7256012+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)报表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)用户",
@@ -317,17 +297,7 @@
   },
   {
     "ModuleName": "销售导入",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-10T13:53:16.4798033+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\销售表\\销售导入.json",
-      "UserTemplateFile\\销售明细导入模板df77a0190f7447299e6bb7a75a3b8ffa.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\wms工程页面",
@@ -499,12 +469,6 @@
   },
   {
     "ModuleName": "周销售历史结存列表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-10T13:43:06.455912+08:00",
     "ModuleType": 1
   }
 ]
