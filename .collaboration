@@ -409,7 +409,16 @@
   },
   {
     "ModuleName": "管理页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZQ-PC\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-11T14:09:49.7902921+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\管理页面.json"
+    ]
   },
   {
     "ModuleName": "FGC_母版页",
