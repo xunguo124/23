@@ -189,7 +189,16 @@
   },
   {
     "ModuleName": "用户品牌绑定列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZQ-PC\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-11T13:30:34.97626+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\用户品牌绑定登陆账号\\用户品牌绑定列表.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\用户管理",
