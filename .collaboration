@@ -128,16 +128,7 @@
   },
   {
     "ModuleName": "员工列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-11T14:43:36.7702027+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\员工管理\\员工列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "员工管理",
@@ -218,16 +209,7 @@
   },
   {
     "ModuleName": "用户品牌绑定列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-11T14:46:37.790769+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\用户品牌绑定登陆账号\\用户品牌绑定列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\用户管理",
