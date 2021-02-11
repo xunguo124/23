@@ -128,7 +128,16 @@
   },
   {
     "ModuleName": "员工列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZQ-PC\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-11T14:43:36.7702027+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\员工管理\\员工列表.json"
+    ]
   },
   {
     "ModuleName": "员工管理",
