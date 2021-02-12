@@ -157,7 +157,16 @@
   },
   {
     "ModuleName": "销售发货对比查询",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "ZQ-PC\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-12T12:12:36.7328029+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\报表查询\\销售发货对比查询.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\操作说明",
