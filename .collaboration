@@ -153,16 +153,7 @@
   },
   {
     "ModuleName": "产品利润查询",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-12T12:29:39.0659666+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\报表查询\\产品利润查询.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "销售发货对比查询",
