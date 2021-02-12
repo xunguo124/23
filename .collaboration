@@ -489,5 +489,15 @@
   {
     "ModuleName": "周销售历史结存列表",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "库存状况导入",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "ZQ-PC\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-12T11:28:41.0591679+08:00",
+    "ModuleType": 1
   }
 ]
