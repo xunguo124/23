@@ -2379,6 +2379,7 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>品牌id</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
