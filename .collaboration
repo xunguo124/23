@@ -129,7 +129,16 @@
   },
   {
     "ModuleName": "品牌维护",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-14T14:26:51.4083551+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\品牌管理\\品牌维护.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\库存表",
