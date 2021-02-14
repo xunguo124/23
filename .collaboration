@@ -154,7 +154,17 @@
   },
   {
     "ModuleName": "库存状况列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-14T16:31:56.9365993+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\库存表\\库存状况列表.json",
+      "UserTemplateFile\\库存状况表模板d604a0fbe2594f1495841b1cdecfbcbb.xlsx"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\报表查询",
