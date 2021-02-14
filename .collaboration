@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T15:00:53.6597369+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -140,16 +129,7 @@
   },
   {
     "ModuleName": "品牌维护",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T14:26:51.4083551+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\品牌管理\\品牌维护.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\库存表",
@@ -209,16 +189,7 @@
   },
   {
     "ModuleName": "用户品牌绑定列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T14:08:10.7439497+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\用户品牌绑定登陆账号\\用户品牌绑定列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\用户管理",
