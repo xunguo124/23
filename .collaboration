@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T21:12:46.6916166+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -32,30 +21,11 @@
   },
   {
     "ModuleName": "发货单列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T22:31:52.7643069+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "发货单录入",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T00:02:19.605302+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单录入.json",
-      "UserTemplateFile\\发货单导入模板989c98fc93314f799bc0c42fbf751899.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "建单",
@@ -283,16 +253,7 @@
   },
   {
     "ModuleName": "运营及仓库反馈列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T21:27:06.6855327+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\运营管理\\运营及仓库反馈列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "运营录入 (2)",
@@ -312,16 +273,7 @@
   },
   {
     "ModuleName": "周销报表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T23:15:35.3209884+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\销售表\\周销报表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "周销表 (2)",
@@ -345,17 +297,7 @@
   },
   {
     "ModuleName": "销售导入",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T00:07:53.6488291+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\销售表\\销售导入.json",
-      "UserTemplateFile\\销售明细导入模板df77a0190f7447299e6bb7a75a3b8ffa.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\wms工程页面",
