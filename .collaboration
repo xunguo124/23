@@ -92,17 +92,7 @@
   },
   {
     "ModuleName": "AFS产品",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-14T15:51:53.4330201+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\产品表\\AFS产品.json",
-      "UserTemplateFile\\AFS产品导入模板b22863b0ce154788a3eaddfb3614b79b.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "AFS产品录入",
