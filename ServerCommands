@@ -2386,19 +2386,34 @@
           <CommandList>
             <Item class="Forguncy.Model.Commands.SetParameterCommand" assembly="ServerDesignerCommon">
               <ParameterName type="System.String">
-                <Value>是否存在运营编号</Value>
+                <Value>状态否的fnsku是否存在</Value>
               </ParameterName>
               <TableValue>
-                <SqlCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
-                  <ColumnBindingInfo>
-                    <ColumnName>编号</ColumnName>
-                    <TableName>运营表</TableName>
-                  </ColumnBindingInfo>
-                  <CompareType>EqualsTo</CompareType>
-                  <Id>f77aa9f3-4973-4c25-970a-d8cd2c850dfe</Id>
-                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
-                    <SerializeProperty>=编号</SerializeProperty>
-                  </Value>
+                <SqlCondition class="ForguncyDataAccess.RelationSqlCondition" assembly="ForguncyDataAccess">
+                  <Condition1 class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                    <ColumnBindingInfo>
+                      <ColumnName>fnsku</ColumnName>
+                      <TableName>运营表</TableName>
+                    </ColumnBindingInfo>
+                    <CompareType>EqualsTo</CompareType>
+                    <Id>71bb33a1-a609-4a0a-8326-b2e14e5baaab</Id>
+                    <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                      <SerializeProperty>=fnsku</SerializeProperty>
+                    </Value>
+                  </Condition1>
+                  <Condition2 class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                    <ColumnBindingInfo>
+                      <ColumnName>状态</ColumnName>
+                      <TableName>运营表</TableName>
+                    </ColumnBindingInfo>
+                    <CompareType>EqualsTo</CompareType>
+                    <Id>d8eb2b67-7249-4d5b-b3d5-cce0a46a678f</Id>
+                    <Value type="System.String">
+                      <Value>0</Value>
+                    </Value>
+                  </Condition2>
+                  <Id>311f029d-faf7-4c79-a14e-8e5c3752a25e</Id>
+                  <RelationType>And</RelationType>
                 </SqlCondition>
                 <TableName>运营表</TableName>
                 <TableValueType>Count</TableValueType>
@@ -2410,6 +2425,7 @@
                   <CommandList>
                     <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
                       <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                      <Disabled>True</Disabled>
                       <ParamNameToSaveNewRowValue type="System.String">
                         <Value>NewRow</Value>
                       </ParamNameToSaveNewRowValue>
@@ -2420,7 +2436,7 @@
                           <TableName>运营表</TableName>
                         </ColumnBindingInfo>
                         <CompareType>EqualsTo</CompareType>
-                        <Id>202de59e-b756-472b-bde1-05881634dd99</Id>
+                        <Id>a7a7e653-7567-457a-b8eb-69229fb968e2</Id>
                         <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                           <SerializeProperty>=fnsku</SerializeProperty>
                         </Value>
@@ -2529,10 +2545,10 @@
                     </Item>
                   </CommandList>
                   <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
-                    <Id>fe6d35bf-fff0-4256-8f9b-78b1fb8a5f5f</Id>
+                    <Id>4449258c-40c8-4e6d-bbe0-30523c163e9a</Id>
                     <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
                       <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
-                        <SerializeProperty>=是否存在运营编号</SerializeProperty>
+                        <SerializeProperty>=状态否的fnsku是否存在</SerializeProperty>
                       </ParamObject>
                     </Param>
                     <Value type="System.String">
@@ -2556,7 +2572,7 @@
                           <TableName>运营表</TableName>
                         </ColumnBindingInfo>
                         <CompareType>EqualsTo</CompareType>
-                        <Id>822caeb6-fc5e-41f9-82f1-33f1fb22f1a3</Id>
+                        <Id>61da0404-57f4-49ac-8093-56d42a3e7178</Id>
                         <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                           <SerializeProperty>=编号</SerializeProperty>
                         </Value>
@@ -2585,7 +2601,7 @@
                           <TableName>运营表</TableName>
                         </ColumnBindingInfo>
                         <CompareType>EqualsTo</CompareType>
-                        <Id>30b06da8-e4be-4a12-b261-c24411e42152</Id>
+                        <Id>0df3ec23-fc00-4464-aaac-65a525ad13e6</Id>
                         <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                           <SerializeProperty>=编号</SerializeProperty>
                         </Value>
@@ -2664,6 +2680,7 @@
                     </Item>
                     <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
                       <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                      <Disabled>True</Disabled>
                       <ParamNameToSaveNewRowValue type="System.String">
                         <Value>NewRow</Value>
                       </ParamNameToSaveNewRowValue>
@@ -2674,7 +2691,7 @@
                           <TableName>运营表</TableName>
                         </ColumnBindingInfo>
                         <CompareType>EqualsTo</CompareType>
-                        <Id>0615127d-f36a-4c6c-9a85-df74cda06173</Id>
+                        <Id>b8a7c6c4-60fe-4c08-bbe7-ce4913d66c2a</Id>
                         <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                           <SerializeProperty>=编号</SerializeProperty>
                         </Value>
@@ -2834,6 +2851,103 @@
                         </Item>
                         <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
                           <ColumnName>已处理重量</ColumnName>
+                        </Item>
+                      </UpdateValues>
+                    </Item>
+                    <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+                      <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                      <ParamNameToSaveNewRowValue type="System.String">
+                        <Value>NewRow</Value>
+                      </ParamNameToSaveNewRowValue>
+                      <RowsToUpdate>SpecificRow</RowsToUpdate>
+                      <RowsToUpdateCondition class="ForguncyDataAccess.RelationSqlCondition" assembly="ForguncyDataAccess">
+                        <Condition1 class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                          <ColumnBindingInfo>
+                            <ColumnName>fnsku</ColumnName>
+                            <TableName>运营表</TableName>
+                          </ColumnBindingInfo>
+                          <CompareType>EqualsTo</CompareType>
+                          <Id>8919d045-4d61-4b48-ae98-3da2dd20e438</Id>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=fnsku</SerializeProperty>
+                          </Value>
+                        </Condition1>
+                        <Condition2 class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                          <ColumnBindingInfo>
+                            <ColumnName>状态</ColumnName>
+                            <TableName>运营表</TableName>
+                          </ColumnBindingInfo>
+                          <CompareType>EqualsTo</CompareType>
+                          <Id>f0c91de1-422e-46a4-9d11-cb80c372893e</Id>
+                          <Value type="System.String">
+                            <Value>0</Value>
+                          </Value>
+                        </Condition2>
+                        <Id>f20793e4-1249-46cd-95b2-4ef04aa51de5</Id>
+                        <RelationType>And</RelationType>
+                      </RowsToUpdateCondition>
+                      <ShowConfirm>False</ShowConfirm>
+                      <TableName>运营表</TableName>
+                      <UpdateValues>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>需求日期</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=需求日期</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>需求数量</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=需求数量</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>备注</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=备注</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>需求重量</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=需求重量</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>周</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=周</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>年</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=年</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>运营人ID</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=运营人ID</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>asin</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=asin</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>周报日期</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=周报日期</SerializeProperty>
+                          </Value>
+                        </Item>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>编号</ColumnName>
+                          <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                            <SerializeProperty>=编号</SerializeProperty>
+                          </Value>
                         </Item>
                       </UpdateValues>
                     </Item>

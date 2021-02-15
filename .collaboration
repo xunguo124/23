@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T10:14:39.2574701+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -32,30 +21,11 @@
   },
   {
     "ModuleName": "发货单列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T15:45:42.7160326+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "发货单录入",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T10:40:05.4767858+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单录入.json",
-      "UserTemplateFile\\发货单导入模板989c98fc93314f799bc0c42fbf751899.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "建单",
@@ -83,16 +53,7 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)发货",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T14:07:07.3040042+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)发货.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)基础参数",
@@ -104,16 +65,7 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)报表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T14:06:14.2724614+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)报表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)用户",
@@ -205,16 +157,7 @@
   },
   {
     "ModuleName": "销售发货对比查询",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T14:40:24.1889978+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\报表查询\\销售发货对比查询.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\操作说明",
@@ -230,29 +173,11 @@
   },
   {
     "ModuleName": "运送单",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T15:13:56.8976828+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\物流运送管理\\运送单.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "运送单列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T15:16:11.470851+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\物流运送管理\\运送单列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\用户品牌绑定登陆账号",
@@ -328,16 +253,7 @@
   },
   {
     "ModuleName": "运营及仓库反馈列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T09:16:15.6258208+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\运营管理\\运营及仓库反馈列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "运营录入 (2)",
@@ -493,16 +409,7 @@
   },
   {
     "ModuleName": "管理页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T09:28:40.3154075+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\管理页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_母版页",
@@ -526,16 +433,7 @@
   },
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T12:21:47.0915627+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "b5d0fd75-997c-4418-a16b-6dc3dcd86817",

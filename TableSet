@@ -175,8 +175,8 @@
       <IsDetailTableRelation>False</IsDetailTableRelation>
       <PrimaryColumn>运送单号</PrimaryColumn>
       <PrimaryTable>运送单主表</PrimaryTable>
-      <RelationTypeOnDelete>None</RelationTypeOnDelete>
-      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+      <RelationTypeOnDelete>Restrict</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>Cascade</RelationTypeOnUpdate>
     </Item>
     <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
       <ForeignColumn>a品牌ID</ForeignColumn>
@@ -1612,28 +1612,38 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.DateTime</ColumnType>
-                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DatabaseColumnType>System.Double</DatabaseColumnType>
                   <Name>运送日期</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
                   <Name>运送单号</Name>
+                  <Unique>True</Unique>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
                   <Name>形式</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Double</ColumnType>
+                  <DatabaseColumnType>System.Double</DatabaseColumnType>
                   <Name>重量</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>箱数</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>产品数</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Boolean</ColumnType>
+                  <Name>状态</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
@@ -2502,6 +2512,7 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>用户名</Name>
                   <Required>True</Required>
@@ -2510,36 +2521,42 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>全名</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>邮件</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>角色</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>组织上级</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>公司</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>部门</Name>
                 </Item>
@@ -4558,7 +4575,7 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
-                    <CreateViewSql Base64="LwAqAAljZ3HRUyeNBW5VUywA5U5mAG4AcwBrAHUA336hiztg0VMnjXBlKgAvAA0ACgAvACoAH2cdUpNeWFsakMePnligUlqG32KEdtFTJ40FblVTZWdliApOKgAvAA0ACgBzAGUAbABlAGMAdAANAAoAWgAuAEkARAAsAA0ACgBaAC4AZgBuAHMAawB1ACwAWgAuAHMAawB1ACwAWgAuAGEAcwBpAG4ALABhAMFUTHJJAEQAIABhAHMAIADBVExyaQBkACwADQAKAGkAZgBuAHUAbABsACgAQgAuAPJd0VMnjXBlz5EsADAAKQAgACAAYQBzACAA8l3RUyeNcGXPkSwADQAKAGkAZgBuAHUAbABsACgAQQAuAGEAZgBuAHcAYQByAGUAaABvAHUAcwBlAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAGEAcwAgAABnsGWTXlhbLAANAAoAaQBmAG4AdQBsAGwAKABDAC4AKFcUkHBlz5EsADAAKQAgAGEAcwAgAChXFJBwZc+RLAANAAoAaQBmAG4AdQBsAGwAKABEAC4A8l0uVfpRcGXPkSwAMAApACAAIABhAHMAIADyXS5V+lFwZc+RLAANAAoAaQBmAG4AdQBsAGwAKABCAC4A8l3RUyeNcGXPkSwAMAApACAALQBpAGYAbgB1AGwAbAAoAEEALgBhAGYAbgB3AGEAcgBlAGgAbwB1AHMAZQBxAHUAYQBuAHQAaQB0AHkALAAwACkAIAAtAGkAZgBuAHUAbABsACgAQwAuAChXFJBwZc+RLAAwACkALQBpAGYAbgB1AGwAbAAoAEQALgDyXS5V+lFwZc+RLAAwACkAIABhAHMAIADuXTxQDQAKAA0ACgANAAoADQAKAA0ACgANAAoAZgByAG8AbQANAAoADQAKAEEARgBTAGiIIABBAFMAIABaACAALwAqAN1PwYtmAG4AcwBrAHUAL1UATioALwANAAoADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgANAAoAk15YW2iIIAAgAEEAUwAgAEEAIAAgAC8AKgDdT8GLZgBuAHMAawB1AC9VAE4qAC8ADQAKAA0ACgBvAG4AIABaAC4AZgBuAHMAawB1ACAAPQAgAEEALgBmAG4AcwBrAHUAIAANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKANFTJ41VUw5mxn5HbDtgxon+ViAAQQBTACAAQgAgACAALwAqAAljZ3HRUyeNBW5VUywA5U5mAG4AcwBrAHUA336hiztg0VMnjXBlKgAvAA0ACgBvAG4AIABaAC4AZgBuAHMAawB1ACAAPQAgAEIALgBmAG4AcwBrAHUADQAKAA0ACgBsAGUAZgB0ACAAagBvAGkAbgANAAoADQAKANFTJ41VUw5mxn4oVxSQR2w7YMaJ/lYgAEEAUwAgAEMAIAAvACoACWNncdFTJ40FblVTLADlTmYAbgBzAGsAdQDffqGLLAC2cgFgMACEdihXFJDRUyeNcGUqAC8ADQAKAA0ACgBvAG4AIAANAAoAWgAuAGYAbgBzAGsAdQA9ACAAQwAuAGYAbgBzAGsAdQANAAoADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgANAAoAAJUuVWhU035YW0dsO2DGif5WIABEAA0ACgBvAG4AIAANAAoAWgAuAGYAbgBzAGsAdQAgAD0AIABEAC4AZgBuAHMAawB1AA==" />
+                    <CreateViewSql Base64="LwAqAAljZ3HRUyeNBW5VUywA5U5mAG4AcwBrAHUA336hiztg0VMnjXBlKgAvAA0ACgAvACoAH2cdUpNeWFsakMePnligUlqG32KEdtFTJ40FblVTZWdliApOKgAvAA0ACgBzAGUAbABlAGMAdAANAAoAWgAuAEkARAAsAA0ACgBaAC4AZgBuAHMAawB1ACwAWgAuAHMAawB1ACwAWgAuAGEAcwBpAG4ALABhAMFUTHJJAEQAIABhAHMAIADBVExyaQBkACwADQAKAGkAZgBuAHUAbABsACgAQgAuAPJd0VMnjXBlz5EsADAAKQAgACAAYQBzACAA8l3RUyeNcGXPkSwADQAKAGkAZgBuAHUAbABsACgAQQAuAGEAZgBuAHcAYQByAGUAaABvAHUAcwBlAHEAdQBhAG4AdABpAHQAeQAsADAAKQAgAGEAcwAgAABnsGWTXlhbLAANAAoAaQBmAG4AdQBsAGwAKABDAC4AKFcUkHBlz5EsADAAKQAgAGEAcwAgAChXFJBwZc+RLAANAAoAaQBmAG4AdQBsAGwAKABEAC4A8l0uVfpRcGXPkSwAMAApACAAIABhAHMAIADyXS5V+lFwZc+RDQAKAA0ACgBmAHIAbwBtAA0ACgANAAoAQQBGAFMAaIggAEEAUwAgAFoAIAAvACoA3U/Bi2YAbgBzAGsAdQAvVQBOKgAvAA0ACgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAA0ACgCTXlhbaIggACAAQQBTACAAQQAgACAALwAqAN1PwYtmAG4AcwBrAHUAL1UATioALwANAAoADQAKAG8AbgAgAFoALgBmAG4AcwBrAHUAIAA9ACAAQQAuAGYAbgBzAGsAdQAgAA0ACgBsAGUAZgB0ACAAagBvAGkAbgANAAoA0VMnjVVTDmbGfkdsO2DGif5WIABBAFMAIABCACAAIAAvACoACWNncdFTJ40FblVTLADlTmYAbgBzAGsAdQDffqGLO2DRUyeNcGUqAC8ADQAKAG8AbgAgAFoALgBmAG4AcwBrAHUAIAA9ACAAQgAuAGYAbgBzAGsAdQANAAoADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgANAAoA0VMnjVVTDmbGfihXFJBHbDtgxon+ViAAQQBTACAAQwAgAC8AKgAJY2dx0VMnjQVuVVMsAOVOZgBuAHMAawB1AN9+oYssALZyAWAwAIR2KFcUkNFTJ41wZSoALwANAAoADQAKAG8AbgAgAA0ACgBaAC4AZgBuAHMAawB1AD0AIABDAC4AZgBuAHMAawB1AA0ACgANAAoAbABlAGYAdAAgAGoAbwBpAG4ADQAKAA0ACgAAlS5VaFTTflhbR2w7YMaJ/lYgAEQADQAKAG8AbgAgAA0ACgBaAC4AZgBuAHMAawB1ACAAPQAgAEQALgBmAG4AcwBrAHUA" />
                     <ViewName>发货与出售在途库存差值对比视图</ViewName>
                   </BuiltInViewInfo>
                   <Columns>
@@ -4591,6 +4608,7 @@
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
+                      <DatabaseColumnType>System.Int64</DatabaseColumnType>
                       <MaxLength>-1</MaxLength>
                       <Name>品牌id</Name>
                     </Item>
@@ -4617,12 +4635,6 @@
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
                       <MaxLength>-1</MaxLength>
                       <Name>已售出数量</Name>
-                    </Item>
-                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
-                      <ColumnType>System.Object</ColumnType>
-                      <DatabaseColumnType>System.Object</DatabaseColumnType>
-                      <MaxLength>-1</MaxLength>
-                      <Name>差值</Name>
                     </Item>
                   </Columns>
                   <Name>发货与出售在途库存差值对比视图</Name>
