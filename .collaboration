@@ -453,16 +453,7 @@
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-15T17:05:09.7714769+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
