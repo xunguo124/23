@@ -65,16 +65,7 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)报表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-16T23:32:32.696526+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)报表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)用户",
