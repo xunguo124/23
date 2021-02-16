@@ -457,18 +457,7 @@
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "ZQ-PC\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-16T23:18:17.8511142+08:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries",
-      "UserFile\\sidebar.js",
-      "UserFile\\StyleSheet.css"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
