@@ -258,7 +258,16 @@
   },
   {
     "ModuleName": "用户品牌绑定列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-19T01:12:25.0940603+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\用户品牌绑定登陆账号\\用户品牌绑定列表.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\用户管理",
