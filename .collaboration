@@ -21,7 +21,16 @@
   },
   {
     "ModuleName": "仓库装箱图片查看_上传",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-19T00:01:47.2986723+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\FBA发货表\\仓库装箱图片查看_上传.json"
+    ]
   },
   {
     "ModuleName": "发货单列表",
