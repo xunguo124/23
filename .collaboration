@@ -1,18 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-19T00:22:47.6697614+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -32,43 +21,15 @@
   },
   {
     "ModuleName": "仓库装箱图片查看_上传",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-19T00:01:47.2986723+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\仓库装箱图片查看_上传.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "发货单列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-18T22:59:58.7235539+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "发货单录入",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-18T22:58:49.0255674+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单录入.json",
-      "UserTemplateFile\\发货单导入模板989c98fc93314f799bc0c42fbf751899.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "建单",
@@ -76,16 +37,7 @@
   },
   {
     "ModuleName": "箱唛附件查看添加",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-19T00:43:11.6477689+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\箱唛附件查看添加.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\fnsku管理",
@@ -173,16 +125,7 @@
   },
   {
     "ModuleName": "员工列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-19T01:07:05.298769+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\员工管理\\员工列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "员工管理",
@@ -194,16 +137,7 @@
   },
   {
     "ModuleName": "品牌维护",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-19T01:13:56.0962653+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\品牌管理\\品牌维护.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\库存表",
@@ -267,16 +201,7 @@
   },
   {
     "ModuleName": "用户品牌绑定列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-19T01:12:25.0940603+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\用户品牌绑定登陆账号\\用户品牌绑定列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\用户管理",
@@ -496,16 +421,7 @@
   },
   {
     "ModuleName": "管理页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-19T00:58:48.8563742+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\管理页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_母版页",
