@@ -2726,6 +2726,43 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
+                    <CreateViewSql Base64="UwBFAEwARQBDAFQADQAKAGkAZgBuAHUAbABsACgAQgAuAGYAbgBzAGsAdQAsACIAhV85U02RIgApACAAYQBzACAAZgBuAHMAawB1ACwAQQAuAGEAcwBpAG4ALABBAC4AcwBrAHUALABBAC4AYQBmAG4AdwBhAHIAZQBoAG8AdQBzAGUAcQB1AGEAbgB0AGkAdAB5AA0ACgBGAFIATwBNAA0ACgA0TvZlk15YW0dsO2AOVN1PWFvGif5WIABhAHMAIABBAA0ACgBsAGUAZgB0ACAAagBvAGkAbgANAAoAQQBGAFMAaIggAGEAcwAgAEIADQAKAG8AbgANAAoAQQAuAHMAawB1AD0AQgAuAHMAawB1AA0ACgBnAHIAbwB1AHAAIABiAHkAIABBAC4AcwBrAHUADQAKAA==" />
+                    <ViewName>临时库存匹配视图</ViewName>
+                  </BuiltInViewInfo>
+                  <Columns>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>fnsku</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>asin</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>sku</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>afnwarehousequantity</Name>
+                    </Item>
+                  </Columns>
+                  <Name>临时库存匹配视图</Name>
+                  <Weight>1</Weight>
+                </Item>
+                <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+                  <BuiltInViewInfo>
                     <CreateViewSql Base64="UwBFAEwARQBDAFQADQAKAGkAZgBuAHUAbABsACgAQgAuAGYAbgBzAGsAdQAsACIAhV85U02RIgApACAAYQBzACAAZgBuAHMAawB1ACwAQQAuAGEAcwBpAG4ALABBAC4AcwBrAHUALABBAC4AKVkyADcAMAAsAEEALgApWTMANgA1AA0ACgBmAHIAbwBtAA0ACgCTXlhbtnK1UTRO9mUgAGEAcwAgAEEADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgBBAEYAUwBoiCAAYQBzACAAQgANAAoAbwBuAA0ACgBBAC4AcwBrAHUAPQBCAC4AcwBrAHUADQAKAGcAcgBvAHUAcAAgAGIAeQAgAEEALgBzAGsAdQA=" />
                     <ViewName>临时库存状况汇总视图</ViewName>
                   </BuiltInViewInfo>
@@ -2772,7 +2809,7 @@
                       <Value>sku</Value>
                     </Item>
                   </PrimaryKey>
-                  <Weight>1</Weight>
+                  <Weight>2</Weight>
                 </Item>
               </Items>
               <Name>库存视图</Name>
