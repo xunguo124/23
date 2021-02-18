@@ -1,7 +1,18 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-19T00:22:47.6697614+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "TableSet",
+      "ForguncyDB.sqlite3",
+      "DataConnectionSet"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面",
