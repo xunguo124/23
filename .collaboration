@@ -194,7 +194,16 @@
   },
   {
     "ModuleName": "品牌维护",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-19T01:13:56.0962653+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\品牌管理\\品牌维护.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\库存表",
