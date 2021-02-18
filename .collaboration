@@ -61,16 +61,7 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)发货",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-18T22:49:43.276208+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)发货.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)基础参数",
@@ -78,29 +69,11 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)库存",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-18T22:50:19.3274154+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)库存.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)报表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-18T22:50:36.1395287+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)报表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)用户",
