@@ -152,16 +152,7 @@
   },
   {
     "ModuleName": "AFS扫码识图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-18T22:54:14.8992908+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\产品表\\AFS扫码识图.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "产品表导入",
@@ -517,19 +508,7 @@
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-18T23:18:16.0433143+08:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries",
-      "UserFile\\sidebar.js",
-      "UserFile\\StyleSheet.css",
-      "UserFile\\提示音.mp3"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
