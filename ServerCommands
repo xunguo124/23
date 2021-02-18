@@ -836,6 +836,110 @@
     </Item>
     <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="ServerDesignerCommon">
       <Commands>
+        <Item class="Forguncy.Model.RequestServerCommand" assembly="ServerDesignerCommon">
+          <Parameters>
+            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
+              <ParamName>货件编号</ParamName>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                <SerializeProperty>=货件编号</SerializeProperty>
+              </Value>
+            </Item>
+            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
+              <ParamName>明细数据</ParamName>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                <SerializeProperty>=明细数据</SerializeProperty>
+              </Value>
+            </Item>
+            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
+              <ParamName>运单编号</ParamName>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                <SerializeProperty>=运单编号</SerializeProperty>
+              </Value>
+            </Item>
+            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
+              <ParamName>类型</ParamName>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                <SerializeProperty>=类型</SerializeProperty>
+              </Value>
+            </Item>
+            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
+              <ParamName>品牌ID</ParamName>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                <SerializeProperty>=品牌ID</SerializeProperty>
+              </Value>
+            </Item>
+            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
+              <ParamName>货件名称</ParamName>
+              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                <SerializeProperty>=货件名称</SerializeProperty>
+              </Value>
+            </Item>
+          </Parameters>
+          <RefreshAfterFinish>True</RefreshAfterFinish>
+          <ServerCommandName>发货单保存_私有</ServerCommandName>
+        </Item>
+      </Commands>
+      <Name>发货单保存</Name>
+      <Triggers>
+        <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="ServerDesignerCommon">
+          <Parameters>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <Name>货件编号</Name>
+            </Item>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <ArrayParamItems>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>sku</Name>
+                </Item>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>已发货数量</Name>
+                </Item>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>fnsku</Name>
+                </Item>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>asin</Name>
+                </Item>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>已处理数量</Name>
+                </Item>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>运营ID</Name>
+                </Item>
+              </ArrayParamItems>
+              <Name>明细数据</Name>
+              <PrimaryKeys>
+                <Item type="System.String">
+                  <Value>ID</Value>
+                </Item>
+              </PrimaryKeys>
+              <Type>Array</Type>
+            </Item>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <Name>运单编号</Name>
+            </Item>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <Name>类型</Name>
+            </Item>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <Name>品牌ID</Name>
+            </Item>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <Name>货件名称</Name>
+            </Item>
+          </Parameters>
+          <Permission>
+            <AllowRoles>
+              <Item type="System.String">
+                <Value>FGC_LoginUser</Value>
+              </Item>
+            </AllowRoles>
+          </Permission>
+        </Item>
+      </Triggers>
+    </Item>
+    <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="ServerDesignerCommon">
+      <Commands>
         <Item class="Forguncy.Model.ServerTransactionCommand" assembly="ServerDesignerCommon">
           <CommandList>
             <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
@@ -1855,101 +1959,6 @@
     </Item>
     <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="ServerDesignerCommon">
       <Commands>
-        <Item class="Forguncy.Model.RequestServerCommand" assembly="ServerDesignerCommon">
-          <Parameters>
-            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
-              <ParamName>货件编号</ParamName>
-              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
-                <SerializeProperty>=货件编号</SerializeProperty>
-              </Value>
-            </Item>
-            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
-              <ParamName>明细数据</ParamName>
-              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
-                <SerializeProperty>=明细数据</SerializeProperty>
-              </Value>
-            </Item>
-            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
-              <ParamName>运单编号</ParamName>
-              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
-                <SerializeProperty>=运单编号</SerializeProperty>
-              </Value>
-            </Item>
-            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
-              <ParamName>类型</ParamName>
-              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
-                <SerializeProperty>=类型</SerializeProperty>
-              </Value>
-            </Item>
-            <Item class="Forguncy.Model.RequestServerCommandObjectParam" assembly="ServerDesignerCommon">
-              <ParamName>品牌ID</ParamName>
-              <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
-                <SerializeProperty>=品牌ID</SerializeProperty>
-              </Value>
-            </Item>
-          </Parameters>
-          <RefreshAfterFinish>True</RefreshAfterFinish>
-          <ServerCommandName>发货单保存_私有</ServerCommandName>
-        </Item>
-      </Commands>
-      <Name>发货单保存</Name>
-      <Triggers>
-        <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="ServerDesignerCommon">
-          <Parameters>
-            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
-              <Name>货件编号</Name>
-            </Item>
-            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
-              <ArrayParamItems>
-                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
-                  <Name>sku</Name>
-                </Item>
-                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
-                  <Name>已发货数量</Name>
-                </Item>
-                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
-                  <Name>fnsku</Name>
-                </Item>
-                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
-                  <Name>asin</Name>
-                </Item>
-                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
-                  <Name>已处理数量</Name>
-                </Item>
-                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
-                  <Name>运营ID</Name>
-                </Item>
-              </ArrayParamItems>
-              <Name>明细数据</Name>
-              <PrimaryKeys>
-                <Item type="System.String">
-                  <Value>ID</Value>
-                </Item>
-              </PrimaryKeys>
-              <Type>Array</Type>
-            </Item>
-            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
-              <Name>运单编号</Name>
-            </Item>
-            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
-              <Name>类型</Name>
-            </Item>
-            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
-              <Name>品牌ID</Name>
-            </Item>
-          </Parameters>
-          <Permission>
-            <AllowRoles>
-              <Item type="System.String">
-                <Value>FGC_LoginUser</Value>
-              </Item>
-            </AllowRoles>
-          </Permission>
-        </Item>
-      </Triggers>
-    </Item>
-    <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="ServerDesignerCommon">
-      <Commands>
         <Item class="Forguncy.Model.ServerTransactionCommand" assembly="ServerDesignerCommon">
           <CommandList>
             <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
@@ -1984,6 +1993,24 @@
                   <ColumnName>品牌ID</ColumnName>
                   <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                     <SerializeProperty>=品牌ID</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>货件名称</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=货件名称</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>图片状态</ColumnName>
+                  <Value type="System.String">
+                    <Value>0</Value>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>附件状态</ColumnName>
+                  <Value type="System.String">
+                    <Value>0</Value>
                   </Value>
                 </Item>
               </UpdateValues>
@@ -2072,7 +2099,7 @@
                               <TableName>运营表</TableName>
                             </ColumnBindingInfo>
                             <CompareType>EqualsTo</CompareType>
-                            <Id>fb891bb8-6ccb-4d23-b90f-fbd9dbd62e31</Id>
+                            <Id>9318d521-8d73-4748-bae6-3d57c1343990</Id>
                             <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                               <SerializeProperty>=Item.运营ID</SerializeProperty>
                             </Value>
@@ -2096,7 +2123,7 @@
                         </Item>
                       </CommandList>
                       <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
-                        <Id>a13092d2-0e44-48c2-a72c-8c664180e246</Id>
+                        <Id>e5764d34-971f-4067-99b2-bd7a7826fce3</Id>
                         <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
                           <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                             <SerializeProperty>=类型</SerializeProperty>
@@ -2123,7 +2150,7 @@
                               <TableName>运营表</TableName>
                             </ColumnBindingInfo>
                             <CompareType>EqualsTo</CompareType>
-                            <Id>ed282dee-022e-45bb-b128-0d7255550249</Id>
+                            <Id>cf50dda8-5464-4a04-b662-ba31dc07d6b5</Id>
                             <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                               <SerializeProperty>=Item.运营ID</SerializeProperty>
                             </Value>
@@ -2147,7 +2174,7 @@
                         </Item>
                       </CommandList>
                       <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
-                        <Id>89ff961f-ad8e-4b01-ad3f-47f77d7cfbbe</Id>
+                        <Id>dbaee552-9f6b-4e42-8c08-3b578b69dfde</Id>
                         <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
                           <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                             <SerializeProperty>=类型</SerializeProperty>
@@ -2192,6 +2219,9 @@
             </Item>
             <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
               <Name>品牌ID</Name>
+            </Item>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <Name>货件名称</Name>
             </Item>
           </Parameters>
         </Item>

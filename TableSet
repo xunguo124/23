@@ -96,8 +96,8 @@
       <IsDetailTableRelation>True</IsDetailTableRelation>
       <PrimaryColumn>ID</PrimaryColumn>
       <PrimaryTable>发货单主表</PrimaryTable>
-      <RelationTypeOnDelete>None</RelationTypeOnDelete>
-      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+      <RelationTypeOnDelete>Cascade</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>Cascade</RelationTypeOnUpdate>
     </Item>
     <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
       <ForeignColumn>发货明细ID</ForeignColumn>
@@ -181,7 +181,6 @@
     <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
       <ForeignColumn>a品牌ID</ForeignColumn>
       <ForeignTable>AFS表</ForeignTable>
-      <IsDetailTableRelation>False</IsDetailTableRelation>
       <PrimaryColumn>ID</PrimaryColumn>
       <PrimaryTable>品牌表</PrimaryTable>
       <RelationTypeOnDelete>None</RelationTypeOnDelete>
@@ -244,7 +243,6 @@
     <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
       <ForeignColumn>fnsku</ForeignColumn>
       <ForeignTable>库存状况表</ForeignTable>
-      <IsDetailTableRelation>False</IsDetailTableRelation>
       <PrimaryColumn>fnsku</PrimaryColumn>
       <PrimaryTable>AFS表</PrimaryTable>
       <RelationTypeOnDelete>None</RelationTypeOnDelete>
@@ -256,6 +254,15 @@
       <IsDetailTableRelation>False</IsDetailTableRelation>
       <PrimaryColumn>ID</PrimaryColumn>
       <PrimaryTable>品牌表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>fnsku</ForeignColumn>
+      <ForeignTable>发货单明细表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>fnsku</PrimaryColumn>
+      <PrimaryTable>AFS表</PrimaryTable>
       <RelationTypeOnDelete>None</RelationTypeOnDelete>
       <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
     </Item>
@@ -1684,6 +1691,11 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>货件名称</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
                   <Name>货件编号</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
@@ -1698,8 +1710,50 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
-                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>品牌ID</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>图片1</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>图片2</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>图片3</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>图片4</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>图片5</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>图片6</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Boolean</ColumnType>
+                  <Name>图片状态</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>附件</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Boolean</ColumnType>
+                  <Name>附件状态</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
@@ -2423,6 +2477,68 @@
                   <AutoIncrement>True</AutoIncrement>
                   <ColumnType>System.Int64</ColumnType>
                   <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>-1</MaxLength>
+                  <Name>ID</Name>
+                  <Required>True</Required>
+                  <Unique>True</Unique>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
+                  <Name>fnsku</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>asin</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>sku</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Int64</ColumnType>
+                  <Name>天270</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Int64</ColumnType>
+                  <Name>天365</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Int64</ColumnType>
+                  <Name>品牌id</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>FGC_Creator</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.DateTime</ColumnType>
+                  <Name>FGC_CreateDate</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>FGC_LastModifier</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.DateTime</ColumnType>
+                  <Name>FGC_LastModifyDate</Name>
+                </Item>
+              </Columns>
+              <Name>库存状况临时</Name>
+              <PrimaryKey>
+                <Item type="System.String">
+                  <Value>ID</Value>
+                </Item>
+              </PrimaryKey>
+              <Weight>24</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+              <Columns>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <AutoIncrement>True</AutoIncrement>
+                  <ColumnType>System.Int64</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <MaxLength>-1</MaxLength>
                   <Name>ID</Name>
                   <Required>True</Required>
@@ -2488,7 +2604,7 @@
                   <Value>ID</Value>
                 </Item>
               </PrimaryKey>
-              <Weight>24</Weight>
+              <Weight>26</Weight>
             </Item>
           </Items>
           <Name>ERP数据表</Name>
@@ -2512,7 +2628,6 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>用户名</Name>
                   <Required>True</Required>
@@ -2521,42 +2636,36 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>全名</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>邮件</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>角色</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>组织上级</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>公司</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>部门</Name>
                 </Item>
@@ -2586,30 +2695,84 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>sku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>fnsku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>afnwarehousequantity</Name>
                     </Item>
                   </Columns>
                   <Name>临时库存汇总后保存视图</Name>
                   <Weight>0</Weight>
+                </Item>
+                <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+                  <BuiltInViewInfo>
+                    <CreateViewSql Base64="UwBFAEwARQBDAFQADQAKAGkAZgBuAHUAbABsACgAQgAuAGYAbgBzAGsAdQAsACIAhV85U02RIgApACAAYQBzACAAZgBuAHMAawB1ACwAQQAuAGEAcwBpAG4ALABBAC4AcwBrAHUALABBAC4AKVkyADcAMAAsAEEALgApWTMANgA1AA0ACgBmAHIAbwBtAA0ACgCTXlhbtnK1UTRO9mUgAGEAcwAgAEEADQAKAGwAZQBmAHQAIABqAG8AaQBuAA0ACgBBAEYAUwBoiCAAYQBzACAAQgANAAoAbwBuAA0ACgBBAC4AcwBrAHUAPQBCAC4AcwBrAHUADQAKAGcAcgBvAHUAcAAgAGIAeQAgAEEALgBzAGsAdQA=" />
+                    <ViewName>临时库存状况汇总视图</ViewName>
+                  </BuiltInViewInfo>
+                  <Columns>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Object</ColumnType>
+                      <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>fnsku</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>asin</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>sku</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Int64</ColumnType>
+                      <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>天270</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Int64</ColumnType>
+                      <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>天365</Name>
+                    </Item>
+                  </Columns>
+                  <Name>临时库存状况汇总视图</Name>
+                  <PrimaryKey>
+                    <Item type="System.String">
+                      <Value>sku</Value>
+                    </Item>
+                  </PrimaryKey>
+                  <Weight>1</Weight>
                 </Item>
               </Items>
               <Name>库存视图</Name>
@@ -4354,67 +4517,77 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
-                    <CreateViewSql Base64="cwBlAGwAZQBjAHQAIABBAC4AYQBtAGEAegBvAG4AbwByAGQAZQByAGkAZAAsAEEALgBwAHUAcgBjAGgAYQBzAGUAZABhAHQAZQAsAEEALgBvAHIAZABlAHIAcwB0AGEAdAB1AHMALABBAC4AYQBzAGkAbgAsAHMAdQBtACgAQQAuAHEAdQBhAG4AdABpAHQAeQApACAAYQBzAA0ACgAgAHEAdQBhAG4AdABpAHQAeQAgACwAQQAuAGkAdABlAG0AcAByAGkAYwBlACwAQQAuAHMAYQBsAGUAcwBjAGgAYQBuAG4AZQBsACwAQQAuAHMAawB1ACwAaQBmAG4AdQBsAGwAKABCAC4AZgBuAHMAawB1ACwAIgCFXzlTTZEiACkAIABhAHMAIABmAG4AcwBrAHUALABCAC4AYQDBVExySQBEACAAYQBzACAAwVRMcmkAZAANAAoAZgByAG8AbQANAAoAAJUuVWiINE72ZSAAYQBzACAAQQANAAoAbABlAGYAdAANAAoAagBvAGkAbgANAAoAQQBmAHMAaIggAGEAcwAgAEIADQAKAA0ACgBvAG4AIAANAAoAQQAuAGEAcwBpAG4AIAA9ACAAQgAuAGEAcwBpAG4ADQAKAGcAcgBvAHUAcAAgAGIAeQAgAEEALgBhAG0AYQB6AG8AbgBvAHIAZABlAHIAaQBkACwAQQAuAHMAawB1AA==" />
+                    <CreateViewSql Base64="cwBlAGwAZQBjAHQAIABBAC4AYQBtAGEAegBvAG4AbwByAGQAZQByAGkAZAAsAEEALgBwAHUAcgBjAGgAYQBzAGUAZABhAHQAZQAsAEEALgBvAHIAZABlAHIAcwB0AGEAdAB1AHMALABBAC4AYQBzAGkAbgAsAHMAdQBtACgAQQAuAHEAdQBhAG4AdABpAHQAeQApACAAYQBzAA0ACgAgAHEAdQBhAG4AdABpAHQAeQAgACwAQQAuAGkAdABlAG0AcAByAGkAYwBlACwAQQAuAHMAYQBsAGUAcwBjAGgAYQBuAG4AZQBsACwAQQAuAHMAawB1ACwAaQBmAG4AdQBsAGwAKABCAC4AZgBuAHMAawB1ACwAIgCFXzlTTZEiACkAIABhAHMAIABmAG4AcwBrAHUALABCAC4AYQDBVExySQBEACAAYQBzACAAwVRMcmkAZAANAAoAZgByAG8AbQANAAoAAJUuVWiINE72ZSAAYQBzACAAQQANAAoAbABlAGYAdAANAAoAagBvAGkAbgANAAoAQQBmAHMAaIggAGEAcwAgAEIADQAKAA0ACgBvAG4AIAANAAoAQQAuAHMAawB1ACAAPQAgAEIALgBzAGsAdQANAAoAZwByAG8AdQBwACAAYgB5ACAAQQAuAGEAbQBhAHoAbwBuAG8AcgBkAGUAcgBpAGQALABBAC4AcwBrAHUA" />
                     <ViewName>销售临时分类汇总</ViewName>
                   </BuiltInViewInfo>
                   <Columns>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>amazonorderid</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>purchasedate</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>orderstatus</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>quantity</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Double</ColumnType>
                       <DatabaseColumnType>System.Double</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>itemprice</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>saleschannel</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>sku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>fnsku</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
                       <DatabaseColumnType>System.Int64</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>品牌id</Name>
                     </Item>
