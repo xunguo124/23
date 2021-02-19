@@ -34,7 +34,16 @@
   },
   {
     "ModuleName": "发货单列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-19T12:49:42.0349683+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\FBA发货表\\发货单列表.json"
+    ]
   },
   {
     "ModuleName": "发货单录入",
