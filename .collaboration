@@ -39,7 +39,7 @@
       "UserName": "IT对接",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-02-19T12:49:42.0349683+08:00",
+    "LockDateTime": "2021-02-19T12:56:17.9972011+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\erp工程页面\\FBA发货表\\发货单列表.json"
@@ -496,15 +496,5 @@
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
     "ModuleType": 14
-  },
-  {
-    "ModuleName": "仓库装箱图片查看_上传 (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-19T12:47:49.6466161+08:00",
-    "ModuleType": 1
   }
 ]
