@@ -335,7 +335,17 @@
   },
   {
     "ModuleName": "销售导入",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-19T22:33:20.1465949+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\销售表\\销售导入.json",
+      "UserTemplateFile\\销售明细导入模板df77a0190f7447299e6bb7a75a3b8ffa.xlsx"
+    ]
   },
   {
     "ModuleName": "Pages\\wms工程页面",
