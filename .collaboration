@@ -21,29 +21,11 @@
   },
   {
     "ModuleName": "仓库装箱图片查看_上传",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-19T12:41:56.4009487+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\仓库装箱图片查看_上传.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "发货单列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-19T12:56:17.9972011+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "发货单录入",
@@ -509,12 +491,6 @@
   },
   {
     "ModuleName": "仓库装箱大图查看",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-19T13:03:53.2689144+08:00",
     "ModuleType": 1
   }
 ]
