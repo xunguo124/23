@@ -304,7 +304,16 @@
   },
   {
     "ModuleName": "运营录入",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-19T23:48:09.7380802+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\运营管理\\运营录入.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\销售表",
