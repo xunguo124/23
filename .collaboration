@@ -496,5 +496,15 @@
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
     "ModuleType": 14
+  },
+  {
+    "ModuleName": "仓库装箱大图查看",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-19T13:03:53.2689144+08:00",
+    "ModuleType": 1
   }
 ]
