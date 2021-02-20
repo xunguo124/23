@@ -64,16 +64,7 @@
   },
   {
     "ModuleName": "箱唛附件查看添加",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-20T21:14:05.0540494+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\箱唛附件查看添加.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\fnsku管理",
@@ -521,15 +512,6 @@
   },
   {
     "ModuleName": "发货单打印",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-20T20:46:21.0792595+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单打印.json"
-    ]
+    "ModuleType": 1
   }
 ]
