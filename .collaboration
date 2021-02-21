@@ -491,7 +491,16 @@
   },
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-21T17:13:07.9592218+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands"
+    ]
   },
   {
     "ModuleName": "b5d0fd75-997c-4418-a16b-6dc3dcd86817",
