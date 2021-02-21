@@ -1745,10 +1745,12 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>System.String</DatabaseColumnType>
                   <Name>图片6</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Boolean</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>图片状态</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="ServerDesignerCommon">
@@ -1758,7 +1760,12 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Boolean</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>附件状态</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Boolean</ColumnType>
+                  <Name>运单跟踪</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
@@ -4415,7 +4422,7 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
-                    <CreateViewSql Base64="cwBlAGwAZQBjAHQADQAKAEEALgBhAHMAaQBuACwAcwB1AG0AKABBAC4A8l3RUyeNcGXPkSkAIABhAHMAIAAoVxSQDQAKAA0ACgBmAHIAbwBtAA0ACgDRUyeNVVMOZsZ+aIggAEEADQAKAHcAaABlAHIAZQAgAA0ACgBBAC4AtnIBYCAAPQAiADAAIgANAAoAZwByAG8AdQBwACAAYgB5ACAAQQAuAGEAcwBpAG4ADQAKAA0ACgAvACoAW3sJkLZyAWAwACwAc1PyXdFTJ41GTypnMFKEdihXFJBwZW5jLgBTXzBSJ40OZsZ+/FtlUQ5ULAAaTwxUZWvfjbBl0VMnjVVTDmbGfoR2tnIBYD0AMQAuACoALwA=" />
+                    <CreateViewSql Base64="cwBlAGwAZQBjAHQADQAKAEEALgBhAHMAaQBuACwAcwB1AG0AKABBAC4A8l3RUyeNcGXPkSkAIABhAHMAIAAoVxSQDQAKAA0ACgBmAHIAbwBtAA0ACgDRUyeNVVMOZsZ+aIggAEEADQAKAHcAaABlAHIAZQAgAA0ACgBBAC4AtnIBYCAAPQAxAA0ACgBnAHIAbwB1AHAAIABiAHkAIABBAC4AYQBzAGkAbgANAAoADQAKAC8AKgBbewmQtnIBYDAALABzU/Jd0VMnjUZPKmcwUoR2KFcUkHBlbmMuAFNfMFInjQ5mxn78W2VRDlQsABpPDFRla9+NsGXRUyeNVVMOZsZ+hHa2cgFgPQAxAC4AKgAvAA==" />
                     <ViewName>周销表在途视图</ViewName>
                   </BuiltInViewInfo>
                   <Columns>
