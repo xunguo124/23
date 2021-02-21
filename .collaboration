@@ -145,7 +145,16 @@
   },
   {
     "ModuleName": "临时库存导入",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-21T22:20:52.8441772+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\库存表\\临时库存导入.json"
+    ]
   },
   {
     "ModuleName": "库存列表",
