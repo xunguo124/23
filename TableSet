@@ -1753,6 +1753,10 @@
                   <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>图片状态</Name>
                 </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Int64</ColumnType>
+                  <Name>图片已读</Name>
+                </Item>
                 <Item class="Forguncy.Model.Tables.AttachmentBindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
@@ -1764,7 +1768,12 @@
                   <Name>附件状态</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.Int64</ColumnType>
+                  <Name>附件已读</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Boolean</ColumnType>
+                  <DatabaseColumnType>System.Int64</DatabaseColumnType>
                   <Name>运单跟踪</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">

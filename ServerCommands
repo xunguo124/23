@@ -2019,6 +2019,18 @@
                     <Value>0</Value>
                   </Value>
                 </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>图片已读</ColumnName>
+                  <Value type="System.String">
+                    <Value>0</Value>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>附件已读</ColumnName>
+                  <Value type="System.String">
+                    <Value>0</Value>
+                  </Value>
+                </Item>
               </UpdateValues>
             </Item>
             <Item class="Forguncy.Model.LoopCommand" assembly="ServerDesignerCommon">
@@ -2105,7 +2117,7 @@
                               <TableName>运营表</TableName>
                             </ColumnBindingInfo>
                             <CompareType>EqualsTo</CompareType>
-                            <Id>c7e3f47e-89d6-4fe6-886b-6b1a9adf6f7f</Id>
+                            <Id>ddcf85fc-7205-4bc6-8b65-43192b8c32d6</Id>
                             <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                               <SerializeProperty>=Item.运营ID</SerializeProperty>
                             </Value>
@@ -2129,7 +2141,7 @@
                         </Item>
                       </CommandList>
                       <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
-                        <Id>f9a9459b-0d89-4777-b06f-0ed82691e781</Id>
+                        <Id>588ca022-11fd-481a-b779-b5ce4744acf3</Id>
                         <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
                           <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                             <SerializeProperty>=类型</SerializeProperty>
@@ -2156,7 +2168,7 @@
                               <TableName>运营表</TableName>
                             </ColumnBindingInfo>
                             <CompareType>EqualsTo</CompareType>
-                            <Id>bcc890e7-51f9-4794-a896-cd1ade9af93c</Id>
+                            <Id>8bdd2082-e9c6-438f-8f44-6e392f549500</Id>
                             <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                               <SerializeProperty>=Item.运营ID</SerializeProperty>
                             </Value>
@@ -2180,7 +2192,7 @@
                         </Item>
                       </CommandList>
                       <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
-                        <Id>74255be3-52ff-4ce7-9ebe-c9c36f11f116</Id>
+                        <Id>09bc62a9-b386-421e-bce2-636fc4df50b0</Id>
                         <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
                           <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                             <SerializeProperty>=类型</SerializeProperty>
