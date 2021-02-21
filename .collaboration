@@ -37,16 +37,7 @@
   },
   {
     "ModuleName": "箱唛附件查看添加",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-21T18:16:01.1162376+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\箱唛附件查看添加.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\erp工程页面\\fnsku管理",
