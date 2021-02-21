@@ -305,7 +305,16 @@
   },
   {
     "ModuleName": "运营及仓库反馈列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-21T15:45:52.5769565+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\运营管理\\运营及仓库反馈列表.json"
+    ]
   },
   {
     "ModuleName": "运营录入 (2)",
