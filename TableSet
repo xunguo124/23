@@ -3864,6 +3864,24 @@
                       <MaxLength>-1</MaxLength>
                       <Name>quantity</Name>
                     </Item>
+                    <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="ServerDesignerCommon">
+                      <AggregateFunction>AVG</AggregateFunction>
+                      <ColumnType>System.Int64</ColumnType>
+                      <DataColumnName>周</DataColumnName>
+                      <Name>周平均值</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="ServerDesignerCommon">
+                      <AggregateFunction>MAX</AggregateFunction>
+                      <ColumnType>System.Int64</ColumnType>
+                      <DataColumnName>周</DataColumnName>
+                      <Name>周最大值</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="ServerDesignerCommon">
+                      <AggregateFunction>MIN</AggregateFunction>
+                      <ColumnType>System.Int64</ColumnType>
+                      <DataColumnName>周</DataColumnName>
+                      <Name>周最小值</Name>
+                    </Item>
                   </Columns>
                   <Name>周销表53周视图</Name>
                   <PrimaryKey>
