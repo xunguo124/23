@@ -1,34 +1,7 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-22T23:05:03.8347216+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet",
-      "Upload\\30da6d84-e85a-435f-a4f2-08b46751ba5a_微信图片_20210204225617.jpg",
-      "Upload\\30da6d84-e85a-435f-a4f2-08b46751ba5a_微信图片_20210204225617.medium.jpg",
-      "Upload\\30da6d84-e85a-435f-a4f2-08b46751ba5a_微信图片_20210204225617.small.jpg",
-      "Upload\\3244bd53-9e08-4172-98b1-8229298dc723_微信图片_20210204225613.jpg",
-      "Upload\\3244bd53-9e08-4172-98b1-8229298dc723_微信图片_20210204225613.medium.jpg",
-      "Upload\\3244bd53-9e08-4172-98b1-8229298dc723_微信图片_20210204225613.small.jpg",
-      "Upload\\337be741-1f9a-4485-a283-39300dad122a_微信图片_20210204225624.jpg",
-      "Upload\\337be741-1f9a-4485-a283-39300dad122a_微信图片_20210204225624.small.jpg",
-      "Upload\\387f4d4d-9d16-4faf-a518-17c1d6d8f6c8_微信图片_20210204225607.jpg",
-      "Upload\\387f4d4d-9d16-4faf-a518-17c1d6d8f6c8_微信图片_20210204225607.medium.jpg",
-      "Upload\\387f4d4d-9d16-4faf-a518-17c1d6d8f6c8_微信图片_20210204225607.small.jpg",
-      "Upload\\a0371836-3675-4337-8edf-0b0fb8d3f108_微信图片_20210204225630.jpg",
-      "Upload\\a0371836-3675-4337-8edf-0b0fb8d3f108_微信图片_20210204225630.small.jpg",
-      "Upload\\a10b16ac-902c-4c4f-b8cf-65c39b199db4_微信图片_20210204225607.jpg",
-      "Upload\\a10b16ac-902c-4c4f-b8cf-65c39b199db4_微信图片_20210204225607.medium.jpg",
-      "Upload\\a10b16ac-902c-4c4f-b8cf-65c39b199db4_微信图片_20210204225607.small.jpg"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages\\erp工程页面",
@@ -52,30 +25,11 @@
   },
   {
     "ModuleName": "发货单列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-22T23:04:41.2294842+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "发货单录入",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-22T23:04:51.6121807+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\FBA发货表\\发货单录入.json",
-      "UserTemplateFile\\发货单导入模板989c98fc93314f799bc0c42fbf751899.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "建单",
@@ -491,16 +445,7 @@
   },
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-22T23:04:09.4772372+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "b5d0fd75-997c-4418-a16b-6dc3dcd86817",
