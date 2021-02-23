@@ -377,7 +377,17 @@
   },
   {
     "ModuleName": "销售导入 (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-23T23:09:11.421024+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\销售表\\销售导入 (2).json",
+      "UserTemplateFile\\销售明细导入模板df77a0190f7447299e6bb7a75a3b8ffa.xlsx"
+    ]
   },
   {
     "ModuleName": "销售导入",
