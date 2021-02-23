@@ -4537,19 +4537,21 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
                   <BuiltInViewInfo>
-                    <CreateViewSql Base64="cwBlAGwAZQBjAHQADQAKAEEALgBhAHMAaQBuACwAcwB1AG0AKABBAC4A8l3RUyeNcGXPkSkAIABhAHMAIAAoVxSQDQAKAA0ACgBmAHIAbwBtAA0ACgDRUyeNVVMOZsZ+aIggAEEADQAKAHcAaABlAHIAZQAgAA0ACgBBAC4AtnIBYCAAPQAxAA0ACgBnAHIAbwB1AHAAIABiAHkAIABBAC4AYQBzAGkAbgANAAoADQAKAC8AKgBbewmQtnIBYDAALABzU/Jd0VMnjUZPKmcwUoR2KFcUkHBlbmMuAFNfMFInjQ5mxn78W2VRDlQsABpPDFRla9+NsGXRUyeNVVMOZsZ+hHa2cgFgPQAxAC4AKgAvAA==" />
+                    <CreateViewSql Base64="cwBlAGwAZQBjAHQADQAKAEEALgBhAHMAaQBuACwAcwB1AG0AKABBAC4A8l3RUyeNcGXPkSkAIABhAHMAIAAoVxSQDQAKAA0ACgBmAHIAbwBtAA0ACgDRUyeNVVMOZsZ+aIggAEEADQAKAHcAaABlAHIAZQAgAA0ACgBBAC4AtnIBYCAAPQAgADAADQAKAGcAcgBvAHUAcAAgAGIAeQAgAEEALgBhAHMAaQBuAA0ACgANAAoALwAqAFt7CZC2cgFgMAAsAHNT8l3RUyeNRk8qZzBShHYoVxSQcGVuYy4AU18wUieNDmbGfvxbZVEOVCwAGk8MVGVr342wZdFTJ41VUw5mxn6EdrZyAWA9ADEALgAqAC8A" />
                     <ViewName>周销表在途视图</ViewName>
                   </BuiltInViewInfo>
                   <Columns>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>System.String</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>asin</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Object</ColumnType>
                       <DatabaseColumnType>System.Object</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>在途</Name>
                     </Item>

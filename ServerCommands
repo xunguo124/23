@@ -3407,5 +3407,137 @@
         </Item>
       </Triggers>
     </Item>
+    <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="ServerDesignerCommon">
+      <Commands>
+        <Item class="Forguncy.Model.LoopCommand" assembly="ServerDesignerCommon">
+          <CommandList>
+            <Item class="Forguncy.Model.ConditionCommand" assembly="ServerDesignerCommon">
+              <ConditionAndCommandPairList>
+                <Item class="Forguncy.Model.ConditionAndCommandPair" assembly="ServerDesignerCommon">
+                  <CommandList>
+                    <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+                      <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                      <ParamNameToSaveNewRowValue type="System.String">
+                        <Value>NewRow</Value>
+                      </ParamNameToSaveNewRowValue>
+                      <RowsToUpdate>SpecificRow</RowsToUpdate>
+                      <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                        <ColumnBindingInfo>
+                          <ColumnName>ID</ColumnName>
+                          <TableName>发货单明细表</TableName>
+                        </ColumnBindingInfo>
+                        <CompareType>EqualsTo</CompareType>
+                        <Id>bd20120c-3c7a-4568-a8c8-9870ffee4c64</Id>
+                        <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                          <SerializeProperty>=发货明细参数.明细id</SerializeProperty>
+                        </Value>
+                      </RowsToUpdateCondition>
+                      <ShowConfirm>False</ShowConfirm>
+                      <TableName>发货单明细表</TableName>
+                      <UpdateValues>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>状态</ColumnName>
+                          <Value type="System.String">
+                            <Value>1</Value>
+                          </Value>
+                        </Item>
+                      </UpdateValues>
+                    </Item>
+                  </CommandList>
+                  <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
+                    <CompareType>GreaterThanOrEqualsTo</CompareType>
+                    <Id>c0f4016f-9248-4c01-bfd2-8785376d7193</Id>
+                    <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
+                      <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                        <SerializeProperty>=发货明细参数.到货数/发货明细参数.发货数</SerializeProperty>
+                      </ParamObject>
+                    </Param>
+                    <Value type="System.String">
+                      <Value>0.95</Value>
+                    </Value>
+                  </Condition>
+                  <ID>57110b55-bec3-40ec-ba3c-b63338d4a5de</ID>
+                </Item>
+                <Item class="Forguncy.Model.ConditionAndCommandPair" assembly="ServerDesignerCommon">
+                  <CommandList>
+                    <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+                      <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
+                      <ParamNameToSaveNewRowValue type="System.String">
+                        <Value>NewRow</Value>
+                      </ParamNameToSaveNewRowValue>
+                      <RowsToUpdate>SpecificRow</RowsToUpdate>
+                      <RowsToUpdateCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+                        <ColumnBindingInfo>
+                          <ColumnName>ID</ColumnName>
+                          <TableName>发货单明细表</TableName>
+                        </ColumnBindingInfo>
+                        <CompareType>EqualsTo</CompareType>
+                        <Id>f8ca51c5-1325-41ea-96f0-756d1ccd832d</Id>
+                        <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                          <SerializeProperty>=发货明细参数.明细id</SerializeProperty>
+                        </Value>
+                      </RowsToUpdateCondition>
+                      <ShowConfirm>False</ShowConfirm>
+                      <TableName>发货单明细表</TableName>
+                      <UpdateValues>
+                        <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                          <ColumnName>状态</ColumnName>
+                          <Value type="System.String">
+                            <Value>0</Value>
+                          </Value>
+                        </Item>
+                      </UpdateValues>
+                    </Item>
+                  </CommandList>
+                  <ID>7d1f391f-d32c-4f98-9d34-f6ed49220881</ID>
+                </Item>
+              </ConditionAndCommandPairList>
+            </Item>
+          </CommandList>
+          <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="ServerDesignerCommon">
+            <LoopCount class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=发货明细</SerializeProperty>
+            </LoopCount>
+            <LoopItemParamName type="System.String">
+              <Value>发货明细参数</Value>
+            </LoopItemParamName>
+          </LoopInfo>
+        </Item>
+      </Commands>
+      <Name>发货明细单状态更新</Name>
+      <Triggers>
+        <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="ServerDesignerCommon">
+          <Parameters>
+            <Item class="Forguncy.ServerCommands.Models.PostRequestParameter" assembly="ServerDesignerCommon">
+              <ArrayParamItems>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>发货数</Name>
+                </Item>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>到货数</Name>
+                </Item>
+                <Item class="Forguncy.ServerCommands.Models.ParameterItem" assembly="ServerDesignerCommon">
+                  <Name>明细id</Name>
+                </Item>
+              </ArrayParamItems>
+              <Name>发货明细</Name>
+              <PrimaryKeys>
+                <Item type="System.String">
+                  <Value>ID</Value>
+                </Item>
+              </PrimaryKeys>
+              <Type>Array</Type>
+            </Item>
+          </Parameters>
+          <Permission>
+            <AllowRoles>
+              <Item type="System.String">
+                <Value>FGC_LoginUser</Value>
+              </Item>
+            </AllowRoles>
+          </Permission>
+        </Item>
+      </Triggers>
+    </Item>
   </Items>
 </ServerCommands>
