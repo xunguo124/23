@@ -618,7 +618,16 @@
   },
   {
     "ModuleName": "周销报表5周",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-23T23:54:41.7471897+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\销售表\\周销报表5周.json"
+    ]
   },
   {
     "ModuleName": "销量28天",
