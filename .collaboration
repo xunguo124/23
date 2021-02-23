@@ -34,7 +34,7 @@
       "UserName": "IT对接",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2021-02-23T17:53:58.3270715+08:00",
+    "LockDateTime": "2021-02-23T18:01:31.6002339+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\erp工程页面\\FBA发货表\\发货单录入.json",
@@ -279,7 +279,16 @@
   },
   {
     "ModuleName": "运营及仓库反馈列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-23T18:01:31.6012325+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\运营管理\\运营及仓库反馈列表.json"
+    ]
   },
   {
     "ModuleName": "运营录入 (2)",
