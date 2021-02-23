@@ -221,7 +221,16 @@
   },
   {
     "ModuleName": "产品利润查询",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-23T23:22:53.6310517+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\报表查询\\产品利润查询.json"
+    ]
   },
   {
     "ModuleName": "销售发货对比查询",
