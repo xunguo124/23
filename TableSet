@@ -3541,6 +3541,7 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>临时库存汇总后保存视图</SourceTableName>
                     <UserSetQueryColumns>
@@ -3565,9 +3566,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3606,9 +3604,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>临时库存匹配视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>sku</Value>
@@ -3631,9 +3629,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3679,9 +3674,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>临时库存状况汇总视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>sku</Value>
@@ -4142,9 +4137,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表14天视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>asin</Value>
@@ -4195,9 +4190,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表28天视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>asin</Value>
@@ -4359,9 +4354,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                       <Required>True</Required>
@@ -4369,9 +4361,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                       <Required>True</Required>
@@ -4379,9 +4368,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                       <Required>True</Required>
@@ -4389,9 +4375,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                       <Required>True</Required>
@@ -4399,9 +4382,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
                       <Required>True</Required>
@@ -4409,9 +4389,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z6</Name>
                       <Required>True</Required>
@@ -4419,9 +4396,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z7</Name>
                       <Required>True</Required>
@@ -4429,9 +4403,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z8</Name>
                       <Required>True</Required>
@@ -4439,9 +4410,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z9</Name>
                       <Required>True</Required>
@@ -4449,9 +4417,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z10</Name>
                       <Required>True</Required>
@@ -4459,9 +4424,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z11</Name>
                       <Required>True</Required>
@@ -4469,9 +4431,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z12</Name>
                       <Required>True</Required>
@@ -4479,9 +4438,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z13</Name>
                       <Required>True</Required>
@@ -4489,9 +4445,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z14</Name>
                       <Required>True</Required>
@@ -4499,9 +4452,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z15</Name>
                       <Required>True</Required>
@@ -4509,9 +4459,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z16</Name>
                       <Required>True</Required>
@@ -4519,9 +4466,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z17</Name>
                       <Required>True</Required>
@@ -4529,9 +4473,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z18</Name>
                       <Required>True</Required>
@@ -4539,9 +4480,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z19</Name>
                       <Required>True</Required>
@@ -4549,9 +4487,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z20</Name>
                       <Required>True</Required>
@@ -4559,9 +4494,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z21</Name>
                       <Required>True</Required>
@@ -4569,9 +4501,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z22</Name>
                       <Required>True</Required>
@@ -4579,9 +4508,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z23</Name>
                       <Required>True</Required>
@@ -4589,9 +4515,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z24</Name>
                       <Required>True</Required>
@@ -4599,9 +4522,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z25</Name>
                       <Required>True</Required>
@@ -4609,9 +4529,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z26</Name>
                       <Required>True</Required>
@@ -4619,9 +4536,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z27</Name>
                       <Required>True</Required>
@@ -4629,9 +4543,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z28</Name>
                       <Required>True</Required>
@@ -4639,9 +4550,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z29</Name>
                       <Required>True</Required>
@@ -4649,9 +4557,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z30</Name>
                       <Required>True</Required>
@@ -4659,9 +4564,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z31</Name>
                       <Required>True</Required>
@@ -4669,9 +4571,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z32</Name>
                       <Required>True</Required>
@@ -4679,9 +4578,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z33</Name>
                       <Required>True</Required>
@@ -4689,9 +4585,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z34</Name>
                       <Required>True</Required>
@@ -4699,9 +4592,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z35</Name>
                       <Required>True</Required>
@@ -4709,9 +4599,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z36</Name>
                       <Required>True</Required>
@@ -4719,9 +4606,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z37</Name>
                       <Required>True</Required>
@@ -4729,9 +4613,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z38</Name>
                       <Required>True</Required>
@@ -4739,9 +4620,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z39</Name>
                       <Required>True</Required>
@@ -4749,9 +4627,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z40</Name>
                       <Required>True</Required>
@@ -4759,9 +4634,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z41</Name>
                       <Required>True</Required>
@@ -4769,9 +4641,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z42</Name>
                       <Required>True</Required>
@@ -4779,9 +4648,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z43</Name>
                       <Required>True</Required>
@@ -4789,9 +4655,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z44</Name>
                       <Required>True</Required>
@@ -4799,9 +4662,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z45</Name>
                       <Required>True</Required>
@@ -4809,9 +4669,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z46</Name>
                       <Required>True</Required>
@@ -4819,9 +4676,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z47</Name>
                       <Required>True</Required>
@@ -4829,9 +4683,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z48</Name>
                       <Required>True</Required>
@@ -4839,9 +4690,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z49</Name>
                       <Required>True</Required>
@@ -4849,9 +4697,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z50</Name>
                       <Required>True</Required>
@@ -4859,9 +4704,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z51</Name>
                       <Required>True</Required>
@@ -4869,9 +4711,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z52</Name>
                       <Required>True</Required>
@@ -4879,9 +4718,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z53</Name>
                       <Required>True</Required>
@@ -4889,9 +4725,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表四周视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -4968,9 +4804,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表53周视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -5385,9 +5221,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表53周行转列</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -5808,9 +5644,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表53周行转列汇总</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -5847,9 +5683,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表在途视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>asin</Value>
@@ -5893,9 +5729,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表已发货视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6091,9 +5927,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表五周视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6170,9 +6006,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表前5周视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6251,9 +6087,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表前5周视图行转列</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6332,9 +6168,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>周销表前5周视图行转列汇总</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6468,9 +6304,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>销售导入后去重</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>ID</Value>
@@ -6549,9 +6385,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -6569,9 +6402,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>销售临时分类汇总</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>sku</Value>
@@ -6656,9 +6489,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>四周销售明细周结存</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6701,9 +6534,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>发货单明细汇总视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6740,9 +6573,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>发货单明细在途汇总视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6779,9 +6612,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>销售周结存汇总视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -6883,9 +6716,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>发货与出售在途库存差值对比视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
@@ -7006,9 +6839,9 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>毛利润视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>fnsku</Value>
