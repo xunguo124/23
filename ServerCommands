@@ -1510,7 +1510,127 @@
       <Commands>
         <Item class="Forguncy.Model.LoopCommand" assembly="ServerDesignerCommon">
           <CommandList>
+            <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+              <ConfirmText>您确定添加这条记录?</ConfirmText>
+              <ParamNameToSaveNewRowValue type="System.String">
+                <Value>NewRow</Value>
+              </ParamNameToSaveNewRowValue>
+              <ShowConfirm>False</ShowConfirm>
+              <TableName>产品表辅助表</TableName>
+              <UpdateType>add</UpdateType>
+              <UpdateValues>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>sku</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.sku</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>s序列号</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.序列号</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>账号</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.账号</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>fnsku</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.fnsku</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>asin</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.asin</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a中文名</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.中文名</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a英文名</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.英文名</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a重量</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.重量</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a体积</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.体积</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a长</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.长</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a宽</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.宽</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a高</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.高</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a颜色</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.颜色</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a型号</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.型号</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a产品个数</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.产品个数</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>a品牌id</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.品牌ID</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>f运营人ID</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.运营人ID</SerializeProperty>
+                  </Value>
+                </Item>
+                <Item class="Forguncy.Model.UpdateValueItem" assembly="ServerDesignerCommon">
+                  <ColumnName>图片网址</ColumnName>
+                  <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=Item.图片网址</SerializeProperty>
+                  </Value>
+                </Item>
+              </UpdateValues>
+            </Item>
             <Item class="Forguncy.Model.Commands.SetParameterCommand" assembly="ServerDesignerCommon">
+              <Disabled>True</Disabled>
               <ParameterName type="System.String">
                 <Value>是否存在</Value>
               </ParameterName>
@@ -1521,7 +1641,7 @@
                     <TableName>AFS表</TableName>
                   </ColumnBindingInfo>
                   <CompareType>EqualsTo</CompareType>
-                  <Id>53a284fa-7240-4a3c-bbdb-8dad2d3d01c0</Id>
+                  <Id>45d23688-0130-45e3-8958-c7c436c524c1</Id>
                   <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                     <SerializeProperty>=Item.fnsku</SerializeProperty>
                   </Value>
@@ -1682,7 +1802,7 @@
                     </Item>
                   </CommandList>
                   <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
-                    <Id>5ead110a-bb7f-485e-8253-93d23e136ac5</Id>
+                    <Id>2d5dbb2a-824d-4baf-943f-bb22bf7ea428</Id>
                     <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
                       <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                         <SerializeProperty>=是否存在</SerializeProperty>
@@ -1708,7 +1828,7 @@
                           <TableName>AFS表</TableName>
                         </ColumnBindingInfo>
                         <CompareType>EqualsTo</CompareType>
-                        <Id>fa527b52-c64a-4e28-b4f6-923e88fe080f</Id>
+                        <Id>a6d642e5-fb49-4771-b3f3-e655ecd3b4f0</Id>
                         <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                           <SerializeProperty>=Item.fnsku</SerializeProperty>
                         </Value>
@@ -1842,6 +1962,7 @@
                   <ID>36834dcf-b713-4472-b1cf-1e93437bf627</ID>
                 </Item>
               </ConditionAndCommandPairList>
+              <Disabled>True</Disabled>
             </Item>
           </CommandList>
           <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="ServerDesignerCommon">

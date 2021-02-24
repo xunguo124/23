@@ -116,17 +116,7 @@
   },
   {
     "ModuleName": "AFS产品",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-24T22:02:47.8476753+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\产品表\\AFS产品.json",
-      "UserTemplateFile\\AFS产品导入模板b22863b0ce154788a3eaddfb3614b79b.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "AFS产品录入",
@@ -492,16 +482,7 @@
   },
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
-      "Email": "1785852266@qq.com"
-    },
-    "LockDateTime": "2021-02-25T00:53:59.1801619+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "b5d0fd75-997c-4418-a16b-6dc3dcd86817",
