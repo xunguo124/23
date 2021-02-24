@@ -65,7 +65,17 @@
   },
   {
     "ModuleName": "发货单录入",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-24T13:06:59.1349713+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\FBA发货表\\发货单录入.json",
+      "UserTemplateFile\\发货单导入模板989c98fc93314f799bc0c42fbf751899.xlsx"
+    ]
   },
   {
     "ModuleName": "建单",
