@@ -492,7 +492,16 @@
   },
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-25T00:53:59.1801619+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands"
+    ]
   },
   {
     "ModuleName": "b5d0fd75-997c-4418-a16b-6dc3dcd86817",
