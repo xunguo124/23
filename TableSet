@@ -748,6 +748,13 @@
                   <MaxLength>-1</MaxLength>
                   <Name>补货数量</Name>
                 </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>255</MaxLength>
+                  <Name>账号</Name>
+                </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <Name>FGC_Creator</Name>
@@ -3412,6 +3419,195 @@
                   <Value>ID</Value>
                 </Item>
               </PrimaryKey>
+              <Weight>25</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+              <Columns>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <AutoIncrement>True</AutoIncrement>
+                  <ColumnType>System.Int64</ColumnType>
+                  <DatabaseColumnType>bigint</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>-1</MaxLength>
+                  <Name>ID</Name>
+                  <Required>True</Required>
+                  <Unique>True</Unique>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>asin</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a中文名</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a英文名</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a重量</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a体积</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a长</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a宽</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a高</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a颜色</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a型号</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a产品个数</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>a品牌ID</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>fnsku</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>f员工ID</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
+                  <Name>f图片链接</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>f状态</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>sku</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>s序列号</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>f图片</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>f仓库图片链接</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>f缩略图</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>补货数量</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <Name>账号</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>FGC_Creator</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.DateTime</ColumnType>
+                  <Name>FGC_CreateDate</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.String</ColumnType>
+                  <Name>FGC_LastModifier</Name>
+                </Item>
+                <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="ServerDesignerCommon">
+                  <ColumnType>System.DateTime</ColumnType>
+                  <Name>FGC_LastModifyDate</Name>
+                </Item>
+              </Columns>
+              <ExternalDatabaseInfo>
+                <AllowModifySchema>True</AllowModifySchema>
+                <DataBaseType>MySql</DataBaseType>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <SourceTableName>AFS表测试</SourceTableName>
+                <SourceTableSchema></SourceTableSchema>
+              </ExternalDatabaseInfo>
+              <Name>AFS表测试</Name>
+              <PrimaryKey>
+                <Item type="System.String">
+                  <Value>ID</Value>
+                </Item>
+              </PrimaryKey>
               <Weight>26</Weight>
             </Item>
           </Items>
@@ -3566,9 +3762,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3632,9 +3825,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -4360,9 +4550,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                       <Required>True</Required>
@@ -4370,9 +4557,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                       <Required>True</Required>
@@ -4380,9 +4564,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                       <Required>True</Required>
@@ -4390,9 +4571,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                       <Required>True</Required>
@@ -4400,9 +4578,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
                       <Required>True</Required>
@@ -4410,9 +4585,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z6</Name>
                       <Required>True</Required>
@@ -4420,9 +4592,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z7</Name>
                       <Required>True</Required>
@@ -4430,9 +4599,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z8</Name>
                       <Required>True</Required>
@@ -4440,9 +4606,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z9</Name>
                       <Required>True</Required>
@@ -4450,9 +4613,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z10</Name>
                       <Required>True</Required>
@@ -4460,9 +4620,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z11</Name>
                       <Required>True</Required>
@@ -4470,9 +4627,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z12</Name>
                       <Required>True</Required>
@@ -4480,9 +4634,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z13</Name>
                       <Required>True</Required>
@@ -4490,9 +4641,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z14</Name>
                       <Required>True</Required>
@@ -4500,9 +4648,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z15</Name>
                       <Required>True</Required>
@@ -4510,9 +4655,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z16</Name>
                       <Required>True</Required>
@@ -4520,9 +4662,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z17</Name>
                       <Required>True</Required>
@@ -4530,9 +4669,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z18</Name>
                       <Required>True</Required>
@@ -4540,9 +4676,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z19</Name>
                       <Required>True</Required>
@@ -4550,9 +4683,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z20</Name>
                       <Required>True</Required>
@@ -4560,9 +4690,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z21</Name>
                       <Required>True</Required>
@@ -4570,9 +4697,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z22</Name>
                       <Required>True</Required>
@@ -4580,9 +4704,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z23</Name>
                       <Required>True</Required>
@@ -4590,9 +4711,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z24</Name>
                       <Required>True</Required>
@@ -4600,9 +4718,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z25</Name>
                       <Required>True</Required>
@@ -4610,9 +4725,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z26</Name>
                       <Required>True</Required>
@@ -4620,9 +4732,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z27</Name>
                       <Required>True</Required>
@@ -4630,9 +4739,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z28</Name>
                       <Required>True</Required>
@@ -4640,9 +4746,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z29</Name>
                       <Required>True</Required>
@@ -4650,9 +4753,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z30</Name>
                       <Required>True</Required>
@@ -4660,9 +4760,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z31</Name>
                       <Required>True</Required>
@@ -4670,9 +4767,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z32</Name>
                       <Required>True</Required>
@@ -4680,9 +4774,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z33</Name>
                       <Required>True</Required>
@@ -4690,9 +4781,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z34</Name>
                       <Required>True</Required>
@@ -4700,9 +4788,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z35</Name>
                       <Required>True</Required>
@@ -4710,9 +4795,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z36</Name>
                       <Required>True</Required>
@@ -4720,9 +4802,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z37</Name>
                       <Required>True</Required>
@@ -4730,9 +4809,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z38</Name>
                       <Required>True</Required>
@@ -4740,9 +4816,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z39</Name>
                       <Required>True</Required>
@@ -4750,9 +4823,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z40</Name>
                       <Required>True</Required>
@@ -4760,9 +4830,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z41</Name>
                       <Required>True</Required>
@@ -4770,9 +4837,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z42</Name>
                       <Required>True</Required>
@@ -4780,9 +4844,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z43</Name>
                       <Required>True</Required>
@@ -4790,9 +4851,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z44</Name>
                       <Required>True</Required>
@@ -4800,9 +4858,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z45</Name>
                       <Required>True</Required>
@@ -4810,9 +4865,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z46</Name>
                       <Required>True</Required>
@@ -4820,9 +4872,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z47</Name>
                       <Required>True</Required>
@@ -4830,9 +4879,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z48</Name>
                       <Required>True</Required>
@@ -4840,9 +4886,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z49</Name>
                       <Required>True</Required>
@@ -4850,9 +4893,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z50</Name>
                       <Required>True</Required>
@@ -4860,9 +4900,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z51</Name>
                       <Required>True</Required>
@@ -4870,9 +4907,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z52</Name>
                       <Required>True</Required>
@@ -4880,9 +4914,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>char</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>-1</MaxLength>
                       <Name>Z53</Name>
                       <Required>True</Required>
@@ -6550,9 +6581,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
