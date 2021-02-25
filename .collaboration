@@ -538,5 +538,15 @@
   {
     "ModuleName": "发货单录入 (2)",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "AFS产品 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-02-25T20:43:07.7641906+08:00",
+    "ModuleType": 1
   }
 ]
