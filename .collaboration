@@ -96,16 +96,7 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)库存",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "IT对接",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-02-25T20:33:28.7956948+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)库存.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "弹出菜单(中控台)报表",
