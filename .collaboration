@@ -542,5 +542,15 @@
   {
     "ModuleName": "AFS产品 (2)",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "销售列表 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-26T17:52:44.601442+08:00",
+    "ModuleType": 1
   }
 ]
