@@ -117,7 +117,16 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)销售",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-27T00:31:16.3832824+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)销售.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\产品表",
