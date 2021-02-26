@@ -303,8 +303,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>主菜单选中</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>主菜单选中</Name>
@@ -361,8 +361,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>存储更新记录</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>存储更新记录</Name>
@@ -418,8 +418,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>角色表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>角色表</Name>
@@ -490,8 +490,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>组织结构表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>组织结构表</Name>
@@ -562,8 +562,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>组织成员表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>组织成员表</Name>
@@ -615,37 +615,37 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Double</ColumnType>
-                  <DatabaseColumnType>double</DatabaseColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
                   <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                  <MaxLength>-1</MaxLength>
+                  <MaxLength>100</MaxLength>
                   <Name>a重量</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Double</ColumnType>
-                  <DatabaseColumnType>double</DatabaseColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
                   <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                  <MaxLength>-1</MaxLength>
+                  <MaxLength>100</MaxLength>
                   <Name>a体积</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Double</ColumnType>
-                  <DatabaseColumnType>double</DatabaseColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
                   <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                  <MaxLength>-1</MaxLength>
+                  <MaxLength>100</MaxLength>
                   <Name>a长</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Double</ColumnType>
-                  <DatabaseColumnType>double</DatabaseColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
                   <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                  <MaxLength>-1</MaxLength>
+                  <MaxLength>100</MaxLength>
                   <Name>a宽</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Double</ColumnType>
-                  <DatabaseColumnType>double</DatabaseColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
                   <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                  <MaxLength>-1</MaxLength>
+                  <MaxLength>100</MaxLength>
                   <Name>a高</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
@@ -664,9 +664,9 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
-                  <DatabaseColumnType>bigint</DatabaseColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
                   <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                  <MaxLength>-1</MaxLength>
+                  <MaxLength>20</MaxLength>
                   <Name>a产品个数</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
@@ -685,9 +685,9 @@
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.Int64</ColumnType>
-                  <DatabaseColumnType>bigint</DatabaseColumnType>
+                  <DatabaseColumnType>varchar</DatabaseColumnType>
                   <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                  <MaxLength>-1</MaxLength>
+                  <MaxLength>20</MaxLength>
                   <Name>f员工ID</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
@@ -775,8 +775,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>AFS表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>AFS表</Name>
@@ -854,8 +854,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>库存表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>库存表</Name>
@@ -905,8 +905,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>erp_操作记录表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>erp_操作记录表</Name>
@@ -984,8 +984,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>临时库存表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>临时库存表</Name>
@@ -1049,8 +1049,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>品牌表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>品牌表</Name>
@@ -1121,8 +1121,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>sku表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>sku表</Name>
@@ -1228,8 +1228,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>fnsku表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>fnsku表</Name>
@@ -1363,8 +1363,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>asin表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>asin表</Name>
@@ -1421,8 +1421,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>sku成本表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>sku成本表</Name>
@@ -1486,8 +1486,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>账号品牌表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>账号品牌表</Name>
@@ -1628,8 +1628,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>销售表所有</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>销售表所有</Name>
@@ -1735,8 +1735,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>销售表临时</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>销售表临时</Name>
@@ -1851,8 +1851,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>费用表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>费用表</Name>
@@ -2040,8 +2040,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>运营表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>运营表</Name>
@@ -2133,8 +2133,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>运送单主表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>运送单主表</Name>
@@ -2296,8 +2296,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>发货单主表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>发货单主表</Name>
@@ -2410,8 +2410,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>发货单明细表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>发货单明细表</Name>
@@ -2489,8 +2489,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>货架表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>货架表</Name>
@@ -2547,8 +2547,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>员工表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>员工表</Name>
@@ -2712,8 +2712,8 @@
                   <ExternalDatabaseInfo>
                     <AllowModifySchema>True</AllowModifySchema>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>四周表</SourceTableName>
                   </ExternalDatabaseInfo>
                   <Name>四周表</Name>
@@ -2903,8 +2903,8 @@
                   <ExternalDatabaseInfo>
                     <AllowModifySchema>True</AllowModifySchema>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>产品表辅助表</SourceTableName>
                   </ExternalDatabaseInfo>
                   <Name>产品表辅助表</Name>
@@ -2979,8 +2979,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>操作说明表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>操作说明表</Name>
@@ -3079,8 +3079,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>销售表周结</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>销售表周结</Name>
@@ -3130,8 +3130,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>发货单到货明细表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>发货单到货明细表</Name>
@@ -3216,8 +3216,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>库存状况表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>库存状况表</Name>
@@ -3302,8 +3302,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>库存状况临时</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>库存状况临时</Name>
@@ -3409,8 +3409,8 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                 <SourceTableName>汇率表</SourceTableName>
               </ExternalDatabaseInfo>
               <Name>汇率表</Name>
@@ -3541,41 +3541,57 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>f状态</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>sku</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>s序列号</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>f图片</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>f仓库图片链接</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>f缩略图</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>补货数量</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>varchar</DatabaseColumnType>
+                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                  <MaxLength>500</MaxLength>
                   <Name>账号</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="ServerDesignerCommon">
@@ -3598,11 +3614,11 @@
               <ExternalDatabaseInfo>
                 <AllowModifySchema>True</AllowModifySchema>
                 <DataBaseType>MySql</DataBaseType>
-                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
-                <SourceTableName>AFS表测试</SourceTableName>
-                <SourceTableSchema></SourceTableSchema>
+                <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
+                <SourceTableName>AFS表辅助</SourceTableName>
               </ExternalDatabaseInfo>
-              <Name>AFS表测试</Name>
+              <Name>AFS表辅助</Name>
               <PrimaryKey>
                 <Item type="System.String">
                   <Value>ID</Value>
@@ -3632,7 +3648,6 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>用户名</Name>
                   <Required>True</Required>
@@ -3641,49 +3656,42 @@
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>全名</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>邮件</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>角色</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>组织上级</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>公司</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>部门</Name>
                 </Item>
                 <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                   <ColumnType>System.String</ColumnType>
                   <DatabaseColumnType>System.String</DatabaseColumnType>
-                  <DefaultValue class="System.DBNull" assembly="mscorlib" />
                   <MaxLength>-1</MaxLength>
                   <Name>子部门</Name>
                 </Item>
@@ -3737,8 +3745,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>临时库存汇总后保存视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -3762,6 +3770,9 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
+                      <DefaultValue type="System.String">
+                        <Value></Value>
+                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3800,8 +3811,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>临时库存匹配视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -3825,6 +3836,9 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
+                      <DefaultValue type="System.String">
+                        <Value></Value>
+                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3870,8 +3884,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>临时库存状况汇总视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -4040,8 +4054,8 @@
                   <ExternalDatabaseInfo>
                     <AllowModifySchema>True</AllowModifySchema>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>FBA发货表视图</SourceTableName>
                   </ExternalDatabaseInfo>
                   <Name>FBA发货表视图</Name>
@@ -4333,8 +4347,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表14天视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -4386,8 +4400,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表28天视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -4549,380 +4563,380 @@
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z6</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z7</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z8</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z9</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z10</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z11</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z12</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z13</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z14</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z15</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z16</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z17</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z18</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z19</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z20</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z21</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z22</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z23</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z24</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z25</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z26</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z27</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z28</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z29</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z30</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z31</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z32</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z33</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z34</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z35</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z36</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z37</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z38</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z39</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z40</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z41</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z42</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z43</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z44</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z45</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z46</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z47</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z48</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z49</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z50</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z51</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z52</Name>
-                      <Required>True</Required>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>char</DatabaseColumnType>
+                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z53</Name>
-                      <Required>True</Required>
                     </Item>
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表四周视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -5000,8 +5014,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表53周视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -5417,8 +5431,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表53周行转列</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -5840,8 +5854,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表53周行转列汇总</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -5879,8 +5893,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表在途视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -5925,8 +5939,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表已发货视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6123,8 +6137,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表五周视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6202,8 +6216,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表前5周视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6283,8 +6297,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表前5周视图行转列</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6364,8 +6378,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>周销表前5周视图行转列汇总</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6450,8 +6464,8 @@
                   <ExternalDatabaseInfo>
                     <AllowModifySchema>True</AllowModifySchema>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>发货打印表视图</SourceTableName>
                   </ExternalDatabaseInfo>
                   <Name>发货打印表视图</Name>
@@ -6500,8 +6514,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>销售导入后去重</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6581,6 +6595,9 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
+                      <DefaultValue type="System.String">
+                        <Value></Value>
+                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -6598,8 +6615,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>销售临时分类汇总</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6685,8 +6702,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>四周销售明细周结存</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6730,8 +6747,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>发货单明细汇总视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6769,8 +6786,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>发货单明细在途汇总视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6808,8 +6825,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>销售周结存汇总视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6912,8 +6929,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>发货与出售在途库存差值对比视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -6978,16 +6995,16 @@
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Int64</ColumnType>
-                      <DatabaseColumnType>bigint</DatabaseColumnType>
+                      <DatabaseColumnType>varchar</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                      <MaxLength>-1</MaxLength>
+                      <MaxLength>20</MaxLength>
                       <Name>a产品个数</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Double</ColumnType>
-                      <DatabaseColumnType>double</DatabaseColumnType>
+                      <DatabaseColumnType>varchar</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
-                      <MaxLength>-1</MaxLength>
+                      <MaxLength>100</MaxLength>
                       <Name>a重量</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
@@ -7035,8 +7052,8 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
-                    <ESourceConnectString>FoX5oZwMIs9tQxGFw31uRRQ60+kK/FMX6X9C5H/sefopO9XvIVEhMQyaTuCLgLe3VP7MnEkP389ZLGfkTqOR0A==</ESourceConnectString>
-                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>毛利润视图</SourceTableName>
                     <UserSetQueryColumns>
                       <Item type="System.String">
@@ -7066,6 +7083,40 @@
       </Items>
       <Name>视图</Name>
       <Weight>1</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int32</ColumnType>
+          <DatabaseColumnType>int</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>id</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>longtext</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>1073741823</MaxLength>
+          <Name>activity_log</Name>
+        </Item>
+      </Columns>
+      <ExternalDatabaseInfo>
+        <DataBaseType>MySql</DataBaseType>
+        <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
+        <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
+        <SourceTableName>test_json</SourceTableName>
+        <SourceTableSchema></SourceTableSchema>
+      </ExternalDatabaseInfo>
+      <Name>test_json</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>id</Value>
+        </Item>
+      </PrimaryKey>
     </Item>
   </Tables>
 </TableSet>
