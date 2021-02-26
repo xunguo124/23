@@ -536,6 +536,15 @@
   },
   {
     "ModuleName": "销售列表 (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "IT对接",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-27T00:17:05.3510529+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\销售表\\销售列表 (2).json"
+    ]
   }
 ]
