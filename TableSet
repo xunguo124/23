@@ -7109,7 +7109,6 @@
         <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
         <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
         <SourceTableName>test_json</SourceTableName>
-        <SourceTableSchema></SourceTableSchema>
       </ExternalDatabaseInfo>
       <Name>test_json</Name>
       <PrimaryKey>
