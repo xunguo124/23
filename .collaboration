@@ -541,5 +541,15 @@
   {
     "ModuleName": "库存列表 (2)",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "库存状况列表 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "KOTIN-365\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-27T13:02:57.2175753+08:00",
+    "ModuleType": 1
   }
 ]
