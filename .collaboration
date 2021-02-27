@@ -96,7 +96,16 @@
   },
   {
     "ModuleName": "弹出菜单(中控台)库存",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "KOTIN-365\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-27T12:58:28.4439355+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\中控台菜单\\弹出菜单(中控台)库存.json"
+    ]
   },
   {
     "ModuleName": "弹出菜单(中控台)报表",
