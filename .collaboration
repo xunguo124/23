@@ -545,7 +545,16 @@
   },
   {
     "ModuleName": "销售列表 (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "KOTIN-365\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-27T12:50:36.8316449+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\销售表\\销售列表 (2).json"
+    ]
   },
   {
     "ModuleName": "库存列表 (2)",
