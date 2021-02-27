@@ -3851,9 +3851,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3924,9 +3921,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3967,7 +3961,6 @@
                     <DataBaseType>MySql</DataBaseType>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>库存列表显示视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>sku</Value>
@@ -3990,9 +3983,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -4047,7 +4037,6 @@
                     <DataBaseType>MySql</DataBaseType>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>库存状况显示视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
                     <UserSetQueryColumns>
                       <Item type="System.String">
                         <Value>sku</Value>
@@ -6854,9 +6843,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
