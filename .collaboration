@@ -176,7 +176,16 @@
   },
   {
     "ModuleName": "库存列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "KOTIN-365\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-02-27T12:44:22.2284044+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\库存表\\库存列表.json"
+    ]
   },
   {
     "ModuleName": "库存状况列表",
