@@ -258,6 +258,15 @@
       <RelationTypeOnDelete>None</RelationTypeOnDelete>
       <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
     </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>品牌id</ForeignColumn>
+      <ForeignTable>库存列表显示视图</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>品牌表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
   </Relations>
   <Tables>
     <Item class="Forguncy.Model.Tables.TableFolder" assembly="ServerDesignerCommon">
@@ -3770,9 +3779,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3836,9 +3842,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -3903,6 +3906,72 @@
                   </ExternalDatabaseInfo>
                   <Name>临时库存状况汇总视图</Name>
                   <Weight>2</Weight>
+                </Item>
+                <Item class="Forguncy.Model.Tables.Table" assembly="ServerDesignerCommon">
+                  <Columns>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>varchar</DatabaseColumnType>
+                      <DefaultValue type="System.String">
+                        <Value></Value>
+                      </DefaultValue>
+                      <MaxLength>500</MaxLength>
+                      <Name>fnsku</Name>
+                      <Required>True</Required>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>varchar</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>500</MaxLength>
+                      <Name>asin</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.String</ColumnType>
+                      <DatabaseColumnType>varchar</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>500</MaxLength>
+                      <Name>sku</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Int64</ColumnType>
+                      <DatabaseColumnType>bigint</DatabaseColumnType>
+                      <DefaultValue class="System.DBNull" assembly="mscorlib" />
+                      <MaxLength>-1</MaxLength>
+                      <Name>afnwarehousequantity</Name>
+                    </Item>
+                    <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
+                      <ColumnType>System.Int64</ColumnType>
+                      <DatabaseColumnType>bigint</DatabaseColumnType>
+                      <DefaultValue type="System.Int64">
+                        <Value>0</Value>
+                      </DefaultValue>
+                      <MaxLength>-1</MaxLength>
+                      <Name>品牌id</Name>
+                      <Required>True</Required>
+                    </Item>
+                  </Columns>
+                  <ExternalDatabaseInfo>
+                    <DataBaseType>MySql</DataBaseType>
+                    <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
+                    <SourceTableName>库存列表显示视图</SourceTableName>
+                    <SourceTableSchema></SourceTableSchema>
+                    <UserSetQueryColumns>
+                      <Item type="System.String">
+                        <Value>sku</Value>
+                      </Item>
+                    </UserSetQueryColumns>
+                    <ViewInfo>
+                      <QueryColumns>
+                        <Item type="System.String">
+                          <Value>sku</Value>
+                        </Item>
+                      </QueryColumns>
+                      <ViewName>库存列表显示视图</ViewName>
+                    </ViewInfo>
+                  </ExternalDatabaseInfo>
+                  <Name>库存列表显示视图</Name>
+                  <Weight>3</Weight>
                 </Item>
               </Items>
               <Name>库存视图</Name>
@@ -6595,9 +6664,6 @@
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
                       <DatabaseColumnType>varchar</DatabaseColumnType>
-                      <DefaultValue type="System.String">
-                        <Value></Value>
-                      </DefaultValue>
                       <MaxLength>500</MaxLength>
                       <Name>fnsku</Name>
                       <Required>True</Required>
@@ -6719,8 +6785,6 @@
                     <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIz4Qx9aHsfYuVZLzezl4EUjw==</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</SourceConnectString>
                     <SourceTableName>销售列表显示视图</SourceTableName>
-                    <SourceTableSchema></SourceTableSchema>
-                    <ViewInfo />
                   </ExternalDatabaseInfo>
                   <Name>销售列表显示视图</Name>
                   <Weight>2</Weight>
