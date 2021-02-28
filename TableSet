@@ -3959,6 +3959,7 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIzh/kSMJaMDZElI197IWSEnQWA7P7iHo6XMbziDszo19/8DcpYgTNNNQE6CK2KB4rm</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>库存列表显示视图</SourceTableName>
                     <UserSetQueryColumns>
@@ -4035,6 +4036,7 @@
                   </Columns>
                   <ExternalDatabaseInfo>
                     <DataBaseType>MySql</DataBaseType>
+                    <ESourceConnectString>XBDKS+mdnJ0NiyHLeQdI13cEPYwHsfdIypt85NKy6l3P2dMhKTuEsJJAWA+CrYIzh/kSMJaMDZElI197IWSEnQWA7P7iHo6XMbziDszo19/8DcpYgTNNNQE6CK2KB4rm</ESourceConnectString>
                     <SourceConnectString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</SourceConnectString>
                     <SourceTableName>库存状况显示视图</SourceTableName>
                     <UserSetQueryColumns>
