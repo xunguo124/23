@@ -4715,371 +4715,371 @@
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z6</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z7</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z8</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z9</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z10</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z11</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z12</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z13</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z14</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z15</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z16</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z17</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z18</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z19</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z20</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z21</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z22</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z23</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z24</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z25</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z26</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z27</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z28</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z29</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z30</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z31</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z32</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z33</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z34</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z35</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z36</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z37</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z38</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z39</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z40</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z41</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z42</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z43</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z44</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z45</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z46</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z47</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z48</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z49</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z50</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z51</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z52</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.String</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z53</Name>
@@ -5634,371 +5634,371 @@
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z6</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z7</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z8</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z9</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z10</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z11</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z12</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z13</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z14</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z15</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z16</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z17</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z18</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z19</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z20</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z21</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z22</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z23</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z24</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z25</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z26</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z27</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z28</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z29</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z30</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z31</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z32</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z33</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z34</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z35</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z36</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z37</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z38</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z39</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z40</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z41</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z42</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z43</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z44</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z45</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z46</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z47</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z48</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z49</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z50</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z51</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z52</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z53</Name>
@@ -6254,35 +6254,35 @@
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
@@ -6495,35 +6495,35 @@
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z1</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z2</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z3</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z4</Name>
                     </Item>
                     <Item class="Forguncy.Model.Tables.BindingColumn" assembly="ServerDesignerCommon">
                       <ColumnType>System.Byte[]</ColumnType>
-                      <DatabaseColumnType>varbinary</DatabaseColumnType>
+                      <DatabaseColumnType>double</DatabaseColumnType>
                       <DefaultValue class="System.DBNull" assembly="mscorlib" />
                       <MaxLength>-1</MaxLength>
                       <Name>Z5</Name>
