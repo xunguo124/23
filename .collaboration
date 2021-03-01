@@ -1,7 +1,34 @@
 [
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "5P5ZBNSIVFYFPYE\\Administrator",
+      "Email": "1785852266@qq.com"
+    },
+    "LockDateTime": "2021-03-01T21:10:21.8491865+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "TableSet",
+      "ForguncyDB.sqlite3",
+      "DataConnectionSet",
+      "Upload\\30da6d84-e85a-435f-a4f2-08b46751ba5a_微信图片_20210204225617.jpg",
+      "Upload\\30da6d84-e85a-435f-a4f2-08b46751ba5a_微信图片_20210204225617.medium.jpg",
+      "Upload\\30da6d84-e85a-435f-a4f2-08b46751ba5a_微信图片_20210204225617.small.jpg",
+      "Upload\\3244bd53-9e08-4172-98b1-8229298dc723_微信图片_20210204225613.jpg",
+      "Upload\\3244bd53-9e08-4172-98b1-8229298dc723_微信图片_20210204225613.medium.jpg",
+      "Upload\\3244bd53-9e08-4172-98b1-8229298dc723_微信图片_20210204225613.small.jpg",
+      "Upload\\337be741-1f9a-4485-a283-39300dad122a_微信图片_20210204225624.jpg",
+      "Upload\\337be741-1f9a-4485-a283-39300dad122a_微信图片_20210204225624.small.jpg",
+      "Upload\\387f4d4d-9d16-4faf-a518-17c1d6d8f6c8_微信图片_20210204225607.jpg",
+      "Upload\\387f4d4d-9d16-4faf-a518-17c1d6d8f6c8_微信图片_20210204225607.medium.jpg",
+      "Upload\\387f4d4d-9d16-4faf-a518-17c1d6d8f6c8_微信图片_20210204225607.small.jpg",
+      "Upload\\a0371836-3675-4337-8edf-0b0fb8d3f108_微信图片_20210204225630.jpg",
+      "Upload\\a0371836-3675-4337-8edf-0b0fb8d3f108_微信图片_20210204225630.small.jpg",
+      "Upload\\a10b16ac-902c-4c4f-b8cf-65c39b199db4_微信图片_20210204225607.jpg",
+      "Upload\\a10b16ac-902c-4c4f-b8cf-65c39b199db4_微信图片_20210204225607.medium.jpg",
+      "Upload\\a10b16ac-902c-4c4f-b8cf-65c39b199db4_微信图片_20210204225607.small.jpg"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面",
