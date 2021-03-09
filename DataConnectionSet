@@ -1,21 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataConnectionSet>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
-    <ConnectionString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp;Connection Timeout=120</ConnectionString>
+    <ConnectionString>Server=192.168.1.101;User Id=erp;Password=Q0.123456;Database=erp;Connection Timeout=120</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
-    <EConnectionString>pRIjT4sB8ZydoJkjPr5pHca+OardI/6oEXmNy4M5vWMlWB3/ryUlEAWnCQVfKAoAu6y82NJzbRRL18W9WCRu3ldmS9v93/TuWIAF+ct/cfOR5+7qGLaLkTBb1MGtYQlp</EConnectionString>
     <ID>4f75f3ef-68e1-4d4c-b264-48164b8621bc</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Server=116.62.26.82;User Id=erp;Password=q0.123456;Database=erp</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
-    <EConnectionString>pRIjT4sB8ZydoJkjPr5pHca+OardI/6oEXmNy4M5vWMlWB3/ryUlEAWnCQVfKAoA/y9AuIgY02t2EcjGGcnkvg==</EConnectionString>
     <ID>dc5ff849-37fa-4a6c-8489-346eea759422</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Server=192.168.1.101;Database=erp;User Id=erp;Password=Q0.123456</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
-    <EConnectionString>Ow5bcDEal2mUIqwcXt8wsYySDZ9LPJZo6N1WZiCWA5Mz19khe/WICx5q+0SatgU9SabnOq5qHnVfZfSarQ9isWifZhdxEUVff9UxabBjLME=</EConnectionString>
     <ID>dcced4ca-a10f-46c1-9618-b8af91604d4b</ID>
   </Item>
 </DataConnectionSet>
