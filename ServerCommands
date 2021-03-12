@@ -1512,6 +1512,7 @@
           <CommandList>
             <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
               <ConfirmText>您确定添加这条记录?</ConfirmText>
+              <Disabled>True</Disabled>
               <ParamNameToSaveNewRowValue type="System.String">
                 <Value>NewRow</Value>
               </ParamNameToSaveNewRowValue>
@@ -1630,7 +1631,6 @@
               </UpdateValues>
             </Item>
             <Item class="Forguncy.Model.Commands.SetParameterCommand" assembly="ServerDesignerCommon">
-              <Disabled>True</Disabled>
               <ParameterName type="System.String">
                 <Value>是否存在</Value>
               </ParameterName>
@@ -1641,7 +1641,7 @@
                     <TableName>AFS表</TableName>
                   </ColumnBindingInfo>
                   <CompareType>EqualsTo</CompareType>
-                  <Id>45d23688-0130-45e3-8958-c7c436c524c1</Id>
+                  <Id>ba76ce4a-823c-4be2-8706-3d5e32957f91</Id>
                   <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                     <SerializeProperty>=Item.fnsku</SerializeProperty>
                   </Value>
@@ -1802,7 +1802,7 @@
                     </Item>
                   </CommandList>
                   <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
-                    <Id>2d5dbb2a-824d-4baf-943f-bb22bf7ea428</Id>
+                    <Id>8b9af302-9be4-4092-819d-de0a4b96cae2</Id>
                     <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
                       <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                         <SerializeProperty>=是否存在</SerializeProperty>
@@ -1828,7 +1828,7 @@
                           <TableName>AFS表</TableName>
                         </ColumnBindingInfo>
                         <CompareType>EqualsTo</CompareType>
-                        <Id>a6d642e5-fb49-4771-b3f3-e655ecd3b4f0</Id>
+                        <Id>e0355061-4b98-4a76-b9d3-4222ea95bd1a</Id>
                         <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                           <SerializeProperty>=Item.fnsku</SerializeProperty>
                         </Value>
@@ -1962,7 +1962,6 @@
                   <ID>36834dcf-b713-4472-b1cf-1e93437bf627</ID>
                 </Item>
               </ConditionAndCommandPairList>
-              <Disabled>True</Disabled>
             </Item>
           </CommandList>
           <LoopInfo class="Forguncy.Model.CountLoopInfo" assembly="ServerDesignerCommon">
@@ -3197,6 +3196,7 @@
             <Item class="Forguncy.Model.LoopCommand" assembly="ServerDesignerCommon">
               <CommandList>
                 <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+                  <Comments>将之前的费用标记为1,作为历史数据保留</Comments>
                   <ConfirmText>您确定要更新这行记录吗？</ConfirmText>
                   <ParamNameToSaveNewRowValue type="System.String">
                     <Value>NewRow</Value>
@@ -3209,7 +3209,7 @@
                         <TableName>费用表</TableName>
                       </ColumnBindingInfo>
                       <CompareType>EqualsTo</CompareType>
-                      <Id>3a0d631d-7efb-41b1-a04f-c1a202c0af79</Id>
+                      <Id>c42be67d-8988-4d8a-b64c-8b6fb77d4cfe</Id>
                       <Value class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
                         <SerializeProperty>=Item.fnsku</SerializeProperty>
                       </Value>
@@ -3220,12 +3220,12 @@
                         <TableName>费用表</TableName>
                       </ColumnBindingInfo>
                       <CompareType>EqualsTo</CompareType>
-                      <Id>79a87cd1-d71f-47d0-8c96-27b72ce3a615</Id>
+                      <Id>0ff92203-a241-4007-8325-8e332a72d042</Id>
                       <Value type="System.String">
                         <Value>0</Value>
                       </Value>
                     </Condition2>
-                    <Id>4f1f6f26-c547-4290-b5e8-cec48cd006ad</Id>
+                    <Id>59922424-187d-41ea-9011-8f6b87eb7edc</Id>
                     <RelationType>And</RelationType>
                   </RowsToUpdateCondition>
                   <ShowConfirm>False</ShowConfirm>
@@ -3240,6 +3240,7 @@
                   </UpdateValues>
                 </Item>
                 <Item class="Forguncy.Model.UpdateDataTableCommand" assembly="ServerDesignerCommon">
+                  <Comments>添加新的数据作为最近的费用.</Comments>
                   <ConfirmText>您确定添加这条记录?</ConfirmText>
                   <ParamNameToSaveNewRowValue type="System.String">
                     <Value>NewRow</Value>
@@ -3339,15 +3340,15 @@
                 </LoopItemParamName>
               </LoopInfo>
             </Item>
-            <Item class="Forguncy.Model.ReturnCommand" assembly="ServerDesignerCommon">
-              <ErrorCode type="System.String">
-                <Value>0</Value>
-              </ErrorCode>
-              <Message type="System.String">
-                <Value>操作成功</Value>
-              </Message>
-            </Item>
           </CommandList>
+        </Item>
+        <Item class="Forguncy.Model.ReturnCommand" assembly="ServerDesignerCommon">
+          <ErrorCode type="System.String">
+            <Value>0</Value>
+          </ErrorCode>
+          <Message type="System.String">
+            <Value>操作成功</Value>
+          </Message>
         </Item>
       </Commands>
       <Name>费用导入</Name>
@@ -3650,6 +3651,84 @@
               <Type>Array</Type>
             </Item>
           </Parameters>
+          <Permission>
+            <AllowRoles>
+              <Item type="System.String">
+                <Value>FGC_LoginUser</Value>
+              </Item>
+            </AllowRoles>
+          </Permission>
+        </Item>
+      </Triggers>
+    </Item>
+    <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="ServerDesignerCommon">
+      <Commands>
+        <Item class="Forguncy.Model.Commands.SetParameterCommand" assembly="ServerDesignerCommon">
+          <ParameterName type="System.String">
+            <Value>是否存在品牌id0</Value>
+          </ParameterName>
+          <TableValue>
+            <SqlCondition class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
+              <ColumnBindingInfo>
+                <ColumnName>brandID</ColumnName>
+                <TableName>库存表</TableName>
+              </ColumnBindingInfo>
+              <CompareType>EqualsTo</CompareType>
+              <Id>79935f48-f435-4c5b-9c8c-f8e93fa1ec07</Id>
+              <Value type="System.String">
+                <Value>0</Value>
+              </Value>
+            </SqlCondition>
+            <TableName>库存表</TableName>
+            <TableValueType>Count</TableValueType>
+          </TableValue>
+        </Item>
+        <Item class="Forguncy.Model.ConditionCommand" assembly="ServerDesignerCommon">
+          <ConditionAndCommandPairList>
+            <Item class="Forguncy.Model.ConditionAndCommandPair" assembly="ServerDesignerCommon">
+              <CommandList>
+                <Item class="Forguncy.Model.ReturnCommand" assembly="ServerDesignerCommon">
+                  <ErrorCode type="System.String">
+                    <Value>0</Value>
+                  </ErrorCode>
+                  <Message type="System.String">
+                    <Value>无品牌id0</Value>
+                  </Message>
+                </Item>
+              </CommandList>
+              <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
+                <Id>2e86122d-d129-434f-a09a-6bd5f988039f</Id>
+                <Param class="Forguncy.Model.IfConditionServerSiteParam" assembly="ServerDesignerCommon">
+                  <ParamObject class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=是否存在品牌id0</SerializeProperty>
+                  </ParamObject>
+                </Param>
+                <Value type="System.String">
+                  <Value>0</Value>
+                </Value>
+              </Condition>
+              <ID>852cbf80-068e-4746-a85d-8c02b68c0e33</ID>
+            </Item>
+            <Item class="Forguncy.Model.ConditionAndCommandPair" assembly="ServerDesignerCommon">
+              <CommandList>
+                <Item class="Forguncy.Model.ReturnCommand" assembly="ServerDesignerCommon">
+                  <ErrorCode type="System.String">
+                    <Value>1</Value>
+                  </ErrorCode>
+                  <Message type="System.String">
+                    <Value>存在品牌id0</Value>
+                  </Message>
+                </Item>
+              </CommandList>
+              <ID>384eff46-242e-4b87-9b71-c8edfd9cc9e2</ID>
+            </Item>
+          </ConditionAndCommandPairList>
+        </Item>
+      </Commands>
+      <Description>当存在品牌id是0的则弹出补录asf</Description>
+      <Name>是否存在品牌id0</Name>
+      <Triggers>
+        <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="ServerDesignerCommon">
           <Permission>
             <AllowRoles>
               <Item type="System.String">
