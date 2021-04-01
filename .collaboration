@@ -509,19 +509,7 @@
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "KOTIN-365\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-04-01T23:10:41.5316935+08:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries",
-      "UserFile\\sidebar.js",
-      "UserFile\\StyleSheet.css",
-      "UserFile\\提示音.mp3"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
