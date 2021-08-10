@@ -3,13 +3,13 @@
   <IntegrateWithOtherApplication>
     <Password>m#^UxpuX@!nN</Password>
   </IntegrateWithOtherApplication>
+  <IsPageInContainerBackgroundHardCodeWhite>True</IsPageInContainerBackgroundHardCodeWhite>
   <LoadingIndicatorSettings>
     <CSSColor>Accent 5 0</CSSColor>
   </LoadingIndicatorSettings>
   <NotAllowAnonymousAccessData>True</NotAllowAnonymousAccessData>
   <PageResponsiveMode>BothStretch</PageResponsiveMode>
   <SkipCheckErrorWhenGeneratePage>True</SkipCheckErrorWhenGeneratePage>
-  <StartPage>管理页面</StartPage>
   <UserServicePort>44423</UserServicePort>
   <WebSitePort>24497</WebSitePort>
 </ApplicationSettings>
