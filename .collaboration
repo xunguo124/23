@@ -1,1 +1,549 @@
-[{"ModuleName":"3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab","ModuleType":7},{"ModuleName":"Pages\\erp工程页面","ModuleType":6},{"ModuleName":"Pages\\erp工程页面\\asin管理","ModuleType":6},{"ModuleName":"Asin维护","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\FBA发货表","ModuleType":6},{"ModuleName":"仓库装箱图片查看_上传","ModuleType":1},{"ModuleName":"仓库装箱大图查看","ModuleType":1},{"ModuleName":"发货单列表","ModuleType":1},{"ModuleName":"发货单录入 (2)","ModuleType":1},{"ModuleName":"发货单录入","ModuleType":1},{"ModuleName":"发货单打印","ModuleType":1},{"ModuleName":"建单","ModuleType":1},{"ModuleName":"箱唛附件查看添加","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\fnsku管理","ModuleType":6},{"ModuleName":"Fnsku图片弹窗","ModuleType":2},{"ModuleName":"Fnsku维护","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\中控台菜单","ModuleType":6},{"ModuleName":"弹出菜单(中控台)利润","ModuleType":1},{"ModuleName":"弹出菜单(中控台)发货","ModuleType":1},{"ModuleName":"弹出菜单(中控台)基础参数","ModuleType":1},{"ModuleName":"弹出菜单(中控台)库存","ModuleType":1},{"ModuleName":"弹出菜单(中控台)报表","ModuleType":1},{"ModuleName":"弹出菜单(中控台)用户","ModuleType":1},{"ModuleName":"弹出菜单(中控台)销售","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\产品表","ModuleType":6},{"ModuleName":"AFS产品 (2)","ModuleType":1},{"ModuleName":"AFS产品","ModuleType":1},{"ModuleName":"AFS产品录入","ModuleType":1},{"ModuleName":"AFS产品补录(库存状况)","ModuleType":1},{"ModuleName":"AFS产品补录","ModuleType":1},{"ModuleName":"AFS图片弹窗","ModuleType":2},{"ModuleName":"AFS扫码弹窗","ModuleType":2},{"ModuleName":"AFS扫码识图","ModuleType":1},{"ModuleName":"产品表导入","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\员工管理","ModuleType":6},{"ModuleName":"员工列表","ModuleType":1},{"ModuleName":"员工管理","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\品牌管理","ModuleType":6},{"ModuleName":"品牌维护","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\库存表","ModuleType":6},{"ModuleName":"临时库存导入","ModuleType":1},{"ModuleName":"库存列表 (2)","ModuleType":1},{"ModuleName":"库存列表","ModuleType":1},{"ModuleName":"库存状况列表 (2)","ModuleType":1},{"ModuleName":"库存状况列表","ModuleType":1},{"ModuleName":"库存状况导入","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\报表查询","ModuleType":6},{"ModuleName":"产品利润查询","ModuleType":1},{"ModuleName":"销售发货对比查询","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\操作说明","ModuleType":6},{"ModuleName":"操作说明","ModuleType":2},{"ModuleName":"Pages\\erp工程页面\\物流运送管理","ModuleType":6},{"ModuleName":"运送单","ModuleType":2},{"ModuleName":"运送单列表","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\用户品牌绑定登陆账号","ModuleType":6},{"ModuleName":"员工与品牌登陆账号绑定","ModuleType":1},{"ModuleName":"用户品牌绑定列表","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\用户管理","ModuleType":6},{"ModuleName":"更新用户","ModuleType":1},{"ModuleName":"添加用户","ModuleType":1},{"ModuleName":"添加组织","ModuleType":1},{"ModuleName":"添加角色","ModuleType":1},{"ModuleName":"用户列表","ModuleType":1},{"ModuleName":"编辑用户组织","ModuleType":1},{"ModuleName":"编辑用户角色 (3)","ModuleType":1},{"ModuleName":"编辑用户角色","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\费用表","ModuleType":6},{"ModuleName":"费用导入","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\辅助","ModuleType":6},{"ModuleName":"对话框","ModuleType":1},{"ModuleName":"Pages\\erp工程页面\\运营管理","ModuleType":6},{"ModuleName":"仓库反馈录入","ModuleType":2},{"ModuleName":"运营及仓库反馈列表 (2)","ModuleType":1},{"ModuleName":"运营及仓库反馈列表","ModuleType":1},{"ModuleName":"运营录入 (2)","ModuleType":2},{"ModuleName":"运营录入","ModuleType":2},{"ModuleName":"Pages\\erp工程页面\\销售表","ModuleType":6},{"ModuleName":"周销售历史结存列表","ModuleType":1},{"ModuleName":"周销报表 (2)","ModuleType":1},{"ModuleName":"周销报表","ModuleType":1},{"ModuleName":"周销报表5周","ModuleType":1},{"ModuleName":"周销表 (2)","ModuleType":1},{"ModuleName":"已发货明细列表","ModuleType":1},{"ModuleName":"日销报表","ModuleType":1},{"ModuleName":"销售列表 (2)","ModuleType":1},{"ModuleName":"销售列表","ModuleType":1},{"ModuleName":"销售导入 (2)","ModuleType":1},{"ModuleName":"销售导入","ModuleType":1},{"ModuleName":"销量28天","ModuleType":2},{"ModuleName":"销量53周折线图","ModuleType":2},{"ModuleName":"Pages\\wms工程页面","ModuleType":6},{"ModuleName":"业务台明细弹窗","ModuleType":1},{"ModuleName":"工作量录入","ModuleType":2},{"ModuleName":"管理页面 (2)","ModuleType":1},{"ModuleName":"计划关联下账弹窗","ModuleType":1},{"ModuleName":"Pages\\内建手机页面","ModuleType":6},{"ModuleName":"FGC_401页面_手机版","ModuleType":2},{"ModuleName":"FGC_修改密码_手机版","ModuleType":2},{"ModuleName":"FGC_修改用户信息_手机版","ModuleType":2},{"ModuleName":"FGC_忘记密码_手机版","ModuleType":2},{"ModuleName":"FGC_登录_手机版","ModuleType":2},{"ModuleName":"FGC_维护中_手机版","ModuleType":2},{"ModuleName":"FGC_邮件订阅_手机版","ModuleType":2},{"ModuleName":"FGC_重置密码_手机版","ModuleType":2},{"ModuleName":"FGC_重置密码发送邮件成功_手机版","ModuleType":2},{"ModuleName":"FGC_两步验证_扫码页面_手机版","ModuleType":2},{"ModuleName":"FGC_两步验证_验证页面_手机版","ModuleType":2},{"ModuleName":"Pages\\内建页面","ModuleType":6},{"ModuleName":"FGC_401页面","ModuleType":1},{"ModuleName":"FGC_修改密码","ModuleType":1},{"ModuleName":"FGC_修改用户信息","ModuleType":1},{"ModuleName":"FGC_忘记密码","ModuleType":1},{"ModuleName":"FGC_登录","ModuleType":1},{"ModuleName":"FGC_维护中","ModuleType":1},{"ModuleName":"FGC_邮件订阅","ModuleType":1},{"ModuleName":"FGC_重置密码","ModuleType":1},{"ModuleName":"FGC_重置密码发送邮件成功","ModuleType":1},{"ModuleName":"FGC_两步验证_扫码页面","ModuleType":1},{"ModuleName":"FGC_两步验证_验证页面","ModuleType":1},{"ModuleName":"管理页面","ModuleType":1},{"ModuleName":"FGC_母版页","ModuleType":3},{"ModuleName":"母版页left","ModuleType":3},{"ModuleName":"母版页left应用 (2)","ModuleType":3},{"ModuleName":"母版页left应用","ModuleType":3},{"ModuleName":"母版页top","ModuleType":3},{"ModuleName":"f136f31a-5285-4164-b8e6-6a822fdf27bd","ModuleType":15},{"ModuleName":"b5d0fd75-997c-4418-a16b-6dc3dcd86817","ModuleType":16},{"ModuleName":"c0399537-e72c-407d-82a2-ce31c68456a2","ModuleType":8},{"ModuleName":"2ddfe471-dd9c-4782-a3b4-3b67f963a6cb","ModuleType":9},{"ModuleName":"39ae35f5-de28-40a9-be9f-ff8adef64027","ModuleType":10},{"ModuleName":"396e6eb8-d825-4457-85fe-f7367f51b11b","ModuleType":11},{"ModuleName":"70c30736-7f75-4535-8aaa-82f185d976bb","ModuleType":12},{"ModuleName":"a7048ae8-d3c8-4136-ae00-39002dbdc3d8","ModuleType":13},{"ModuleName":"01725a5e-d06d-454e-ba18-6b6c0e11ece4","ModuleType":14}]
+[
+  {
+    "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "xu-shunguo",
+      "Email": "447037533@qq.com"
+    },
+    "LockDateTime": "2021-08-11T04:59:42.1452085+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "TableSet",
+      "ForguncyDB.sqlite3",
+      "DataConnectionSet"
+    ]
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\asin管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Asin维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\FBA发货表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "仓库装箱图片查看_上传",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "仓库装箱大图查看",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "发货单列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "发货单录入 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "发货单录入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "发货单打印",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "建单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "箱唛附件查看添加",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\fnsku管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Fnsku图片弹窗",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Fnsku维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\中控台菜单",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "弹出菜单(中控台)利润",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "弹出菜单(中控台)发货",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "弹出菜单(中控台)基础参数",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "弹出菜单(中控台)库存",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "弹出菜单(中控台)报表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "弹出菜单(中控台)用户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "弹出菜单(中控台)销售",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\产品表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "AFS产品 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "AFS产品",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "AFS产品录入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "AFS产品补录(库存状况)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "AFS产品补录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "AFS图片弹窗",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "AFS扫码弹窗",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "AFS扫码识图",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "产品表导入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\员工管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "员工列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "员工管理",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\品牌管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "品牌维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\库存表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "临时库存导入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "库存列表 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "库存列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "库存状况列表 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "库存状况列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "库存状况导入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\报表查询",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "产品利润查询",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "销售发货对比查询",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\操作说明",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "操作说明",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\物流运送管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "运送单",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "运送单列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\用户品牌绑定登陆账号",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "员工与品牌登陆账号绑定",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "用户品牌绑定列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\用户管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "更新用户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "添加用户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "添加组织",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "添加角色",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "用户列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "编辑用户组织",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "编辑用户角色 (3)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "编辑用户角色",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\费用表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "费用导入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\辅助",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "对话框",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\运营管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "仓库反馈录入",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "运营及仓库反馈列表 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "运营及仓库反馈列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "运营录入 (2)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "运营录入",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\erp工程页面\\销售表",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "周销售历史结存列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "周销报表 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "周销报表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "周销报表5周",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "周销表 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "已发货明细列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "日销报表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "销售列表 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "销售列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "销售导入 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "销售导入",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "销量28天",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "销量53周折线图",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\wms工程页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "业务台明细弹窗",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "工作量录入",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "管理页面 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "计划关联下账弹窗",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\内建手机页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "FGC_401页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改用户信息_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_忘记密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_登录_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_维护中_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_邮件订阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_两步验证_扫码页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_两步验证_验证页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\内建页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "FGC_401页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_忘记密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_登录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_维护中",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_两步验证_扫码页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_两步验证_验证页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "管理页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "母版页left",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "母版页left应用 (2)",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "母版页left应用",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "母版页top",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "b5d0fd75-997c-4418-a16b-6dc3dcd86817",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
+    "ModuleType": 10
+  },
+  {
+    "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
+    "ModuleType": 12
+  },
+  {
+    "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
+    "ModuleType": 13
+  },
+  {
+    "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
+    "ModuleType": 14
+  }
+]
