@@ -24,7 +24,16 @@
   },
   {
     "ModuleName": "Asin维护",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "xu-shunguo",
+      "Email": "447037533@qq.com"
+    },
+    "LockDateTime": "2021-08-11T05:02:48.3759356+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\erp工程页面\\asin管理\\Asin维护.json"
+    ]
   },
   {
     "ModuleName": "Pages\\erp工程页面\\FBA发货表",
